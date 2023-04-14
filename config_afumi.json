@@ -11,14 +11,14 @@
     "alt_header": true,   
     "alt_tutorial": true,  
     "site_url": "./",    
-    "share_url": false,     
+    "share_url": true,     
     "watermark_text": "MMagTech",   
     "watermark_text2": "mmagtech.github.io",
-    "watermark_image_url": "img/mmagtech.png", 
-    "page_title": "MMagTech DB",   
-    "page_description": "Database to view and compare IEM frequency responses",
+    "watermark_image_url": "img/afumiio.png", 
+    "page_title": "Afumi IE DB",   
+    "page_description": "Database of headphone's frequency response",
     "accessories": false,  
-    "externalLinksBar": false,    
+    "externalLinksBar": true,    
     "restricted": false,  
     "expandable": false,                   
     "expandableOnly": false,   
@@ -41,12 +41,12 @@
         "headerLinks": [
             {
                 "name": "Home Page",
-                "url": "https://mmagtech.github.io/"
+                "url": "https://afumi-io.github.io/"
             }
         ],
         "footerLinks": [
             {
-                "label": "IEM Graph Databases",
+                "label": "IEM graph databases",
                 "links": [
                     {
                         "name": "Paul Wasabi",
@@ -58,11 +58,15 @@
         "targets": [
             {
                 "type": "Main",
-                "files": ["Base-line IE Neutral Testing"]
+                "files": ["Afumi DT6IE", "Afumi DT10IE", "Base-line IE Neutral Testing"]
             },
             {
                 "type": "Reference",
                 "files": ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"]
+            },
+            {
+                "type": "Other",
+                "files": ["PaulWasabii"]
             }
     ]
     }

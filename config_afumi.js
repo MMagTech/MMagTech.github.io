@@ -1,4 +1,5 @@
 
+
 // Configuration options
 var init_phones = ["Afumi DT6IE"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                          // Directory where graph files are stored
@@ -15,14 +16,14 @@ var init_phones = ["Afumi DT6IE"],                             // Optional. Whic
       alt_header = true,                            // Display a configurable header at the top of the alt layout
       alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
       site_url = './',                              // URL of your graph "homepage"
-      share_url = false,                             // If true, enables shareable URLs
-      watermark_text = "MMagTech",                 // Optional. Watermark appears behind graphs
-      watermark_text2 = "fr.mmagtech.com",
+      share_url = true,                             // If true, enables shareable URLs
+      watermark_text = "MMagTech DB",                 // Optional. Watermark appears behind graphs
+      watermark_text2 = "mmagtech.github.io",
       watermark_image_url = "img/mmagtech.png",   // Optional. If image file is in same directory as config, can be just the filename
       page_title = "MMagTech DB",                     // Optional. Appended to the page title if share URLs are enabled
-      page_description = "Database to view and compare IEM frequency responses",
+      page_description = "View and compare frequency response graphs for earphones",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
-      externalLinksBar = false,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
+      externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
@@ -72,7 +73,7 @@ headerLogoImgUrl = null,
 headerLinks = [
 // {
 //     name: "Home Page",
-//     url: "https://mmagtech.github.io/"
+//     url: "https://afumi-io.github.io/"
 // }
 ];
 
@@ -130,11 +131,11 @@ let tutorialDefinitions = [
 // Specify which targets to display
 let targets = [
     // { type:"Main",   
-    //     files: ["Base-line IE Neutral Testing"] },
+    //     files: ["Afumi DT6IE", "Afumi DT10IE", "Base-line IE Neutral Testing", "Obviously Supperior 2 Nipples"] },
     // { type:"Reference",
     //     files: ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"] },
     // { type:"Other",   
-    //     files: [] }
+    //     files: ["PaulWasabii"] }
 ];
 
 
@@ -145,8 +146,8 @@ function tsvParse(fr) {
         .map(l => l.split(/[\s,;]+/).map(e => parseFloat(e)).slice(0, 2))
         .filter(t => !isNaN(t[0]) && !isNaN(t[1]));
 }
-
-
+    
+     
 d3.json('config_afumi.json').then(function(mycfg){
     init_phones = mycfg.init_phones;
     default_channels = mycfg.default_channels; 
@@ -192,7 +193,7 @@ d3.json('config_afumi.json').then(function(mycfg){
     // alert(watermark_text);
 
     // load graphs
-    loadGraph();
+    loadGraph();    
 
     // Apply stylesheet based layout options above
     function setLayout() {
