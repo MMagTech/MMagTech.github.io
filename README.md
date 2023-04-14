@@ -1,1 +1,1 @@
-# mmagtech.github.io
+# afumi-io.github.io

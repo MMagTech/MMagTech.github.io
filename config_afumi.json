@@ -1,0 +1,73 @@
+{
+    "init_phones": ["Afumi DT6IE"],
+    "default_channels": ["L","R"],
+    "default_normalization": "Hz",
+    "default_norm_db": 60,
+    "default_norm_hz": 500,   
+    "max_channel_imbalance": 5,       
+    "alt_layout": true,   
+    "alt_sticky_graph": true,   
+    "alt_animated": false,   
+    "alt_header": true,   
+    "alt_tutorial": true,  
+    "site_url": "./",    
+    "share_url": true,     
+    "watermark_text": "Dummy test",   
+    "watermark_text2": "afumi-io.github.io",
+    "watermark_image_url": "img/afumiio.png", 
+    "page_title": "Afumi IE DB",   
+    "page_description": "Database of headphone's frequency response",
+    "accessories": false,  
+    "externalLinksBar": true,    
+    "restricted": false,  
+    "expandable": false,                   
+    "expandableOnly": false,   
+    "headerHeight": "0px",       
+    "darkModeButton": true,                
+    "targetDashed": true,                  
+    "targetColorCustom": false,               
+    "labelsPosition": "bottom-left",  
+    "stickyLabels": true,                           
+    "analyticsEnabled": false,         
+    "extraEnabled": true,               
+    "extraUploadEnabled": true,          
+    "extraEQEnabled": true,              
+    "extraEQBands": 10,                 
+    "extraEQBandsMax": 20,                
+    "extraToneGeneratorEnabled": true,   
+    "headerLogoText": "Afumi IE DB",
+    "headerLogoImgUrl": null,   
+    "advanced": {
+        "headerLinks": [
+            {
+                "name": "Home Page",
+                "url": "https://MMagTech.github.io/"
+            }
+        ],
+        "footerLinks": [
+            {
+                "label": "IEM Graph Databases",
+                "links": [
+                    {
+                        "name": "Paul Wasabi",
+                        "url": "https://pw.squig.link/"
+                    }
+                ]
+            }
+        ],
+        "targets": [
+            {
+                "type": "Main",
+                "files": ["Afumi DT6IE", "Afumi DT10IE", "Base-line IE Neutral Testing", "Obviously Supperior 2 Nipples"]
+            },
+            {
+                "type": "Reference",
+                "files": ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"]
+            },
+            {
+                "type": "Other",
+                "files": ["PaulWasabii"]
+            }
+    ]
+    }
+}

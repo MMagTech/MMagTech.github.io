@@ -1,0 +1,50 @@
+[
+  {
+    "name" : "ISN",
+    "phones" : [
+      {
+        "name" : "EST50",
+        "file" : [
+          "ISN EST50 Foam Tips"
+        ],
+        "suffix" : [
+          "Foam Tips"
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Sound Rhyme",
+    "phones" : [
+      {
+        "name" : "DTE500",
+        "file" : [
+          "Sound Rhyme DTE500 Foam Tips"
+        ],
+        "suffix" : [
+          "Foam Tips"
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "7Hz",
+    "phones" : [
+    ]
+  },
+  {
+    "name" : "XENNS",
+    "phones" : [
+    ]
+  },
+  {
+    "name" : "DUNU",
+    "phones" : [
+    ]
+  },
+  {
+    "name" : "UNIQUE MELODY",
+    "phones" : [
+    ]
+  }
+]
