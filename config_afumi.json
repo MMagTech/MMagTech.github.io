@@ -1,0 +1,69 @@
+{
+    "init_phones": ["Afumi DT6IE"],
+    "default_channels": ["L","R"],
+    "default_normalization": "Hz",
+    "default_norm_db": 60,
+    "default_norm_hz": 500,   
+    "max_channel_imbalance": 5,       
+    "alt_layout": true,   
+    "alt_sticky_graph": true,   
+    "alt_animated": false,   
+    "alt_header": true,   
+    "alt_tutorial": true,  
+    "site_url": "./",    
+    "share_url": false,     
+    "watermark_text": "MMagTech",   
+    "watermark_text2": "mmagtech.github.io",
+    "watermark_image_url": "img/mmagtech.png", 
+    "page_title": "MMagTech DB",   
+    "page_description": "Database to view and compare IEM frequency responses",
+    "accessories": false,  
+    "externalLinksBar": false,    
+    "restricted": false,  
+    "expandable": false,                   
+    "expandableOnly": false,   
+    "headerHeight": "0px",       
+    "darkModeButton": true,                
+    "targetDashed": true,                  
+    "targetColorCustom": false,               
+    "labelsPosition": "bottom-left",  
+    "stickyLabels": true,                           
+    "analyticsEnabled": false,         
+    "extraEnabled": true,               
+    "extraUploadEnabled": true,          
+    "extraEQEnabled": true,              
+    "extraEQBands": 10,                 
+    "extraEQBandsMax": 20,                
+    "extraToneGeneratorEnabled": true,   
+    "headerLogoText": "MMagTech DB",
+    "headerLogoImgUrl": null,   
+    "advanced": {
+        "headerLinks": [
+            {
+                "name": "Home Page",
+                "url": "https://mmagtech.github.io/"
+            }
+        ],
+        "footerLinks": [
+            {
+                "label": "IEM Graph Databases",
+                "links": [
+                    {
+                        "name": "Paul Wasabi",
+                        "url": "https://pw.squig.link/"
+                    }
+                ]
+            }
+        ],
+        "targets": [
+            {
+                "type": "Main",
+                "files": ["Base-line IE Neutral Testing"]
+            },
+            {
+                "type": "Reference",
+                "files": ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"]
+            }
+    ]
+    }
+}
