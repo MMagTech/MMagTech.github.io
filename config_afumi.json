@@ -12,7 +12,7 @@
     "alt_tutorial": true,  
     "site_url": "./",    
     "share_url": false,     
-    "watermark_text": "MMagTech,
+    "watermark_text": "MMagTech",
     "watermark_text2": "fr.mmagtech.com",
     "watermark_image_url": "img/mmagtech.png", 
     "page_title": "MMagTech DB",   
@@ -46,7 +46,7 @@
         ],
         "footerLinks": [
             {
-                "label": "IEM Graph Databases",
+                "label": "IEM Graph Database",
                 "links": [
                     {
                         "name": "Paul Wasabi",
