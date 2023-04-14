@@ -13,10 +13,10 @@ const init_phones = ["HTH67"],                      // Optional. Which graphs to
       alt_tutorial = false,                         // Display a configurable frequency response guide below the graph
       site_url = 'graph.html',                      // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
-      watermark_text = "CrinGraph",                 // Optional. Watermark appears behind graphs
+      watermark_text = "MMagTech",                 // Optional. Watermark appears behind graphs
       watermark_image_url = "cringraph-logo.svg",   // Optional. If image file is in same directory as config, can be just the filename
       page_title = "CrinGraph",                     // Optional. Appended to the page title if share URLs are enabled
-      page_description = "View and compare frequency response graphs for earphones",
+      page_description = "View and compare frequency response graphs for In Ear Monitors",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
@@ -24,7 +24,7 @@ const init_phones = ["HTH67"],                      // Optional. Which graphs to
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
       headerHeight = '0px',                         // Optional. If expandable=true, determines how much space to leave for the parent page header
       darkModeButton = true,                        // Adds a "Dark Mode" button the main toolbar to let users set preference
-      targetDashed = false,                         // If true, makes target curves dashed lines
+      targetDashed = true,                         // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
       labelsPosition = "bottom-right",              // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels 
@@ -38,7 +38,7 @@ const init_phones = ["HTH67"],                      // Optional. Which graphs to
 
 // Specify which targets to display
 const targets = [
-    { type:"Neutral",    files:["Diffuse Field","Etymotic","Free Field","Innerfidelity ID"] },
+    { type:"Neutral",    files:["Diffuse Field","Etymotic","Free Field"] },
     { type:"Reviewer",   files:["Antdroid","Bad Guy","Banbeucmas","Crinacle","Precogvision","Super Review"] },
     { type:"Preference", files:["Harman","Rtings","Sonarworks"] }
 ];
