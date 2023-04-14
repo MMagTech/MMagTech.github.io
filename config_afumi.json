@@ -12,8 +12,8 @@
     "alt_tutorial": true,  
     "site_url": "./",    
     "share_url": false,     
-    "watermark_text": "MMagTech",
-    "watermark_text2": "fr.mmagtech.com",
+    "watermark_text": "MMagTech",   
+    "watermark_text2": "mmagtech.github.io",
     "watermark_image_url": "img/mmagtech.png", 
     "page_title": "MMagTech DB",   
     "page_description": "Database to view and compare IEM frequency responses",
@@ -46,7 +46,7 @@
         ],
         "footerLinks": [
             {
-                "label": "IEM Graph Database",
+                "label": "IEM Graph Databases",
                 "links": [
                     {
                         "name": "Paul Wasabi",
