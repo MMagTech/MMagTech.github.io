@@ -17,11 +17,9 @@ var init_phones = ["Afumi DT6IE"],                             // Optional. Whic
       alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
       site_url = './',                              // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
-      watermark_text = "MMagTech DB",                 // Optional. Watermark appears behind graphs
-      watermark_text2 = "mmagtech.github.io",
       watermark_image_url = "img/mmagtech.png",   // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "MMagTech DB",                     // Optional. Appended to the page title if share URLs are enabled
-      page_description = "View and compare frequency response graphs for earphones",
+      page_title = "MMagTech",                     // Optional. Appended to the page title if share URLs are enabled
+      page_description = "View and compare frequency response graphs for IEMs",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
@@ -131,7 +129,7 @@ let tutorialDefinitions = [
 // Specify which targets to display
 let targets = [
     // { type:"Main",   
-    //     files: ["Afumi DT6IE", "Afumi DT10IE", "Base-line IE Neutral Testing", "Obviously Supperior 2 Nipples"] },
+    //     files: ["Base-line IE Neutral Testing"] },
     // { type:"Reference",
     //     files: ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"] },
     // { type:"Other",   

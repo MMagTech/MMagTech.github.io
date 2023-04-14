@@ -12,11 +12,9 @@
     "alt_tutorial": true,  
     "site_url": "./",    
     "share_url": true,     
-    "watermark_text": "MMagTech",   
-    "watermark_text2": "mmagtech.github.io",
-    "watermark_image_url": "img/afumiio.png", 
+    "watermark_image_url": "img/mmagtech.png", 
     "page_title": "Afumi IE DB",   
-    "page_description": "Database of headphone's frequency response",
+    "page_description": "Database of IEM frequency responses",
     "accessories": false,  
     "externalLinksBar": true,    
     "restricted": false,  
@@ -35,7 +33,7 @@
     "extraEQBands": 10,                 
     "extraEQBandsMax": 20,                
     "extraToneGeneratorEnabled": true,   
-    "headerLogoText": "MMagTech DB",
+    "headerLogoText": "Afumi IE DB",
     "headerLogoImgUrl": null,   
     "advanced": {
         "headerLinks": [
@@ -58,7 +56,7 @@
         "targets": [
             {
                 "type": "Main",
-                "files": ["Afumi DT6IE", "Afumi DT10IE", "Base-line IE Neutral Testing"]
+                "files": ["Base-line IE Neutral Testing"]
             },
             {
                 "type": "Reference",
