@@ -1,5 +1,4 @@
 
-
 // Configuration options
 var init_phones = ["Afumi DT6IE"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                          // Directory where graph files are stored
@@ -21,9 +20,9 @@ var init_phones = ["Afumi DT6IE"],                             // Optional. Whic
       watermark_text2 = "mmagtech.github.io",
       watermark_image_url = "img/mmagtech.png",   // Optional. If image file is in same directory as config, can be just the filename
       page_title = "MMagTech DB",                     // Optional. Appended to the page title if share URLs are enabled
-      page_description = "View and compare frequency response graphs for earphones",
+      page_description = "Database to view and compare IEM frequency responses",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
-      externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
+      externalLinksBar = false,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
       restricted = false,                           // Enables restricted mode. More restricted options below
       expandable = false,                           // Enables button to expand iframe over the top of the parent page
       expandableOnly = false,                       // Prevents iframe interactions unless the user has expanded it. Accepts "true" or "false" OR a pixel value; if pixel value, that is used as the maximum width at which expandableOnly is used
