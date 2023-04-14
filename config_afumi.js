@@ -17,10 +17,10 @@ var init_phones = ["Afumi DT6IE"],                             // Optional. Whic
       alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
       site_url = './',                              // URL of your graph "homepage"
       share_url = true,                             // If true, enables shareable URLs
-      watermark_text = "Afumi IE DB",                 // Optional. Watermark appears behind graphs
-      watermark_text2 = "afumi-io.github.io",
+      watermark_text = "MMagTech DB",                 // Optional. Watermark appears behind graphs
+      watermark_text2 = "mmagtech.github.io",
       watermark_image_url = "img/afumiio.png",   // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "Afumi IE DB",                     // Optional. Appended to the page title if share URLs are enabled
+      page_title = "MMagTech DB",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for earphones",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
@@ -73,7 +73,7 @@ headerLogoImgUrl = null,
 headerLinks = [
 // {
 //     name: "Home Page",
-//     url: "https://afumi-io.github.io/"
+//     url: "https://mmagtech.github.io/"
 // }
 ];
 
@@ -131,11 +131,11 @@ let tutorialDefinitions = [
 // Specify which targets to display
 let targets = [
     // { type:"Main",   
-    //     files: ["Afumi DT6IE", "Afumi DT10IE", "Base-line IE Neutral Testing", "Obviously Supperior 2 Nipples"] },
+    //     files: ["Base-line IE Neutral Testing"] },
     // { type:"Reference",
     //     files: ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"] },
     // { type:"Other",   
-    //     files: ["PaulWasabii"] }
+    //     files: [] }
 ];
 
 
