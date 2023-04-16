@@ -50,7 +50,7 @@ var init_phones = ["Harman 2019v2"],                             // Optional. Wh
 function watermark(svg) {
     let wm = svg.append("g")
         .attr("transform", "translate("+(pad.l+W/2)+","+(pad.t+H/2-20)+")")
-        .attr("opacity",0.5);
+        .attr("opacity",0.4);
     
     if ( watermark_image_url ) {
         wm.append("image")
@@ -74,7 +74,10 @@ headerLinks = [
 // {
 //     name: "HifiGuides",
 //     url: "https://forum.hifiguides.com/u/mmag05/summary"
-// }
+// },
+//     name: "Spotify",
+//     url: "https://open.spotify.com/user/121233992"
+// 
 ];
 
 // Configure external links to appear at the bottom of the page. Displayed only if externalLinksBar (above) is true
@@ -83,9 +86,12 @@ let linkSets = [
     //     label: "IEM graph databases",
     //     links: [
     //         {
-    //             name: "Paul Wasabi",
-    //             url: "https://pw.squig.link/"
-    //         }
+    //             name: "nymz",
+    //             url: "https://nymz.squig.link/"
+    //         },
+	//             name: "RikudouGoku",
+    //             url: "https://rg.squig.link/"
+    //                }
     //     ]
     // }
 ];
