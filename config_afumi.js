@@ -129,11 +129,13 @@ let tutorialDefinitions = [
 ];
 
 // Specify which targets to display
-const targets = [
-    { type:"Neutral",    files:["Diffuse Field"] },
-    { type:"Reviewer",   files:["nymz","RikudouGoku"] },
-    { type:"Preference", files:["Harman 2019v2"] },
-
+let targets = [
+    // { type:"Neutral",    
+	//     files:["Diffuse Field"] },
+    // { type:"Reviewer",   
+	//     files:["nymz","RikudouGoku"] },
+    // { type:"Preference", 
+	//     files:["Harman 2019v2"] }
 ];
 
 
