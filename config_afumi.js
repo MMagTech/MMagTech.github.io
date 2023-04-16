@@ -72,9 +72,14 @@ let headerLogoText = "",
 headerLogoImgUrl = null,
 headerLinks = [
 // {
+//     name: "Head-Fi",
+//     url: "https://www.head-fi.org/members/mmag1983.556792/"
+// },
+// {
 //     name: "HifiGuides",
 //     url: "https://forum.hifiguides.com/u/mmag05/summary"
 // },
+// {
 //     name: "Spotify",
 //     url: "https://open.spotify.com/user/121233992"
 // }
