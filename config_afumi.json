@@ -5,7 +5,7 @@
     "default_norm_db": 60,
     "default_norm_hz": 1000,   
     "max_channel_imbalance": 5,
-    "alt_layout": false,   
+    "alt_layout": true,   
     "alt_sticky_graph": true,   
     "alt_animated": false,   
     "alt_header": true,   
