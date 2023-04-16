@@ -1,7 +1,7 @@
 
 
 // Configuration options
-var init_phones = ["Harman IE 2019v2"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+var init_phones = ["Harman 2019v2"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       DBDIR = "data/audio_db/",
       TARGETDIR = "data/targets/",
@@ -72,8 +72,8 @@ let headerLogoText = "",
 headerLogoImgUrl = null,
 headerLinks = [
 // {
-//     name: "Home Page",
-//     url: "https://mmagtech.github.io/"
+//     name: "HifiGuides",
+//     url: "https://forum.hifiguides.com/u/mmag05/summary"
 // }
 ];
 

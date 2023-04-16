@@ -1,5 +1,5 @@
 {
-    "init_phones": ["Harman IE 2019v2"],
+    "init_phones": ["Harman 2019v2"],
     "default_channels": ["R"],
     "default_normalization": "Hz",
     "default_norm_db": 60,
@@ -40,7 +40,7 @@
     "advanced": {
         "headerLinks": [
             {
-                "name": "HiFiGuides Profile",
+                "name": "HiFiGuides",
                 "url": "https://forum.hifiguides.com/u/mmag05/"
             }
         ],
