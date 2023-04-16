@@ -1,73 +1,70 @@
 [
-  {
-    "name" : "ISN",
-    "phones" : [
-      {
-        "name" : "EST50",
-        "file" : [
-          "ISN EST50 Foam Tips"
-        ],
-        "suffix" : [
-          "Foam Tips"
+    {
+        "name": "7Hz",
+        "phones": [
+            {
+                "file": [
+                    "7Hz Legato Foam Tips"
+                ],
+                "name": "Legato",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "Sound Rhyme",
-    "phones" : [
-      {
-        "name" : "DTE500",
-        "file" : [
-          "Sound Rhyme DTE500 Foam Tips"
-        ],
-        "suffix" : [
-          "Foam Tips"
+    },
+    {
+        "name": "DUNU",
+        "phones": []
+    },
+    {
+        "name": "ISN",
+        "phones": [
+            {
+                "file": [
+                    "ISN EST50 Foam Tips"
+                ],
+                "name": "EST50",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "7Hz",
-    "phones" : [
-      {
-        "name" : "Legato",
-        "file" : [
-          "7Hz Legato Foam Tips"
-        ],
-        "suffix" : [
-          "Foam Tips"
+    },
+    {
+        "name": "Sound Rhyme",
+        "phones": [
+            {
+                "file": [
+                    "Sound Rhyme DTE500 Foam Tips"
+                ],
+                "name": "DTE500",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "XENNS",
-    "phones" : [
-    ]
-  },
-  {
-    "name" : "DUNU",
-    "phones" : [
-    ]
-  },
-  {
-    "name" : "UNIQUE MELODY",
-    "phones" : [
-    ]
-  },
-  {
-    "name" : "TRN",
-    "phones" : [
-      {
-        "name" : "I3",
-        "file" : [
-          "TRN I3 Foam Tips"
-        ],
-        "suffix" : [
-          "Foam Tips"
+    },
+    {
+        "name": "TRN",
+        "phones": [
+            {
+                "file": [
+                    "TRN I3 Foam Tips"
+                ],
+                "name": "I3",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    {
+        "name": "UNIQUE MELODY",
+        "phones": []
+    },
+    {
+        "name": "XENNS",
+        "phones": []
+    }
 ]
