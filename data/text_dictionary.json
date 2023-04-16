@@ -30,6 +30,15 @@
   {
     "name" : "7Hz",
     "phones" : [
+      {
+        "name" : "Legato",
+        "file" : [
+          "7Hz Legato Foam Tips"
+        ],
+        "suffix" : [
+          "Foam Tips"
+        ]
+      }
     ]
   },
   {
@@ -45,6 +54,20 @@
   {
     "name" : "UNIQUE MELODY",
     "phones" : [
+    ]
+  },
+  {
+    "name" : "TRN",
+    "phones" : [
+      {
+        "name" : "I3",
+        "file" : [
+          "TRN I3 Foam Tips"
+        ],
+        "suffix" : [
+          "Foam Tips"
+        ]
+      }
     ]
   }
 ]

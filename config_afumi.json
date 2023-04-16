@@ -1,19 +1,21 @@
 {
-    "init_phones": ["Afumi DT6IE"],
-    "default_channels": ["L","R"],
+    "init_phones": ["Harman IE 2019v2 Target"],
+    "default_channels": ["R"],
     "default_normalization": "Hz",
     "default_norm_db": 60,
-    "default_norm_hz": 500,   
-    "max_channel_imbalance": 5,       
+    "default_norm_hz": 1000,   
+    "max_channel_imbalance": 5,
     "alt_layout": true,   
     "alt_sticky_graph": true,   
     "alt_animated": false,   
     "alt_header": true,   
     "alt_tutorial": true,  
-    "site_url": "./",    
-    "share_url": true,     
+    "site_url": "./",
+    "share_url": ,false
+    "watermark_text": "Two Peas in a Pod",   
+    "watermark_text2": "http://fr.mmagtech.com",	
     "watermark_image_url": "img/mmagtech.png", 
-    "page_title": "Afumi IE DB",   
+    "page_title": "MMagTech DB",   
     "page_description": "Database of IEM frequency responses",
     "accessories": false,  
     "externalLinksBar": true,    
@@ -33,13 +35,13 @@
     "extraEQBands": 10,                 
     "extraEQBandsMax": 20,                
     "extraToneGeneratorEnabled": true,   
-    "headerLogoText": "Afumi IE DB",
+    "headerLogoText": "MMagTech DB",
     "headerLogoImgUrl": null,   
     "advanced": {
         "headerLinks": [
             {
                 "name": "Home Page",
-                "url": "https://afumi-io.github.io/"
+                "url": "https://mmagtech.github.io/"
             }
         ],
         "footerLinks": [
@@ -55,16 +57,12 @@
         ],
         "targets": [
             {
-                "type": "Main",
-                "files": ["Base-line IE Neutral Testing"]
+                "type": "Industry",
+                "files": ["Base-line IE Neutral Testing", "Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"]
             },
             {
-                "type": "Reference",
+                "type": "PaulWasabii",
                 "files": ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"]
-            },
-            {
-                "type": "Other",
-                "files": ["PaulWasabii"]
             }
     ]
     }
