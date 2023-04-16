@@ -1,7 +1,7 @@
 
 
 // Configuration options
-var init_phones = ["Harman IE 2019v2 Target"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+var init_phones = ["Harman IE 2019v2"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       DBDIR = "data/audio_db/",
       TARGETDIR = "data/targets/",
@@ -10,14 +10,14 @@ var init_phones = ["Harman IE 2019v2 Target"],                             // Op
       default_norm_db = 60,                         // Sets default dB normalization point
       default_norm_hz = 1000,                        // Sets default Hz normalization point (500Hz is recommended by IEC)
       max_channel_imbalance = 5,                    // Channel imbalance threshold to show ! in the channel selector
-      alt_layout = true,                            // Toggle between classic and alt layouts
+      alt_layout = false,                            // Toggle between classic and alt layouts
       alt_sticky_graph = true,                      // If active graphs overflows the viewport, does the graph scroll with the page or stick to the viewport?
       alt_animated = false,                         // Determines if new graphs are drawn with a 1-second animation, or appear instantly
       alt_header = true,                            // Display a configurable header at the top of the alt layout
       alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
       site_url = './',                              // URL of your graph "homepage"
       share_url = false,                             // If true, enables shareable URLs
-      watermark_text = "Two Peas in a Pod",                 // Optional. Watermark appears behind graphs
+      watermark_text = "Peas in a Pod",                 // Optional. Watermark appears behind graphs
       watermark_text2 = "https://fr.mmagtech.com",
 	  watermark_image_url = "img/mmagtech.png",   // Optional. If image file is in same directory as config, can be just the filename
       page_title = "MMagTech",                     // Optional. Appended to the page title if share URLs are enabled
@@ -31,7 +31,7 @@ var init_phones = ["Harman IE 2019v2 Target"],                             // Op
       darkModeButton = true,                        // Adds a "Dark Mode" button the main toolbar to let users set preference
       targetDashed = true,                         // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
-      labelsPosition = "bottom-left",              // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
+      labelsPosition = "top-left",              // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels 
       analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
       extraEnabled = true,                          // Enable extra features
