@@ -83,7 +83,6 @@ headerLinks = [
 //     name: "Spotify",
 //     url: "https://open.spotify.com/user/121233992"
 // }
-// 
 ];
 
 // Configure external links to appear at the bottom of the page. Displayed only if externalLinksBar (above) is true
