@@ -129,13 +129,11 @@ let tutorialDefinitions = [
 ];
 
 // Specify which targets to display
-let targets = [
-    // { type:"Main",   
-    //     files: ["Base-line IE Neutral Testing"] },
-    // { type:"Reference",
-    //     files: ["Harman IE 2019v2", "Diffuse Field"] },
-    // { type:"Other",   
-    //     files: ["PaulWasabi"] }
+const targets = [
+    { type:"Neutral",    files:["Diffuse Field"] },
+    { type:"Reviewer",   files:["nymz","RikudouGoku"] },
+    { type:"Preference", files:["Harman 2019v2"] },
+
 ];
 
 

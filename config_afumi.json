@@ -57,16 +57,16 @@
         ],
         "targets": [
             {
-                "type": "Main",
-                "files": ["Base-line IE Neutral Testing"]
+                "type": "Neutral",
+                "files": ["Diffuse Field"]
             },
             {
-                "type": "Reference",
-                "files": ["Harman IE 2019v2", "Diffuse Field"]
+                "type": "Reviewer",
+                "files": ["nymz","RikudouGoku"]
             },
             {
-                "type": "Other",
-                "files": ["PaulWasabi"]
+                "type": "Preference",
+                "files": ["Harman 2019v2"]
             }
     ]
     }
