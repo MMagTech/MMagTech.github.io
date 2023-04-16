@@ -1,7 +1,11 @@
 
-/* Primary color theme */
+/* If user has system preference for dark mode, this theme overrides the theme above. Optional */
+@media ( prefers-color-scheme: dark ) {
+}
+
+/* Color theme: Peas */
 :root {
-    --accent-color: #757575;
+    --accent-color:  #757575;
     --accent-color-contrast: hsl(0, 0%, 55%);
 
     --background-color: hsl(0, 0%, 96%);
@@ -21,7 +25,7 @@
     --scrollbar-color: 255,255,255;
     --scrollbar-accent: 0,0,0;
 
-    --header-color: #455A64;
+    --header-color: #36b37e;
     --header-links-color: #fff;
     --header-menu-icon-color: #fff;
 
