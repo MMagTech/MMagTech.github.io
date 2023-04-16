@@ -31,7 +31,7 @@ var init_phones = ["Harman IE 2019v2"],                             // Optional.
       darkModeButton = true,                        // Adds a "Dark Mode" button the main toolbar to let users set preference
       targetDashed = true,                         // If true, makes target curves dashed lines
       targetColorCustom = false,                    // If false, targets appear as a random gray value. Can replace with a fixed color value to make all targets the specified color, e.g. "black"
-      labelsPosition = "top-left",              // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
+      labelsPosition = "top-left",                  // Up to four labels will be grouped in a specified corner. Accepts "top-left," bottom-left," "bottom-right," and "default"
       stickyLabels = true,                          // "Sticky" labels 
       analyticsEnabled = false,                     // Enables Google Analytics 4 measurement of site usage
       extraEnabled = true,                          // Enable extra features
@@ -130,10 +130,12 @@ let tutorialDefinitions = [
 
 // Specify which targets to display
 let targets = [
-    // { type:"Industry",   
-    //     files: ["Base-line IE Neutral Testing", "Harman IE 2019v2", "Diffuse Field"] },
-    // { type:"Reviewers",
-    //     files: ["PaulWasabii"] },
+    // { type:"Main",   
+    //     files: ["Base-line IE Neutral Testing"] },
+    // { type:"Reference",
+    //     files: ["Harman IE 2019v2", "Diffuse Field"] },
+    // { type:"Other",   
+    //     files: ["PaulWasabi"] }
 ];
 
 
