@@ -130,12 +130,10 @@ let tutorialDefinitions = [
 
 // Specify which targets to display
 let targets = [
-    // { type:"Main",   
-    //     files: ["Base-line IE Neutral Testing"] },
-    // { type:"Reference",
-    //     files: ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"] },
-    // { type:"Other",   
-    //     files: ["PaulWasabii"] }
+    // { type:"Industry",   
+    //     files: ["Base-line IE Neutral Testing", "Harman IE 2019v2", "Diffuse Field"] },
+    // { type:"Reviewers",
+    //     files: ["PaulWasabii"] },
 ];
 
 

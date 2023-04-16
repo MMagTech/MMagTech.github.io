@@ -58,11 +58,11 @@
         "targets": [
             {
                 "type": "Industry",
-                "files": ["Base-line IE Neutral Testing", "Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"]
+                "files": ["Base-line IE Neutral Testing", "Harman IE 2019v2", "Diffuse Field"]
             },
             {
-                "type": "PaulWasabii",
-                "files": ["Harman IE 2019v2", "Harman IE 2016", "Diffuse Field"]
+                "type": "Reviewers",
+                "files": ["PaulWasabii"]
             }
     ]
     }
