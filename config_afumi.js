@@ -18,7 +18,7 @@ var init_phones = ["Harman IE 2019v2"],                             // Optional.
       site_url = './',                              // URL of your graph "homepage"
       share_url = false,                             // If true, enables shareable URLs
       watermark_text = "Peas in a Pod",                 // Optional. Watermark appears behind graphs
-      watermark_text2 = "https://fr.mmagtech.com",
+      watermark_text2 = "fr.mmagtech.com",
       watermark_image_url = "img/mmagtech.png",   // Optional. If image file is in same directory as config, can be just the filename
       page_title = "MMagTech",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
@@ -50,7 +50,7 @@ var init_phones = ["Harman IE 2019v2"],                             // Optional.
 function watermark(svg) {
     let wm = svg.append("g")
         .attr("transform", "translate("+(pad.l+W/2)+","+(pad.t+H/2-20)+")")
-        .attr("opacity",0.8);
+        .attr("opacity",0.5);
     
     if ( watermark_image_url ) {
         wm.append("image")
