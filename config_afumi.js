@@ -90,9 +90,14 @@ let linkSets = [
     //             name: "nymz",
     //             url: "https://nymz.squig.link/"
     //         },
+	//		   {
+	//             name: "PaulWasabi",
+    //             url: "https://pw.squig.link/"
+	//		   },
+    //         {
 	//             name: "RikudouGoku",
     //             url: "https://rg.squig.link/"
-    //                }
+	//		   }
     //     ]
     // }
 ];

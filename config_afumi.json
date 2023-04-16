@@ -56,10 +56,14 @@
                         "name": "nymz",
                         "url": "https://nymz.squig.link/"
                     },
-					                    {
+					{
+					    "name": "PaulWasabi",
+                        "url": "https://pw.squig.link/"
+					},
+					{
                         "name": "RikudouGoku",
                         "url": "https://rg.squig.link/"
-                    }
+					}
                 ]
             }
         ],
@@ -70,7 +74,7 @@
             },
             {
                 "type": "Reviewer",
-                "files": ["nymz","RikudouGoku"]
+                "files": ["nymz","PaulWasabi","RikudouGoku"]
             },
             {
                 "type": "Preference",
