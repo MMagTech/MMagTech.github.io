@@ -35,7 +35,7 @@
     "extraEQBands": 10,                 
     "extraEQBandsMax": 20,                
     "extraToneGeneratorEnabled": true,   
-    "headerLogoText": "MMagTech DB",
+    "headerLogoText": "MMagTech",
     "headerLogoImgUrl": null,   
     "advanced": {
         "headerLinks": [
