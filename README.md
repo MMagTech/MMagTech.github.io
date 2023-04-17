@@ -1,4 +1,4 @@
-# WebGraph on your own site
+# WebGraph on Your Own Site
 
 This guide explains the steps required to make webgraph display your
 own FR graphs, for example if by some remarkable circumstance you have
