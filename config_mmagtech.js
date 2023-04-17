@@ -164,7 +164,7 @@ function tsvParse(fr) {
 }
     
      
-d3.json('config_afumi.json').then(function(mycfg){
+d3.json('config_mmagtech.json').then(function(mycfg){
     init_phones = mycfg.init_phones;
     default_channels = mycfg.default_channels; 
     default_normalization = mycfg.default_normalization; 
