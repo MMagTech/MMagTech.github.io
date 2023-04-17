@@ -12,25 +12,14 @@ able to help with:
 * Creating frequency response graphs in the first place. I have never
   done this and don't know all the details. You might try reading
   [this thread](https://www.head-fi.org/threads/general-iem-measurements-discussions.903455/)
-  for some information to get you started, and Crin is generally happy
-  to answer questions about measurement on [his Discord server](https://discord.gg/CtTqcCb).
-* Hosting the pages. Believe it or not, I'm not a web developer and I
-  don't know that much about setting up websites. One method that may
-  work for your purposes is to use Github Pages, which allows you to
-  serve the contents of any Github repository as a website. The main
-  webgraph repository includes sample data so it can function on its
-  own. Once I had the data I just set the source to "master branch" in
-  the settings under "Github Pages", and Github put the page at
-  https://mlochbaum.github.io/webgraph/graph.html. You can show your
-  graphs in the same way by forking my repository and making the changes
-  described here, then changing the "Github Pages" setting like I did.
+  for some information to get you started.
 
 ## Checklist
 
 These are the things you definitely need to change to make sure your
 page works and isn't claiming it's crinacle.com.
 
-* Set `DIR` in `config.js` and place your graphs and `phone_book.json`
+* Set `DIR` in `config-alumi.js` and place your graphs and `text_dictionary.json`
   there.
 * Remove or change the watermark.
 * Remove the `targets`, replace them with your own, or get permission
