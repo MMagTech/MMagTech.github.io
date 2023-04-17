@@ -73,5 +73,19 @@
         ]
       }
     ]
+  },
+  {
+    "name" : "XENNS",
+    "phones" : [
+      {
+        "name" : "Tea",
+        "file" : [
+          "XENNS Tea Foam Tips"
+        ],
+        "suffix" : [
+          "Foam Tips"
+        ]
+      }
+    ]
   }
 ]
