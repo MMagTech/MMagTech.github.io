@@ -1,6 +1,6 @@
 {
     "init_phones": ["Harman 2019v2"],
-    "default_channels": ["R"],
+    "default_channels": ["L","R"],
     "default_normalization": "Hz",
     "default_norm_db": 60,
     "default_norm_hz": 1000,   
@@ -10,12 +10,12 @@
     "alt_animated": false,   
     "alt_header": true,   
     "alt_tutorial": true,  
-    "site_url": "./",
+    "site_url": "index.html",
     "share_url": false,
-    "watermark_text": "Peas in a Pod",   
+    "watermark_text": "frDB",   
     "watermark_text2": "fr.mmagtech.com",	
     "watermark_image_url": "img/mmagtech.png", 
-    "page_title": "MMagTech",   
+    "page_title": "frDB",   
     "page_description": "View and compare frequency response graphs for IEMs",
     "accessories": false,  
     "externalLinksBar": true,    
@@ -35,7 +35,7 @@
     "extraEQBands": 10,                 
     "extraEQBandsMax": 20,                
     "extraToneGeneratorEnabled": true,   
-    "headerLogoText": "MMagTech DB",
+    "headerLogoText": "MMagTech",
     "headerLogoImgUrl": null,   
     "advanced": {
         "headerLinks": [
