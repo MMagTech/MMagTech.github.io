@@ -16,6 +16,15 @@
   {
     "name" : "DUNU",
     "phones" : [
+      {
+        "name" : "SA6 Ultra",
+        "file" : [
+          "DUNU SA6 Ultra Foam Tips","DUNU SA6 Ultra Bass Foam Tips"
+        ],
+        "suffix" : [
+          "(switch: off) Foam Tips","(switch: on) Foam Tips"
+        ]
+      }
     ]
   },
   {
