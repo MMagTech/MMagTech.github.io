@@ -56,6 +56,10 @@
             {
                 "label": "IEM graph databases",
                 "links": [
+		            {
+                        "name": "Bad Guy",
+				        "url": "https://hbb.squig.link/"
+                    },
                     {
                         "name": "nymz",
                         "url": "https://nymz.squig.link/"

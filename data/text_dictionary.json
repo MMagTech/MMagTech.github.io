@@ -22,7 +22,7 @@
           "DUNU SA6 Ultra Foam Tips","DUNU SA6 Ultra Bass Foam Tips"
         ],
         "suffix" : [
-          "(switch: off) Foam Tips","(switch: on) Foam Tips"
+          "-switch: off- (Foam Tips)","-switch: on- (Foam Tips)"
         ]
       }
     ]
@@ -89,10 +89,10 @@
       {
         "name" : "Tea",
         "file" : [
-          "XENNS Tea Foam Tips"
+          "XENNS Tea Foam Tips","XENNS Tea CP155"
         ],
         "suffix" : [
-          "Foam Tips"
+          "(Foam)","(CP155)"
         ]
       }
     ]

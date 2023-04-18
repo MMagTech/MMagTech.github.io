@@ -88,8 +88,12 @@ headerLinks = [
 // Configure external links to appear at the bottom of the page. Displayed only if externalLinksBar (above) is true
 let linkSets = [
     // {
-    //     label: "IEM graph databases",
+    //     label: "More Databases",
     //     links: [
+	//         {
+    //             name: "Bad Guy",
+    //             url: "https://hbb.squig.link/"
+    //         },
     //         {
     //             name: "nymz",
     //             url: "https://nymz.squig.link/"
@@ -149,7 +153,7 @@ let targets = [
     // { type:"Neutral",    
 	//     files:["Diffuse Field"] },
     // { type:"Reviewer",   
-	//     files:["nymz","PaulWasabi","RikudouGoku"] },
+	//     files:["Bad Guy""nymz","PaulWasabi","RikudouGoku"] },
     // { type:"Preference", 
 	//     files:["Harman 2019v2"] }
 ];
@@ -275,11 +279,11 @@ d3.json('config_mmagtech.json').then(function(mycfg){
         widgets = `
             <div class="accessories-widgets">
                 <div class="widget">
-                    <img width="200" src="cringraph-logo.svg"/>
+                    <img width="200" src="/img/mmagtech-logo.svg"/>
                 </div>
 
                 <div class="widget">
-                    <img width="200" src="cringraph-logo.svg"/>
+                    <img width="200" src="/img/mmagtech-logo.svg"/>
                 </div>
 
                 <div class="widget">
