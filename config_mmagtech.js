@@ -153,7 +153,7 @@ let targets = [
     // { type:"Neutral",    
 	//     files:["Diffuse Field"] },
     // { type:"Reviewer",   
-	//     files:["Bad Guy""nymz","PaulWasabi","RikudouGoku"] },
+	//     files:["Bad Guy","nymz","PaulWasabi","RikudouGoku"] },
     // { type:"Preference", 
 	//     files:["Harman 2019v2"] }
 ];
