@@ -26,7 +26,7 @@
     "darkModeButton": true,                
     "targetDashed": true,                  
     "targetColorCustom": false,               
-    "labelsPosition": "top-left",  
+    "labelsPosition": "bottom-left",  
     "stickyLabels": true,                           
     "analyticsEnabled": false,         
     "extraEnabled": true,               
