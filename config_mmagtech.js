@@ -72,6 +72,10 @@ let headerLogoText = "MMagTech",
 headerLogoImgUrl = null,
 headerLinks = [
 // {
+//     name: "GitHub",
+//     url: "https://github.com/MMagTech/MMagTech.github.io"
+// },
+// {
 //     name: "Head-Fi",
 //     url: "https://www.head-fi.org/members/mmag1983.556792/"
 // },
