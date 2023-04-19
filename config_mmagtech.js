@@ -54,7 +54,7 @@ function watermark(svg) {
     
     if ( watermark_image_url ) {
         wm.append("image")
-            .attrs({x:-64, y:-64, width:128, height:128, "xlink:href":watermark_image_url});
+            .attrs({x:-64, y:-150, width:128, height:128, "xlink:href":watermark_image_url});
     }
     
     if ( watermark_text ) {
@@ -71,6 +71,10 @@ function watermark(svg) {
 let headerLogoText = "MMagTech",
 headerLogoImgUrl = null,
 headerLinks = [
+// {
+//     name: "GitHub",
+//     url: "https://github.com/MMagTech/MMagTech.github.io"
+// },
 // {
 //     name: "Head-Fi",
 //     url: "https://www.head-fi.org/members/mmag1983.556792/"
@@ -153,7 +157,7 @@ let targets = [
     // { type:"Neutral",    
 	//     files:["Diffuse Field"] },
     // { type:"Reviewer",   
-	//     files:["Bad Guy""nymz","PaulWasabi","RikudouGoku"] },
+	//     files:["Bad Guy","nymz","PaulWasabi","RikudouGoku"] },
     // { type:"Preference", 
 	//     files:["Harman 2019v2"] }
 ];
