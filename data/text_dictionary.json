@@ -1,100 +1,122 @@
 [
-  {
-    "name" : "7Hz",
-    "phones" : [
-      {
-        "file" : [
-          "7Hz Legato Foam Tips"
-        ],
-        "name" : "Legato",
-        "suffix" : [
-          "Foam Tips"
+    {
+        "name": "64 Audio",
+        "phones": [
+            {
+                "file": [
+                    "64 Audio U4s m12 Foam Tips",
+					"64 Audio U4s m15 Foam Tips",
+					"64 Audio U4s m20 Foam Tips"
+                ],
+                "name": "U4s",
+                "suffix": [
+                    "m12 (Foam Tips)",
+					"m15 (Foam Tips)",
+					"m20 (Foam Tips)"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "DUNU",
-    "phones" : [
-      {
-        "name" : "SA6 Ultra",
-        "file" : [
-          "DUNU SA6 Ultra Foam Tips","DUNU SA6 Ultra Bass Foam Tips"
-        ],
-        "suffix" : [
-          "-switch: off- (Foam Tips)","-switch: on- (Foam Tips)"
+    },
+    {
+        "name": "7Hz",
+        "phones": [
+            {
+                "file": [
+                    "7Hz Legato Foam Tips"
+                ],
+                "name": "Legato",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "ISN",
-    "phones" : [
-      {
-        "file" : [
-          "ISN EST50 Foam Tips"
-        ],
-        "name" : "EST50",
-        "suffix" : [
-          "Foam Tips"
+    },
+    {
+        "name": "DUNU",
+        "phones": [
+            {
+                "file": [
+                    "DUNU SA6 Ultra Bass Foam Tips",
+                    "DUNU SA6 Ultra Foam Tips"
+                ],
+                "name": "SA6 Ultra",
+                "suffix": [
+                    "-switch: off- (Foam Tips)",
+                    "-switch: on- (Foam Tips)"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "Sound Rhyme",
-    "phones" : [
-      {
-        "file" : [
-          "Sound Rhyme DTE500 Foam Tips"
-        ],
-        "name" : "DTE500",
-        "suffix" : [
-          "Foam Tips"
+    },
+    {
+        "name": "ISN",
+        "phones": [
+            {
+                "file": [
+                    "ISN EST50 Foam Tips"
+                ],
+                "name": "EST50",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "TRN",
-    "phones" : [
-      {
-        "file" : [
-          "TRN I3 Foam Tips"
-        ],
-        "name" : "I3",
-        "suffix" : [
-          "Foam Tips"
+    },
+    {
+        "name": "Sound Rhyme",
+        "phones": [
+            {
+                "file": [
+                    "Sound Rhyme DTE500 Foam Tips"
+                ],
+                "name": "DTE500",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "Unique Melody",
-    "phones" : [
-      {
-        "name" : "MEST MKII",
-        "file" : [
-          "Unique Melody MEST MKII Foam Tips"
-        ],
-        "suffix" : [
-          "Foam Tips"
+    },
+    {
+        "name": "TRN",
+        "phones": [
+            {
+                "file": [
+                    "TRN I3 Foam Tips"
+                ],
+                "name": "I3",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  },
-  {
-    "name" : "XENNS",
-    "phones" : [
-      {
-        "name" : "Tea",
-        "file" : [
-          "XENNS Tea Foam Tips","XENNS Tea CP155"
-        ],
-        "suffix" : [
-          "(Foam)","(CP155)"
+    },
+    {
+        "name": "Unique Melody",
+        "phones": [
+            {
+                "file": [
+                    "Unique Melody MEST MKII Foam Tips"
+                ],
+                "name": "MEST MKII",
+                "suffix": [
+                    "Foam Tips"
+                ]
+            }
         ]
-      }
-    ]
-  }
+    },
+    {
+        "name": "XENNS",
+        "phones": [
+            {
+                "file": [
+                    "XENNS Tea CP155",
+                    "XENNS Tea Foam Tips"
+                ],
+                "name": "Tea",
+                "suffix": [
+                    "(CP155)",
+                    "(Foam)"
+                ]
+            }
+        ]
+    }
 ]
