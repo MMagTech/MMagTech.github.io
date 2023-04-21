@@ -1,6 +1,6 @@
 {
     "init_phones": ["Harman 2019v2"],
-    "default_channels": ["R"],
+    "default_channels": ["L","R"],
     "default_normalization": "Hz",
     "default_norm_db": 60,
     "default_norm_hz": 1000,   
