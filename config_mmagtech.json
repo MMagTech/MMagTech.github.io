@@ -1,5 +1,5 @@
 {
-    "init_phones": ["Harman 2019v2"],
+    "init_phones": ["Neutral"],
     "default_channels": ["L","R"],
     "default_normalization": "Hz",
     "default_norm_db": 60,
@@ -81,16 +81,16 @@
         ],
         "targets": [
             {
-                "type": "Neutral",
-                "files": ["Diffuse Field"]
+                "type": "Personal",
+                "files": ["Neutral"]
             },
             {
                 "type": "Reviewer",
                 "files": ["Bad Guy","nymz","PaulWasabi","RikudouGoku"]
             },
             {
-                "type": "Preference",
-                "files": ["Harman 2019v2"]
+                "type": "Reference",
+                "files": ["Harman 2019v2","Diffuse Field"]
             }
     ]
     }
