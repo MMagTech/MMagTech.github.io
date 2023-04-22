@@ -4,12 +4,14 @@
         "phones": [
             {
                 "file": [
+					"64 Audio U4s mX Foam Tips",
                     "64 Audio U4s m12 Foam Tips",
 					"64 Audio U4s m15 Foam Tips",
 					"64 Audio U4s m20 Foam Tips"
                 ],
                 "name": "U4s",
                 "suffix": [
+					"mX (Foam Tips)",
                     "m12 (Foam Tips)",
 					"m15 (Foam Tips)",
 					"m20 (Foam Tips)"
