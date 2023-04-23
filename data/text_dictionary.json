@@ -96,10 +96,12 @@
         "phones": [
             {
                 "file": [
+				    "Unique Melody MEST MKII FA Type E",
                     "Unique Melody MEST MKII Foam Tips"
                 ],
                 "name": "MEST MKII",
                 "suffix": [
+			        "FA Type E",
                     "Foam Tips"
                 ]
             }
