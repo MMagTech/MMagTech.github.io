@@ -58,7 +58,7 @@
         ],
         "footerLinks": [
             {
-                "label": "IEM graph databases",
+                "label": "More Databases",
                 "links": [
 		            {
                         "name": "Bad Guy",
@@ -72,9 +72,17 @@
 					    "name": "PaulWasabi",
                         "url": "https://pw.squig.link/"
 					},
+						{
+					    "name": "Precogvision",
+                        "url": "https://precog.squig.link/"
+					},
 					{
                         "name": "RikudouGoku",
                         "url": "https://rg.squig.link/"
+					},
+										{
+                        "name": "Super Review",
+                        "url": "https://squig.link/"
 					}
                 ]
             }

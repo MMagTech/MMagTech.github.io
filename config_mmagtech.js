@@ -109,7 +109,15 @@ let linkSets = [
     //         {
 	//             name: "RikudouGoku",
     //             url: "https://rg.squig.link/"
-	//		   }
+	//		   },
+	//         {
+	//             name: "Precogvision",
+    //             url: "https://precog.squig.link/"
+	//         },
+	//         {
+	//             name: "Super Review",
+    //             url: "https://rg.squig.link/"
+	//         }
     //     ]
     // }
 ];
