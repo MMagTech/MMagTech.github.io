@@ -154,9 +154,7 @@ let tutorialDefinitions = [
 
 // Specify which targets to display
 let targets = [
-    // { type:"Personal",
-	//     files:["Neutral"] },
-    // { type:"Reviewer",   
+    // { type:"Preference",   
 	//     files:["Bad Guy","nymz","PaulWasabi","RikudouGoku"] },
     // { type:"Reference", 
 	//     files:["Diffuse Field","Harman 2019v2"] }
