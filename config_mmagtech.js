@@ -1,7 +1,7 @@
 
 
 // Configuration options
-var init_phones = ["MMagTech"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+var init_phones = ["MMagTech -WIP-"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       DBDIR = "data/audio_db/",
       TARGETDIR = "data/targets/",
@@ -155,9 +155,9 @@ let tutorialDefinitions = [
 // Specify which targets to display
 let targets = [
     // { type:"Preference",   
-	//     files:["Bad Guy","MMagTech","nymz","PaulWasabi","RikudouGoku"] },
+	//     files:["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","RikudouGoku"] },
     // { type:"Reference", 
-	//     files:["Diffuse Field","Harman 2019v2"] }
+	//     files:["Diffuse Field","IEF Neutral","Harman 2019v2"] }
 ];
 
 

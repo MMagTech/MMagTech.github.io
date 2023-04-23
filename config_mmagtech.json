@@ -1,5 +1,5 @@
 {
-    "init_phones": ["MMagTech"],
+    "init_phones": ["MMagTech -WIP-"],
     "default_channels": ["L","R"],
     "default_normalization": "Hz",
     "default_norm_db": 60,
@@ -82,11 +82,11 @@
         "targets": [
             {
                 "type": "Preference",
-                "files": ["Bad Guy","MMagTech","nymz","PaulWasabi","RikudouGoku"]
+                "files": ["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","RikudouGoku"]
             },
             {
                 "type": "Reference",
-                "files": ["Harman 2019v2","Diffuse Field"]
+                "files": ["Diffuse Field","IEF Neutral","Harman 2019v2"]
             }
     ]
     }
