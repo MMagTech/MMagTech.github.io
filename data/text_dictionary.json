@@ -54,11 +54,14 @@
         "phones": [
             {
                 "file": [
-                    "ISN EST50 Foam Tips"
+                    "ISN EST50 Foam Tips",
+					"ISN EST50 FA Type E"
+					
                 ],
                 "name": "EST50",
                 "suffix": [
-                    "Foam Tips"
+                    "Foam Tips",
+					"FA Type E"
                 ]
             }
         ]
