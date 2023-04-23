@@ -4,17 +4,17 @@
         "phones": [
             {
                 "file": [
-					"64 Audio U4s mX Foam Tips",
-                    "64 Audio U4s m12 Foam Tips",
-					"64 Audio U4s m15 Foam Tips",
-					"64 Audio U4s m20 Foam Tips"
+					"64 Audio U4s mX Foam",
+                    "64 Audio U4s m12 Foam",
+					"64 Audio U4s m15 Foam",
+					"64 Audio U4s m20 Foam"
                 ],
                 "name": "U4s",
                 "suffix": [
-					"mX (Foam Tips)",
-                    "m12 (Foam Tips)",
-					"m15 (Foam Tips)",
-					"m20 (Foam Tips)"
+					"mX (Foam)",
+                    "m12 (Foam)",
+					"m15 (Foam)",
+					"m20 (Foam)"
                 ]
             }
         ]
@@ -24,11 +24,11 @@
         "phones": [
             {
                 "file": [
-                    "7Hz Legato Foam Tips"
+                    "7Hz Legato Foam"
                 ],
                 "name": "Legato",
                 "suffix": [
-                    "Foam Tips"
+                    "Foam"
                 ]
             }
         ]
@@ -38,13 +38,13 @@
         "phones": [
             {
                 "file": [
-                    "DUNU SA6 Ultra Bass Foam Tips",
-                    "DUNU SA6 Ultra Foam Tips"
+                    "DUNU SA6 Ultra Bass Foam",
+                    "DUNU SA6 Ultra Foam"
                 ],
                 "name": "SA6 Ultra",
                 "suffix": [
-                    "-switch: off- (Foam Tips)",
-                    "-switch: on- (Foam Tips)"
+                    "-switch: off- (Foam)",
+                    "-switch: on- (Foam)"
                 ]
             }
         ]
@@ -54,12 +54,12 @@
         "phones": [
             {
                 "file": [
-                    "ISN EST50 Foam Tips"
+                    "ISN EST50 Foam"
 					
                 ],
                 "name": "EST50",
                 "suffix": [
-                    "Foam Tips"
+                    "Foam"
                 ]
             }
         ]
@@ -70,12 +70,12 @@
             {
                 "file": [
                     "Sound Rhyme DTE500 FA Type E",
-					"Sound Rhyme DTE500 Foam Tips"
+					"Sound Rhyme DTE500 Foam"
                 ],
                 "name": "DTE500",
                 "suffix": [
                     "FA Type E",
-					"Foam Tips"
+					"Foam"
                 ]
             }
         ]
@@ -85,11 +85,11 @@
         "phones": [
             {
                 "file": [
-                    "TRN I3 Foam Tips"
+                    "TRN I3 Foam"
                 ],
                 "name": "I3",
                 "suffix": [
-                    "Foam Tips"
+                    "Foam"
                 ]
             }
         ]
@@ -100,12 +100,12 @@
             {
                 "file": [
 				    "Unique Melody MEST MKII FA Type E",
-                    "Unique Melody MEST MKII Foam Tips"
+                    "Unique Melody MEST MKII Foam"
                 ],
                 "name": "MEST MKII",
                 "suffix": [
 			        "FA Type E",
-                    "Foam Tips"
+                    "Foam"
                 ]
             }
         ]
@@ -116,7 +116,7 @@
             {
                 "file": [
                     "XENNS Tea CP155",
-                    "XENNS Tea Foam Tips"
+                    "XENNS Tea Foam"
                 ],
                 "name": "Tea",
                 "suffix": [
