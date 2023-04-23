@@ -54,14 +54,12 @@
         "phones": [
             {
                 "file": [
-                    "ISN EST50 Foam Tips",
-					"ISN EST50 FA Type E"
+                    "ISN EST50 Foam Tips"
 					
                 ],
                 "name": "EST50",
                 "suffix": [
-                    "Foam Tips",
-					"FA Type E"
+                    "Foam Tips"
                 ]
             }
         ]
@@ -71,11 +69,13 @@
         "phones": [
             {
                 "file": [
-                    "Sound Rhyme DTE500 Foam Tips"
+                    "Sound Rhyme DTE500 FA Type E",
+					"Sound Rhyme DTE500 Foam Tips"
                 ],
                 "name": "DTE500",
                 "suffix": [
-                    "Foam Tips"
+                    "FA Type E",
+					"Foam Tips"
                 ]
             }
         ]
