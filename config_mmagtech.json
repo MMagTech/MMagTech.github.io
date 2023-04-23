@@ -1,5 +1,5 @@
 {
-    "init_phones": ["Neutral"],
+    "init_phones": ["MMagTech"],
     "default_channels": ["L","R"],
     "default_normalization": "Hz",
     "default_norm_db": 60,
@@ -81,12 +81,8 @@
         ],
         "targets": [
             {
-                "type": "Personal",
-                "files": ["Neutral"]
-            },
-            {
-                "type": "Reviewer",
-                "files": ["Bad Guy","nymz","PaulWasabi","RikudouGoku"]
+                "type": "Preference",
+                "files": ["Bad Guy","MMagTech","nymz","PaulWasabi","RikudouGoku"]
             },
             {
                 "type": "Reference",
