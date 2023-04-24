@@ -70,12 +70,14 @@
             {
                 "file": [
                     "Sound Rhyme DTE500 FA Type E",
-					"Sound Rhyme DTE500 Foam"
+					"Sound Rhyme DTE500 Foam",
+					"Sound Rhyme DTE500 SF W1"
                 ],
                 "name": "DTE500",
                 "suffix": [
                     "FA Type E",
-					"Foam"
+					"Foam",
+					"SF W1"
                 ]
             }
         ]
@@ -115,12 +117,12 @@
         "phones": [
             {
                 "file": [
-                    "XENNS Tea CP155",
+                    "XENNS Tea SF CP155",
                     "XENNS Tea Foam"
                 ],
                 "name": "Tea",
                 "suffix": [
-                    "(CP155)",
+                    "(SF CP155)",
                     "(Foam)"
                 ]
             }
