@@ -24,11 +24,15 @@
         "phones": [
             {
                 "file": [
-                    "7Hz Legato Foam"
+                    "7Hz Legato Foam",
+					"7Hz Legato SF W1",
+					"7Hz Legato Stock Silicon"
                 ],
                 "name": "Legato",
                 "suffix": [
-                    "Foam"
+                    "Foam",
+					"SF W1",
+					"Stock Silicon"					
                 ]
             }
         ]
