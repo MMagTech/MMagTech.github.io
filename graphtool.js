@@ -108,9 +108,9 @@ function loadGraph() {
 		  
 		  <div class="about-this-tool">
 			<p><b>Notes:</b></p>
-			<p>This database was created from the following <a href="https://github.com/mlochbaum/CrinGraph">source code</a>.</p>
-			<p>Measurements were optained using an <a href=https://www.aliexpress.us/item/2255800731956095.html?spm=a2g0o.productlist.main.5.743d7adcq7sqri&algo_pvid=a9894521-536c-4e51-90b1-c6b22822e755&algo_exp_id=a9894521-536c-4e51-90b1-c6b22822e755-2&pdp_npi=3%40dis%21PHP%214413.77%214148.94%21%21%21%21%21%40211bf2da16823668298815275d07a7%2112000023512553277%21sea%21US%210&curPageLogUid=FUWVsXPbJBuv>IEC 60318-4 compliant coupler</a> similar to the GRAS 43AC simulator.</p>		
-		    <p>They should only be used as a general basis for what the IEM may represent due to variations in tips, insertion depth and IEM/Coupler variences.<p>
+			<p>This software is based on <a href="https://github.com/mlochbaum/CrinGraph">open sourced project</a>.</p>
+			<p>Measurements were optained using an <a href=https://www.aliexpress.us/item/2255800731956095.html?spm=a2g0o.productlist.main.5.743d7adcq7sqri&algo_pvid=a9894521-536c-4e51-90b1-c6b22822e755&algo_exp_id=a9894521-536c-4e51-90b1-c6b22822e755-2&pdp_npi=3%40dis%21PHP%214413.77%214148.94%21%21%21%21%21%40211bf2da16823668298815275d07a7%2112000023512553277%21sea%21US%210&curPageLogUid=FUWVsXPbJBuv>IEC 60318-4 compliant coupler</a>similar to the GRAS 43AC simulator.<p>
+			<p>They should be used as a general basis for what the IEM may represent due to variations in tips, insertion depth and IEM/Coupler variances.<p>
 		  </div> 
     
           <div class="accessories"></div>
