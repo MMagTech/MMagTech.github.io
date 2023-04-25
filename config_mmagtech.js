@@ -69,7 +69,6 @@ function watermark(svg) {
 
 // If alt_header is enabled, these are the items added to the header
 let headerLogoText = "MMagTech",
-headerLogoImgUrl = null,
 headerLinks = [
 // {
 //     name: "GitHub",
