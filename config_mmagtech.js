@@ -71,7 +71,6 @@ function watermark(svg) {
 let headerLogoText = "MMagTech",
 headerLogoImgUrl = null,
 headerLinks = [
-// headerLinksLabel = "<strong>Links:</strong>,
 // {
 //     name: "GitHub",
 //     url: "https://github.com/MMagTech/MMagTech.github.io"
