@@ -399,7 +399,7 @@ ul.header-links::-webkit-scrollbar {
 
 ul.header-links li {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     
     box-sizing: border-box;
     height: 42px;
@@ -416,7 +416,7 @@ ul.header-links li + li {
 
 ul.header-links a {
     display: flex;
-    align-items: flex-end;
+    align-items: center;
     
     color: var(--header-links-color);
     font-family: var(--font-primary);
