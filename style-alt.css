@@ -340,7 +340,7 @@ button.header-button {
 
 div.logo {
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     
     box-sizing: border-box;
@@ -411,7 +411,7 @@ ul.header-links li {
 }
 
 ul.header-links li + li {
-    margin-left: 32px;
+    margin-left: 25px;
 }
 
 ul.header-links a {
@@ -420,11 +420,11 @@ ul.header-links a {
     
     color: var(--header-links-color);
     font-family: var(--font-primary);
-    font-weight: 500;
-    font-size: 14px;
+    font-weight: 550;
+    font-size: 15px;
     line-height: 1em;
     text-decoration-color: var(--background-color-contrast-more);
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 
