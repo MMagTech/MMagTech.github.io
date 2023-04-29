@@ -76,11 +76,11 @@
         "name" : "IE600",
         "file" : [
           "Sennheiser IE600 - o-ring - Foam",
-		  "Sennheiser IE600 - no o-ring - Foam"
+          "Sennheiser IE600 - no o-ring - Foam"
         ],
         "suffix" : [
           "- o-ring - Foam",
-		  "- no o-ring - Foam"
+          "- no o-ring - Foam"
         ]
       }
     ]
@@ -113,6 +113,20 @@
           "FA Type E",
           "Foam",
           "SF W1"
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "TinHiFi",
+    "phones" : [
+      {
+        "name" : "P1 Max",
+        "file" : [
+          "TinHiFi P1 Max Foam"
+        ],
+        "suffix" : [
+          "Foam"
         ]
       }
     ]
