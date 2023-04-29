@@ -64,9 +64,9 @@
         ],
 		"name" : "Diva",
         "suffix" : [
-          "- 250m - Blue Foam",
-		  "- 250m - Red Foam",
-		  "- 250m - Yellow Foam"
+          "- 250m - Blue (Foam)",
+		  "- 250m - Red (Foam)",
+		  "- 250m - Yellow (Foam)"
         ]
       }
     ]
@@ -97,8 +97,8 @@
         ],
 		"name" : "IE600",
         "suffix" : [
-          "- o-ring - Foam",
-          "- no o-ring - Foam"
+          "- o-ring - (Foam)",
+          "- no o-ring - (Foam)"
         ]
       }
     ]
@@ -189,8 +189,8 @@
         ],
         "name" : "Tea",
         "suffix" : [
-          "(Foam)",
-          "(SF CP155)"
+          "Foam",
+          "SF CP155"
         ]
       }
     ]
