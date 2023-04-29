@@ -54,6 +54,24 @@
     ]
   },
   {
+    "name" : "Elysian",
+    "phones" : [
+      {
+        "file" : [
+          "Elysian Diva - 250m - Blue Foam",
+		  "Elysian Diva - 250m - Red Foam",
+		  "Elysian Diva - 250m - Yellow Foam"
+        ],
+		"name" : "Diva",
+        "suffix" : [
+          "- 250m - Blue Foam",
+		  "- 250m - Red Foam",
+		  "- 250m - Yellow Foam"
+        ]
+      }
+    ]
+  },
+  {
     "name" : "ISN",
     "phones" : [
       {
@@ -73,11 +91,11 @@
     "name" : "Sennheiser",
     "phones" : [
       {
-        "name" : "IE600",
         "file" : [
           "Sennheiser IE600 - o-ring - Foam",
           "Sennheiser IE600 - no o-ring - Foam"
         ],
+		"name" : "IE600",
         "suffix" : [
           "- o-ring - Foam",
           "- no o-ring - Foam"
