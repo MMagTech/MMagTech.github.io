@@ -1,137 +1,164 @@
 [
-    {
-        "name": "64 Audio",
-        "phones": [
-            {
-                "file": [
-					"64 Audio U4s mX Foam",
-                    "64 Audio U4s m12 Foam",
-					"64 Audio U4s m15 Foam",
-					"64 Audio U4s m20 Foam"
-                ],
-                "name": "U4s",
-                "suffix": [
-					"mX (Foam)",
-                    "m12 (Foam)",
-					"m15 (Foam)",
-					"m20 (Foam)"
-                ]
-            }
+  {
+    "name" : "64 Audio",
+    "phones" : [
+      {
+        "file" : [
+          "64 Audio U4s mX Foam",
+          "64 Audio U4s m12 Foam",
+          "64 Audio U4s m15 Foam",
+          "64 Audio U4s m20 Foam"
+        ],
+        "name" : "U4s",
+        "suffix" : [
+          "mX (Foam)",
+          "m12 (Foam)",
+          "m15 (Foam)",
+          "m20 (Foam)"
         ]
-    },
-    {
-        "name": "7Hz",
-        "phones": [
-            {
-                "file": [
-                    "7Hz Legato Foam",
-					"7Hz Legato SF W1",
-					"7Hz Legato Stock Silicon"
-                ],
-                "name": "Legato",
-                "suffix": [
-                    "Foam",
-					"SF W1",
-					"Stock Silicon"					
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "name" : "7Hz",
+    "phones" : [
+      {
+        "file" : [
+          "7Hz Legato Foam",
+          "7Hz Legato SF W1",
+          "7Hz Legato Stock Silicon"
+        ],
+        "name" : "Legato",
+        "suffix" : [
+          "Foam",
+          "SF W1",
+          "Stock Silicon"
         ]
-    },
-    {
-        "name": "DUNU",
-        "phones": [
-            {
-                "file": [
-                    "DUNU SA6 Ultra Bass Foam",
-                    "DUNU SA6 Ultra Foam"
-                ],
-                "name": "SA6 Ultra",
-                "suffix": [
-                    "-switch: off- (Foam)",
-                    "-switch: on- (Foam)"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "name" : "DUNU",
+    "phones" : [
+      {
+        "file" : [
+          "DUNU SA6 Ultra Bass Foam",
+          "DUNU SA6 Ultra Foam"
+        ],
+        "name" : "SA6 Ultra",
+        "suffix" : [
+          "-switch: off- (Foam)",
+          "-switch: on- (Foam)"
         ]
-    },
-    {
-        "name": "ISN",
-        "phones": [
-            {
-                "file": [
-                    "ISN EST50 Foam",
-					"ISN EST50 SF W1"
-					
-                ],
-                "name": "EST50",
-                "suffix": [
-                    "Foam",
-					"SF W1"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "name" : "ISN",
+    "phones" : [
+      {
+        "file" : [
+          "ISN EST50 Foam",
+          "ISN EST50 SF W1"
+        ],
+        "name" : "EST50",
+        "suffix" : [
+          "Foam",
+          "SF W1"
         ]
-    },
-    {
-        "name": "Sound Rhyme",
-        "phones": [
-            {
-                "file": [
-                    "Sound Rhyme DTE500 FA Type E",
-					"Sound Rhyme DTE500 Foam",
-					"Sound Rhyme DTE500 SF W1"
-                ],
-                "name": "DTE500",
-                "suffix": [
-                    "FA Type E",
-					"Foam",
-					"SF W1"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "name" : "Sound Rhyme",
+    "phones" : [
+      {
+        "file" : [
+          "Sound Rhyme DTE500 FA Type E",
+          "Sound Rhyme DTE500 Foam",
+          "Sound Rhyme DTE500 SF W1"
+        ],
+        "name" : "DTE500",
+        "suffix" : [
+          "FA Type E",
+          "Foam",
+          "SF W1"
         ]
-    },
-    {
-        "name": "TRN",
-        "phones": [
-            {
-                "file": [
-                    "TRN I3 Foam"
-                ],
-                "name": "I3",
-                "suffix": [
-                    "Foam"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "name" : "TRN",
+    "phones" : [
+      {
+        "file" : [
+          "TRN I3 Foam"
+        ],
+        "name" : "I3",
+        "suffix" : [
+          "Foam"
         ]
-    },
-    {
-        "name": "Unique Melody",
-        "phones": [
-            {
-                "file": [
-				    "Unique Melody MEST MKII FA Type E",
-                    "Unique Melody MEST MKII Foam"
-                ],
-                "name": "MEST MKII",
-                "suffix": [
-			        "FA Type E",
-                    "Foam"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "name" : "Unique Melody",
+    "phones" : [
+      {
+        "file" : [
+          "Unique Melody MEST MKII FA Type E",
+          "Unique Melody MEST MKII Foam"
+        ],
+        "name" : "MEST MKII",
+        "suffix" : [
+          "FA Type E",
+          "Foam"
         ]
-    },
-    {
-        "name": "XENNS",
-        "phones": [
-            {
-                "file": [
-                    "XENNS Tea Foam",
-					"XENNS Tea SF CP155"
-                ],
-                "name": "Tea",
-                "suffix": [
-                    "(Foam)",
-                    "(SF CP155)"
-                ]
-            }
+      }
+    ]
+  },
+  {
+    "name" : "XENNS",
+    "phones" : [
+      {
+        "file" : [
+          "XENNS Tea Foam",
+          "XENNS Tea SF CP155"
+        ],
+        "name" : "Tea",
+        "suffix" : [
+          "(Foam)",
+          "(SF CP155)"
         ]
-    }
+      }
+    ]
+  },
+  {
+    "name" : "Sennheiser",
+    "phones" : [
+      {
+        "name" : "IE600",
+        "file" : [
+          "Sennheiser IE600 Foam"
+        ],
+        "suffix" : [
+          "Foam"
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Softears",
+    "phones" : [
+      {
+        "name" : "RSV",
+        "file" : [
+          "Softears RSV Foam"
+        ],
+        "suffix" : [
+          "Foam"
+        ]
+      }
+    ]
+  }
 ]
