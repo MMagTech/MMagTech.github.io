@@ -75,10 +75,12 @@
       {
         "name" : "IE600",
         "file" : [
-          "Sennheiser IE600 - o-ring - Foam"
+          "Sennheiser IE600 - o-ring - Foam",
+		  "Sennheiser IE600 - no o-ring - Foam"
         ],
         "suffix" : [
-          "- o-ring - Foam"
+          "- o-ring - Foam",
+		  "- no o-ring - Foam"
         ]
       }
     ]
