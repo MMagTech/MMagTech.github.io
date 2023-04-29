@@ -70,6 +70,34 @@
     ]
   },
   {
+    "name" : "Sennheiser",
+    "phones" : [
+      {
+        "name" : "IE600",
+        "file" : [
+          "Sennheiser IE600 Foam"
+        ],
+        "suffix" : [
+          "Foam"
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Softears",
+    "phones" : [
+      {
+        "name" : "RSV",
+        "file" : [
+          "Softears RSV Foam"
+        ],
+        "suffix" : [
+          "Foam"
+        ]
+      }
+    ]
+  },
+  {
     "name" : "Sound Rhyme",
     "phones" : [
       {
@@ -129,34 +157,6 @@
         "suffix" : [
           "(Foam)",
           "(SF CP155)"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Sennheiser",
-    "phones" : [
-      {
-        "name" : "IE600",
-        "file" : [
-          "Sennheiser IE600 Foam"
-        ],
-        "suffix" : [
-          "Foam"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Softears",
-    "phones" : [
-      {
-        "name" : "RSV",
-        "file" : [
-          "Softears RSV Foam"
-        ],
-        "suffix" : [
-          "Foam"
         ]
       }
     ]
