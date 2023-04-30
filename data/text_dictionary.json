@@ -58,12 +58,19 @@
     "phones" : [
       {
         "file" : [
+		  "Elysian Diva - Blue - Foam",
+		  "Elysian Diva - Red - Foam",
+		  "Elysian Diva - Yellow - Foam",
           "Elysian Diva - 250m - Blue Foam",
 		  "Elysian Diva - 250m - Red Foam",
-		  "Elysian Diva - 250m - Yellow Foam"
+		  "Elysian Diva - 250m - Yellow Foam",
+		  
         ],
 		"name" : "Diva",
         "suffix" : [
+		  "Blue (Foam)",
+		  "Red (Foam)",
+		  "Yellow (Foam)",
           "- 250m - Blue (Foam)",
 		  "- 250m - Red (Foam)",
 		  "- 250m - Yellow (Foam)"
