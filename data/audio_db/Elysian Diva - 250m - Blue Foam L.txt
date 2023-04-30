@@ -6,7 +6,7 @@
 *  C-weighting compensation: Off
 *  Target level: 75.0 dB
 * Note: ; Averaged data produced from the rms magnitudes of Diva Foam L Blue, Diva Foam L Blue
-* Measurement: Diva Foam L 250m Blue Avg
+* Measurement: Diva - 250m - Blue Foam L
 * Smoothing: 1/48 octave
 * Frequency Step: 0.36621097 Hz
 * Start Frequency: 2.1972656 Hz
