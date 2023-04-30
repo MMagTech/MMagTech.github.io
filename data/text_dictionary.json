@@ -108,14 +108,14 @@
         ]
       },
       {
-        "name" : "Aurora",
         "file" : [
           "KBear Aurora - stock - (Foam)",
 		  "KBear Aurora - v.Top Taped - (Foam)",
 		  "KBear Aurora - v.Top Taped n.Olina - (Foam)"
         ],
+		"name" : "Aurora",
         "suffix" : [
-          "- stock - (Foam)",
+           "- stock - (Foam)",
 		   "- v.Top Taped -",
 		   "- v.Top Taped n.Olina - Foam"
         ]
