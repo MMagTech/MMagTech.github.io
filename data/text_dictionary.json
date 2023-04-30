@@ -142,12 +142,15 @@
     "name" : "Simgot",
     "phones" : [
       {
-        "name" : "EN1000",
         "file" : [
-          "Simgot EN1000 - stock - Foam"
+          "Simgot EN1000 - stock - Foam",
+		  "Simgot EN1000 - n.Olina - Foam"
+		  
         ],
+		"name" : "EN1000",
         "suffix" : [
-          "- stock - (Foam)"
+          "- stock - (Foam)",
+		  "- n.Olina - (Foam)"      
         ]
       }
     ]
