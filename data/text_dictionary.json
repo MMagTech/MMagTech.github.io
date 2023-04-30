@@ -93,7 +93,7 @@
       }
     ]
   },
-   {
+  {
     "name" : "KBear",
     "phones" : [
       {
@@ -105,6 +105,19 @@
         "suffix" : [
           "- n.HDF - (Silicon)",
           "- n.HDF v.Dual - (Silicon)"
+        ]
+      },
+      {
+        "name" : "Aurora",
+        "file" : [
+          "KBear Aurora - stock - (Foam)",
+		  "KBear Aurora - v.Top Taped - (Foam)",
+		  "KBear Aurora - v.Top Taped n.Olina - (Foam)"
+        ],
+        "suffix" : [
+          "- stock - (Foam)",
+		   "- v.Top Taped -",
+		   "- v.Top Taped n.Olina - Foam"
         ]
       }
     ]
