@@ -110,14 +110,14 @@
       {
         "file" : [
           "KBear Aurora - stock - Foam",
-		  "KBear Aurora - v.Top Taped - Foam",
-		  "KBear Aurora - v.Top Taped n.Olina - Foam"
+          "KBear Aurora - v.Top Taped - Foam",
+          "KBear Aurora - v.Top Taped n.Olina - Foam"
         ],
-		"name" : "Aurora",
+        "name" : "Aurora",
         "suffix" : [
-           "- stock - (Foam)",
-		   "- v.Top Taped - (Foam)",
-		   "- v.Top Taped n.Olina - (Foam)"
+          "- stock - (Foam)",
+          "- v.Top Taped - (Foam)",
+          "- v.Top Taped n.Olina - (Foam)"
         ]
       }
     ]
@@ -134,6 +134,20 @@
         "suffix" : [
           "- o-ring - (Foam)",
           "- no o-ring - (Foam)"
+        ]
+      }
+    ]
+  },
+  {
+    "name" : "Simgot",
+    "phones" : [
+      {
+        "name" : "EN1000",
+        "file" : [
+          "Simgot EN1000 - stock - (Foam)"
+        ],
+        "suffix" : [
+          "- stock - (Foam)"
         ]
       }
     ]
