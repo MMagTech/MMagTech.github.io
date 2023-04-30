@@ -58,22 +58,21 @@
     "phones" : [
       {
         "file" : [
-		  "Elysian Diva - Blue - Foam",
-		  "Elysian Diva - Red - Foam",
-		  "Elysian Diva - Yellow - Foam",
+          "Elysian Diva - Blue - Foam",
+          "Elysian Diva - Red - Foam",
+          "Elysian Diva - Yellow - Foam",
           "Elysian Diva - 250m - Blue Foam",
-		  "Elysian Diva - 250m - Red Foam",
-		  "Elysian Diva - 250m - Yellow Foam"
-		  
+          "Elysian Diva - 250m - Red Foam",
+          "Elysian Diva - 250m - Yellow Foam"
         ],
-		"name" : "Diva",
+        "name" : "Diva",
         "suffix" : [
-		  "- Blue - (Foam)",
-		  "- Red - (Foam)",
-		  "- Yellow - (Foam)",
+          "- Blue - (Foam)",
+          "- Red - (Foam)",
+          "- Yellow - (Foam)",
           "- 250m - Blue (Foam)",
-		  "- 250m - Red (Foam)",
-		  "- 250m - Yellow (Foam)"
+          "- 250m - Red (Foam)",
+          "- 250m - Yellow (Foam)"
         ]
       }
     ]
@@ -94,6 +93,22 @@
       }
     ]
   },
+   {
+    "name" : "KBear",
+    "phones" : [
+      {
+        "file" : [
+          "KBear Rosefinch - n.HDF - Silicon",
+          "KBear Rosefinch - n.HDF v.Dual - Silicon"
+        ],
+        "name" : "Rosefinch",
+        "suffix" : [
+          "- n.HDF - (Silicon)",
+          "- n.HDF v.Dual - (Silicon)"
+        ]
+      }
+    ]
+  },
   {
     "name" : "Sennheiser",
     "phones" : [
@@ -102,7 +117,7 @@
           "Sennheiser IE600 - o-ring - Foam",
           "Sennheiser IE600 - no o-ring - Foam"
         ],
-		"name" : "IE600",
+        "name" : "IE600",
         "suffix" : [
           "- o-ring - (Foam)",
           "- no o-ring - (Foam)"
