@@ -143,17 +143,6 @@
     "phones" : [
       {
         "file" : [
-          "Simgot EN1000 - stock - Foam",
-		  "Simgot EN1000 - n.Olina - Foam"
-        ],
-		"name" : "EN1000",
-        "suffix" : [
-          "- stock - (Foam)",
-		  "- n.Olina - (Foam)"
-        ]
-      },
-      {
-        "file" : [
           "Simgot EA500 - n.Red Stock - Foam",
 		  "Simgot EA500 - n.Red Dual L-HDF - Foam",
 		  "Simgot EA500 - n.Black m.Olina - Foam"
@@ -163,6 +152,17 @@
           "- n.Red Stock - (Foam)",
 		  "- n.Red Dual L-HDF - (Foam)",
 		  "- n.Black m.Olina - (Foam)"
+        ]
+	  },  
+	  {
+        "file" : [
+          "Simgot EN1000 - stock - Foam",
+		  "Simgot EN1000 - n.Olina - Foam"
+        ],
+		"name" : "EN1000",
+        "suffix" : [
+          "- stock - (Foam)",
+		  "- n.Olina - (Foam)"
         ]
       },
   {
