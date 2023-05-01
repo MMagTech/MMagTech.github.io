@@ -164,97 +164,97 @@
 					"- stock - (Foam)",
 					"- n.Olina - (Foam)"
 				]
-			},
+			}
+		]
+	},
+	{
+		"name": "Softears",
+		"phones": [
 			{
-				"name": "Softears",
-				"phones": [
-					{
-						"name": "RSV",
-						"file": [
-							"Softears RSV Foam"
-						],
-						"suffix": [
-							"Foam"
-						]
-					}
+				"name": "RSV",
+				"file": [
+					"Softears RSV Foam"
+				],
+				"suffix": [
+					"Foam"
 				]
-			},
+			}
+		]
+	},
+	{
+		"name": "Sound Rhyme",
+		"phones": [
 			{
-				"name": "Sound Rhyme",
-				"phones": [
-					{
-						"file": [
-							"Sound Rhyme DTE500 FA Type E",
-							"Sound Rhyme DTE500 Foam",
-							"Sound Rhyme DTE500 SF W1"
-						],
-						"name": "DTE500",
-						"suffix": [
-							"FA Type E",
-							"Foam",
-							"SF W1"
-						]
-					}
+				"file": [
+					"Sound Rhyme DTE500 FA Type E",
+					"Sound Rhyme DTE500 Foam",
+					"Sound Rhyme DTE500 SF W1"
+				],
+				"name": "DTE500",
+				"suffix": [
+					"FA Type E",
+					"Foam",
+					"SF W1"
 				]
-			},
+			}
+		]
+	},
+	{
+		"name": "TinHiFi",
+		"phones": [
 			{
-				"name": "TinHiFi",
-				"phones": [
-					{
-						"name": "P1 Max",
-						"file": [
-							"TinHiFi P1 Max Foam"
-						],
-						"suffix": [
-							"Foam"
-						]
-					}
+				"name": "P1 Max",
+				"file": [
+					"TinHiFi P1 Max Foam"
+				],
+				"suffix": [
+					"Foam"
 				]
-			},
+			}
+		]
+	},
+	{
+		"name": "TRN",
+		"phones": [
 			{
-				"name": "TRN",
-				"phones": [
-					{
-						"file": [
-							"TRN I3 Foam"
-						],
-						"name": "I3",
-						"suffix": [
-							"Foam"
-						]
-					}
+				"file": [
+					"TRN I3 Foam"
+				],
+				"name": "I3",
+				"suffix": [
+					"Foam"
 				]
-			},
+			}
+		]
+	},
+	{
+		"name": "Unique Melody",
+		"phones": [
 			{
-				"name": "Unique Melody",
-				"phones": [
-					{
-						"file": [
-							"Unique Melody MEST MKII FA Type E",
-							"Unique Melody MEST MKII Foam"
-						],
-						"name": "MEST MKII",
-						"suffix": [
-							"FA Type E",
-							"Foam"
-						]
-					}
+				"file": [
+					"Unique Melody MEST MKII FA Type E",
+					"Unique Melody MEST MKII Foam"
+				],
+				"name": "MEST MKII",
+				"suffix": [
+					"FA Type E",
+					"Foam"
 				]
-			},
+			}
+		]
+	},
+	{
+		"name": "XENNS",
+		"phones": [
 			{
-				"name": "XENNS",
-				"phones": [
-					{
-						"file": [
-							"XENNS Tea Foam",
-							"XENNS Tea SF CP155"
-						],
-						"name": "Tea",
-						"suffix": [
-							"Foam",
-							"SF CP155"
-						]
-					}
+				"file": [
+					"XENNS Tea Foam",
+					"XENNS Tea SF CP155"
+				],
+				"name": "Tea",
+				"suffix": [
+					"Foam",
+					"SF CP155"
 				]
 			}
 		]
