@@ -94,6 +94,20 @@
 		]
 	},
 	{
+		"name": "Juzear",
+		"phones": [
+			{
+				"name": "41t",
+				"file": [
+					"Juzear 41t Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "KBear",
 		"phones": [
 			{
