@@ -214,6 +214,20 @@
 		]
 	},
 	{
+		"name": "Symphonium Audio",
+		"phones": [
+			{
+				"name": "Meteor",
+				"file": [
+					"Symphonium Audio Meteor Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "TinHiFi",
 		"phones": [
 			{
@@ -269,6 +283,22 @@
 				"suffix": [
 					"Foam",
 					"SF CP155"
+				]
+			}
+		]
+	},
+	{
+		"name": "Yanyin",
+		"phones": [
+			{
+				"file": [
+					"Yanyin X HBB Mahina Foam",
+					"Yanyin X HBB Mahina FA Type E"
+				],
+				"name": "X HBB Mahina"
+				"suffix": [
+					"Foam"
+					"FA Type E"
 				]
 			}
 		]
