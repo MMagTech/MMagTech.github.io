@@ -2,7 +2,7 @@
     "init_phones": ["MMagTech -WIP-"],
     "default_channels": ["L","R"],
     "default_normalization": "Hz",
-    "default_norm_db": 60,
+    "default_norm_db": 70,
     "default_norm_hz": 1000,   
     "max_channel_imbalance": 5,
     "alt_layout": true,   
