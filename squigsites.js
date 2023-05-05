@@ -17,7 +17,7 @@ function loadJquery() {
 loadJquery();
 
 function createSquigSelect() {
-    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://fr.mmagtech.com/squigsites.json',
+    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://squig.link/squigsites.json',
         squigSelect = document.createElement('select'),
         squigSelectBlank = document.createElement('option'),
         squigSelectGroupIems = document.createElement('optgroup'),
@@ -191,7 +191,7 @@ function initDbExplorer() {
 
 // Add other squigsite databases to phones list
 function dbExplorer() {
-    let squigsitesJson = mode === 'dev' ? 'squigsites.js' : 'https://squig.link/squigsites.js',
+    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://squig.link/squigsites.json',
         currentSite = window.location.host.split('.')[2] ? window.location.host.split('.')[0] : 'superreview',
         currentDb = window.location.pathname;
     
