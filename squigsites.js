@@ -17,7 +17,7 @@ function loadJquery() {
 loadJquery();
 
 function createSquigSelect() {
-    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://squig.link/squigsites.json',
+    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://fr.mmagtech.com/squigsites.json',
         squigSelect = document.createElement('select'),
         squigSelectBlank = document.createElement('option'),
         squigSelectGroupIems = document.createElement('optgroup'),
@@ -49,7 +49,7 @@ function createSquigSelect() {
         squigSites.forEach(function(site) {
             let username = site.username,
                 name = site.name,
-                url = username != 'superreview' ? 'https://' + username + '.squig.link' : 'https://squig.link',
+                url = username != 'nymz' ? 'https://' + username + '.squig.link' : 'https://squig.link',
                 option = document.createElement('option'),
                 dbs = site.dbs;
             
@@ -191,7 +191,7 @@ function initDbExplorer() {
 
 // Add other squigsite databases to phones list
 function dbExplorer() {
-    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://squig.link/squigsites.json',
+    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://fr.mmagtech.com/squigsites.json',
         currentSite = window.location.host.split('.')[2] ? window.location.host.split('.')[0] : 'superreview',
         currentDb = window.location.pathname;
     
@@ -421,15 +421,3 @@ function dbExplorerFilter() {
     })
 }
 dbExplorerFilter();
-
-// Squiglink intro
-function loadSquiglinkIntro() {
-    let body = document.querySelector('body'),
-        introScript = document.createElement('script'),
-        introScriptSrc = 'https://squig.link/squiglink-intro.js';
-
-    introScript.setAttribute('type', 'text/javascript');
-    introScript.setAttribute('src', introScriptSrc);
-    body.append(introScript);
-}
-loadSquiglinkIntro();
