@@ -67,6 +67,14 @@ function watermark(svg) {
     }
 }
 
+// Specify which targets to display
+let targets = [
+    // { type:"Preference",   
+	//     files:["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","Precogvision","Rtings","Sonarworks","Super Review 21","Super Review 22"] },
+    // { type:"Reference", 
+	//     files:["Diffuse Field","Etymotic","IEF Neutral","Harman 2019v2"] }
+];
+
 // If alt_header is enabled, these are the items added to the header
 let headerLogoText = "MMagTech",
 headerLinks = [
@@ -121,52 +129,6 @@ let linkSets = [
     // }
 ];
 
-let tutorialDefinitions = [
-    {
-        name: 'Sub bass',
-        width: '20.1%',
-        description: '<b>Sub bass</b> frequencies are responsible for rumble. Elevated sub bass can lend an added sense of depth to music, and usually does not come at the expense of "bleeding into the midrange." Is there a limit to how much sub bass sounds good? Some may argue no, but I find too much sub bass can sound conspicuously disjointed from the rest of the music. It\'s notable, however, that a lot of music is light on usage of sub bass, so a sound signature that\'s big on sub-bass but light on mid bass may not sound very bassy with some popular recordings.'
-    },
-    {
-        name: 'Mid bass',
-        width: '19.2%',
-        description: '<b>Mid bass</b> is responsible for a sense of punch. In contrast to sub bass, mid bass is typically more percussive and energetic, feeling like it\'s literally pushing air, and can lend a sense of body and fullness to a sound. Listeners craving a "bassy" sound will commonly be more satisfied by mid bass emphasis, as it will add a bassy punch to most common music. However, too much mid bass can give the sound a sense of bloat, or even yield the dreaded midrange "bleed" in which lower midrange notes are masked and smeared by excessive mid bass presence. Ideally, mid bass tapers off by 200Hz.'
-    },
-    {
-        name: 'Lower midrange',
-        width: '17.4%',
-        description: 'A full <b>lower midrange</b>, tapering upward into the bass region, can lend a sense of thickness and warmth to the overall tone, while a "scooped" lower midrange can give a very clean sound at the cost of some thinness to the body. A lot of deep vocal micro detail depends on a well-executed lower midrange. But lower midrange is often sacrificed to create contrast between bass and treble for a typical "V-shaped" sound signature, which will commonly exhibit less natural vocal timbre than a more linear midrange tune.'
-    },
-    {
-        name: 'Upper midrange',
-        width: "20%",
-        description: '<b>Upper midrange</b> is where a lot of "clarity" in a tune comes from. An elevated -- or "forward" -- upper midrange typically results in a forward vocal presentation, especially emphasizing higher-pitched vocals. Trumpets and guitars get their bite from upper midrange frequencies. Too much upper midrange can result in shrill or "shouty" vocals. Too little can result in a distant, recessed sound that\'s low on clarity. And uneven upper midrange emphasis can lead to oddly nasal or hollow vocals, with other odd timbral effects.'
-    },
-    {
-        name: 'Presence region',
-        width: '6%',
-        description: 'Also commonly referred to as "lower treble," the <b>presence region</b> has a lot to do with the naturalness of vocal transients. Too much emphasis here and vocals may take on an "edgy" or metallic character. Too little emphasis and the tune can lose definition and sound soft or dark. Much of the initial bite of trumpet and acoustic guitar string transients comes from a well-tuned presence region.'
-    },
-    {
-        name: 'Mid treble',
-        width: '7.3%',
-        description: 'A lot of treble harshness and fatigue comes from the <b>mid treble</b>. Peaks in this region commonly result in unpleasant sharpness, or sibilance in vocals which adds abrasive harshness to S and T sounds. Too little mid treble, however, will result in a dark or dead sound, resulting in odd timbre to cymbal strikes. Making matters difficult for us graph readers, there is a commonly-observed "resonance peak" that appears in measurements, usually situated at 8kHz, that is an artifact of the measurement process. It can often be hard to tell how much of such a peak is "real" without listening.'
-    },
-    {
-        name: 'Air',
-        width: '10%',
-        description: 'In the way sub bass can add a sense of depth to the low end, <b>air</b> frequencies -- also called upper treble -- can add a dimensionality via the top end. When air frequencies are "rolled off," the sound may lose a sense of micro detail and definition, and cymbals may lose shimmer, leaving them blunt in their decay. Too much air is not common, but certainly possible, resulting in a fatiguing "shh shh" to cymbals, drum brushes, and other high-frequency sounds.'
-    }
-];
-
-// Specify which targets to display
-let targets = [
-    // { type:"Preference",   
-	//     files:["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","Precogvision","Rtings","Sonarworks","Super Review 21","Super Review 22"] },
-    // { type:"Reference", 
-	//     files:["Diffuse Field","Etymotic","IEF Neutral","Harman 2019v2"] }
-];
-
 
 // Parse fr text data from REW or AudioTool format with whatever separator
 function tsvParse(fr) {
@@ -175,54 +137,7 @@ function tsvParse(fr) {
         .map(l => l.split(/[\s,;]+/).map(e => parseFloat(e)).slice(0, 2))
         .filter(t => !isNaN(t[0]) && !isNaN(t[1]));
 }
-    
-     
-d3.json('config_mmagtech.json').then(function(mycfg){
-    init_phones = mycfg.init_phones;
-    default_channels = mycfg.default_channels; 
-    default_normalization = mycfg.default_normalization; 
-    default_norm_db = mycfg.default_norm_db;   
-    default_norm_hz = mycfg.default_norm_hz;  
-    max_channel_imbalance = mycfg.max_channel_imbalance;  
-    alt_layout = mycfg.alt_layout;
-    alt_sticky_graph = mycfg.alt_sticky_graph; 
-    alt_animated = mycfg.alt_animated;
-    alt_header = mycfg.alt_header; 
-    alt_tutorial = mycfg.alt_tutorial;  
-    site_url = mycfg.site_url;
-    share_url = mycfg.site_url;
-    watermark_text = mycfg.watermark_text;
-    watermark_text2 = mycfg.watermark_text2;
-    watermark_image_url = mycfg.watermark_image_url;
-    page_title = mycfg.page_title; 
-    page_description = mycfg.page_description;
-    accessories = mycfg.accessories;
-    externalLinksBar = mycfg.externalLinksBar;
-    restricted = mycfg.restricted;
-    expandable = mycfg.expandable;
-    expandableOnly = mycfg.expandableOnly;
-    headerHeight = mycfg.headerHeight;  
-    darkModeButton = mycfg.darkModeButton;  
-    targetDashed = mycfg.targetDashed;
-    targetColorCustom = mycfg.targetColorCustom;    
-    labelsPosition = mycfg.labelsPosition;   
-    stickyLabels = mycfg.stickyLabels;          
-    analyticsEnabled = mycfg.analyticsEnabled;  
-    extraEnabled = mycfg.extraEnabled;       
-    extraUploadEnabled = mycfg.extraUploadEnabled;     
-    extraEQEnabled = mycfg.extraUploadEnabled;
-    extraEQBands = mycfg.extraEQBands;           
-    extraEQBandsMax = mycfg.extraEQBandsMax;
-    extraToneGeneratorEnabled = mycfg.extraToneGeneratorEnabled; 
-    targets = mycfg.advanced.targets;
-    headerLinks = mycfg.advanced.headerLinks;
-    linkSets = mycfg.advanced.footerLinks;
-    headerLogoText = mycfg.headerLogoText;
-    headerLogoImgUrl = mycfg.headerLogoImgUrl;
-    // alert(watermark_text);
-
-    // load graphs
-    loadGraph();    
+ 
 
     // Apply stylesheet based layout options above
     function setLayout() {
@@ -303,23 +218,42 @@ d3.json('config_mmagtech.json').then(function(mycfg){
         // Which of the above variables to actually insert into the page
         whichAccessoriesToUse = simpleAbout;
 
-
-
-    
-
-
-
-    // Set up analytics
-    function setupGraphAnalytics() {
-        if ( analyticsEnabled ) {
-            const pageHead = document.querySelector("head"),
-                graphAnalytics = document.createElement("script"),
-                graphAnalyticsSrc = "graphAnalytics.js";
-            
-            graphAnalytics.setAttribute("src", graphAnalyticsSrc);
-            pageHead.append(graphAnalytics);
-        }
+let tutorialDefinitions = [
+    {
+        name: 'Sub bass',
+        width: '20.1%',
+        description: '<b>Sub bass</b> frequencies are responsible for rumble. Elevated sub bass can lend an added sense of depth to music, and usually does not come at the expense of "bleeding into the midrange." Is there a limit to how much sub bass sounds good? Some may argue no, but I find too much sub bass can sound conspicuously disjointed from the rest of the music. It\'s notable, however, that a lot of music is light on usage of sub bass, so a sound signature that\'s big on sub-bass but light on mid bass may not sound very bassy with some popular recordings.'
+    },
+    {
+        name: 'Mid bass',
+        width: '19.2%',
+        description: '<b>Mid bass</b> is responsible for a sense of punch. In contrast to sub bass, mid bass is typically more percussive and energetic, feeling like it\'s literally pushing air, and can lend a sense of body and fullness to a sound. Listeners craving a "bassy" sound will commonly be more satisfied by mid bass emphasis, as it will add a bassy punch to most common music. However, too much mid bass can give the sound a sense of bloat, or even yield the dreaded midrange "bleed" in which lower midrange notes are masked and smeared by excessive mid bass presence. Ideally, mid bass tapers off by 200Hz.'
+    },
+    {
+        name: 'Lower midrange',
+        width: '17.4%',
+        description: 'A full <b>lower midrange</b>, tapering upward into the bass region, can lend a sense of thickness and warmth to the overall tone, while a "scooped" lower midrange can give a very clean sound at the cost of some thinness to the body. A lot of deep vocal micro detail depends on a well-executed lower midrange. But lower midrange is often sacrificed to create contrast between bass and treble for a typical "V-shaped" sound signature, which will commonly exhibit less natural vocal timbre than a more linear midrange tune.'
+    },
+    {
+        name: 'Upper midrange',
+        width: "20%",
+        description: '<b>Upper midrange</b> is where a lot of "clarity" in a tune comes from. An elevated -- or "forward" -- upper midrange typically results in a forward vocal presentation, especially emphasizing higher-pitched vocals. Trumpets and guitars get their bite from upper midrange frequencies. Too much upper midrange can result in shrill or "shouty" vocals. Too little can result in a distant, recessed sound that\'s low on clarity. And uneven upper midrange emphasis can lead to oddly nasal or hollow vocals, with other odd timbral effects.'
+    },
+    {
+        name: 'Presence region',
+        width: '6%',
+        description: 'Also commonly referred to as "lower treble," the <b>presence region</b> has a lot to do with the naturalness of vocal transients. Too much emphasis here and vocals may take on an "edgy" or metallic character. Too little emphasis and the tune can lose definition and sound soft or dark. Much of the initial bite of trumpet and acoustic guitar string transients comes from a well-tuned presence region.'
+    },
+    {
+        name: 'Mid treble',
+        width: '7.3%',
+        description: 'A lot of treble harshness and fatigue comes from the <b>mid treble</b>. Peaks in this region commonly result in unpleasant sharpness, or sibilance in vocals which adds abrasive harshness to S and T sounds. Too little mid treble, however, will result in a dark or dead sound, resulting in odd timbre to cymbal strikes. Making matters difficult for us graph readers, there is a commonly-observed "resonance peak" that appears in measurements, usually situated at 8kHz, that is an artifact of the measurement process. It can often be hard to tell how much of such a peak is "real" without listening.'
+    },
+    {
+        name: 'Air',
+        width: '10%',
+        description: 'In the way sub bass can add a sense of depth to the low end, <b>air</b> frequencies -- also called upper treble -- can add a dimensionality via the top end. When air frequencies are "rolled off," the sound may lose a sense of micro detail and definition, and cymbals may lose shimmer, leaving them blunt in their decay. Too much air is not common, but certainly possible, resulting in a fatiguing "shh shh" to cymbals, drum brushes, and other high-frequency sounds.'
     }
-    setupGraphAnalytics();
+];
 
 });
