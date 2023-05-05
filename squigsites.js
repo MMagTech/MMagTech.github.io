@@ -17,7 +17,7 @@ function loadJquery() {
 loadJquery();
 
 function createSquigSelect() {
-    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://squig.link/squigsites.json',
+    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://fr.mmagtech.com/squigsites.json',
         squigSelect = document.createElement('select'),
         squigSelectBlank = document.createElement('option'),
         squigSelectGroupIems = document.createElement('optgroup'),
