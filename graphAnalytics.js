@@ -1,4 +1,4 @@
-let analyticsSite = "Generic Graph site",           // Site name for attributing analytics events to your site
+let analyticsSite = "Peas in a Pod Database",           // Site name for attributing analytics events to your site
     logAnalytics = true;                            // If true, events are logged in console
 
 
