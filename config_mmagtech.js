@@ -176,49 +176,6 @@ function tsvParse(fr) {
         .filter(t => !isNaN(t[0]) && !isNaN(t[1]));
 }
     
-     
-d3.json('config_mmagtech.json').then(function(mycfg){
-    init_phones = mycfg.init_phones;
-    default_channels = mycfg.default_channels; 
-    default_normalization = mycfg.default_normalization; 
-    default_norm_db = mycfg.default_norm_db;   
-    default_norm_hz = mycfg.default_norm_hz;  
-    max_channel_imbalance = mycfg.max_channel_imbalance;  
-    alt_layout = mycfg.alt_layout;
-    alt_sticky_graph = mycfg.alt_sticky_graph; 
-    alt_animated = mycfg.alt_animated;
-    alt_header = mycfg.alt_header; 
-    alt_tutorial = mycfg.alt_tutorial;  
-    site_url = mycfg.site_url;
-    share_url = mycfg.site_url;
-    watermark_text = mycfg.watermark_text;
-    watermark_text2 = mycfg.watermark_text2;
-    watermark_image_url = mycfg.watermark_image_url;
-    page_title = mycfg.page_title; 
-    page_description = mycfg.page_description;
-    accessories = mycfg.accessories;
-    externalLinksBar = mycfg.externalLinksBar;
-    restricted = mycfg.restricted;
-    expandable = mycfg.expandable;
-    expandableOnly = mycfg.expandableOnly;
-    headerHeight = mycfg.headerHeight;  
-    darkModeButton = mycfg.darkModeButton;  
-    targetDashed = mycfg.targetDashed;
-    targetColorCustom = mycfg.targetColorCustom;    
-    labelsPosition = mycfg.labelsPosition;   
-    stickyLabels = mycfg.stickyLabels;          
-    analyticsEnabled = mycfg.analyticsEnabled;  
-    extraEnabled = mycfg.extraEnabled;       
-    extraUploadEnabled = mycfg.extraUploadEnabled;     
-    extraEQEnabled = mycfg.extraUploadEnabled;
-    extraEQBands = mycfg.extraEQBands;           
-    extraEQBandsMax = mycfg.extraEQBandsMax;
-    extraToneGeneratorEnabled = mycfg.extraToneGeneratorEnabled; 
-    targets = mycfg.advanced.targets;
-    headerLinks = mycfg.advanced.headerLinks;
-    linkSets = mycfg.advanced.footerLinks;
-    headerLogoText = mycfg.headerLogoText;
-    headerLogoImgUrl = mycfg.headerLogoImgUrl;
     // alert(watermark_text);
 
     // load graphs
