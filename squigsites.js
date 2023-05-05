@@ -191,7 +191,7 @@ function initDbExplorer() {
 
 // Add other squigsite databases to phones list
 function dbExplorer() {
-    let squigsitesJson = mode === 'dev' ? 'squigsites.json' : 'https://squig.link/squigsites.json',
+    let squigsitesJson = mode === 'dev' ? 'squigsites.js' : 'https://squig.link/squigsites.js',
         currentSite = window.location.host.split('.')[2] ? window.location.host.split('.')[0] : 'superreview',
         currentDb = window.location.pathname;
     
