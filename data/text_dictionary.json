@@ -137,6 +137,29 @@
 		]
 	},
 	{
+		"name": "Penon",
+		"phones": [
+			{
+				"name": "Serial",
+				"file": [
+					"Penon Serial Foam"
+				],
+				"suffix": [
+					"- n.No Filter - Foam"
+				]
+			},
+			{
+				"name": "Fan 2",
+				"file": [
+					"Penon Fan 2 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Sennheiser",
 		"phones": [
 			{
@@ -308,29 +331,6 @@
 				"suffix": [
 					"Foam",
 					"FA Type E"
-				]
-			}
-		]
-	},
-	{
-		"name": "Penon",
-		"phones": [
-			{
-				"name": "Serial",
-				"file": [
-					"Penon Serial Foam"
-				],
-				"suffix": [
-					"- n.No Filter - Foam"
-				]
-			},
-			{
-				"name": "Fan 2",
-				"file": [
-					"Penon Fan 2 Foam"
-				],
-				"suffix": [
-					"Foam"
 				]
 			}
 		]
