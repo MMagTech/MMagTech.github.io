@@ -1,338 +1,338 @@
 [
-  {
-    "name" : "64 Audio",
-    "phones" : [
-      {
-        "file" : [
-          "64 Audio U4s mX Foam",
-          "64 Audio U4s m12 Foam",
-          "64 Audio U4s m15 Foam",
-          "64 Audio U4s m20 Foam"
-        ],
-        "name" : "U4s",
-        "suffix" : [
-          "mX (Foam)",
-          "m12 (Foam)",
-          "m15 (Foam)",
-          "m20 (Foam)"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "7Hz",
-    "phones" : [
-      {
-        "file" : [
-          "7Hz Legato Foam",
-          "7Hz Legato SF W1",
-          "7Hz Legato Stock Silicon"
-        ],
-        "name" : "Legato",
-        "suffix" : [
-          "Foam",
-          "SF W1",
-          "Stock Silicon"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "DUNU",
-    "phones" : [
-      {
-        "file" : [
-          "DUNU SA6 Ultra Bass Foam",
-          "DUNU SA6 Ultra Foam"
-        ],
-        "name" : "SA6 Ultra",
-        "suffix" : [
-          "-switch: off- (Foam)",
-          "-switch: on- (Foam)"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Elysian",
-    "phones" : [
-      {
-        "file" : [
-          "Elysian Diva - Blue - Foam",
-          "Elysian Diva - Red - Foam",
-          "Elysian Diva - Yellow - Foam",
-          "Elysian Diva - 250m - Blue Foam",
-          "Elysian Diva - 250m - Red Foam",
-          "Elysian Diva - 250m - Yellow Foam"
-        ],
-        "name" : "Diva",
-        "suffix" : [
-          "- Blue - (Foam)",
-          "- Red - (Foam)",
-          "- Yellow - (Foam)",
-          "- 250m - Blue (Foam)",
-          "- 250m - Red (Foam)",
-          "- 250m - Yellow (Foam)"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "ISN",
-    "phones" : [
-      {
-        "file" : [
-          "ISN EST50 Foam",
-          "ISN EST50 SF W1"
-        ],
-        "name" : "EST50",
-        "suffix" : [
-          "Foam",
-          "SF W1"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Juzear",
-    "phones" : [
-      {
-        "name" : "41t",
-        "file" : [
-          "Juzear 41t Foam"
-        ],
-        "suffix" : [
-          "Foam"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "KBear",
-    "phones" : [
-      {
-        "file" : [
-          "KBear Rosefinch - n.HDF - Silicon",
-          "KBear Rosefinch - n.HDF v.Dual - Silicon"
-        ],
-        "name" : "Rosefinch",
-        "suffix" : [
-          "- n.HDF - (Silicon)",
-          "- n.HDF v.Dual - (Silicon)"
-        ]
-      },
-      {
-        "file" : [
-          "KBear Aurora - stock - Foam",
-          "KBear Aurora - v.Top Taped - Foam",
-          "KBear Aurora - v.Top Taped n.Olina - Foam"
-        ],
-        "name" : "Aurora",
-        "suffix" : [
-          "- stock - (Foam)",
-          "- v.Top Taped - (Foam)",
-          "- v.Top Taped n.Olina - (Foam)"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Sennheiser",
-    "phones" : [
-      {
-        "file" : [
-          "Sennheiser IE600 - o-ring - Foam",
-          "Sennheiser IE600 - no o-ring - Foam"
-        ],
-        "name" : "IE600",
-        "suffix" : [
-          "- o-ring - (Foam)",
-          "- no o-ring - (Foam)"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Simgot",
-    "phones" : [
-      {
-        "file" : [
-          "Simgot EA500 - n.Red Stock - Foam",
-          "Simgot EA500 - n.Red Dual L-HDF - Foam",
-          "Simgot EA500 - n.Black m.Olina - Foam"
-        ],
-        "name" : "EA500",
-        "suffix" : [
-          "- n.Red Stock - (Foam)",
-          "- n.Red Dual L-HDF - (Foam)",
-          "- n.Black m.Olina - (Foam)"
-        ]
-      },
-      {
-        "file" : [
-          "Simgot EN1000 - stock - Foam",
-          "Simgot EN1000 - n.Olina - Foam"
-        ],
-        "name" : "EN1000",
-        "suffix" : [
-          "- stock - (Foam)",
-          "- n.Olina - (Foam)"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Softears",
-    "phones" : [
-      {
-        "name" : "RSV",
-        "file" : [
-          "Softears RSV Foam"
-        ],
-        "suffix" : [
-          "Foam"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Sound Rhyme",
-    "phones" : [
-      {
-        "file" : [
-          "Sound Rhyme DTE500 FA Type E",
-          "Sound Rhyme DTE500 Foam",
-          "Sound Rhyme DTE500 SF W1"
-        ],
-        "name" : "DTE500",
-        "suffix" : [
-          "FA Type E",
-          "Foam",
-          "SF W1"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Symphonium Audio",
-    "phones" : [
-      {
-        "name" : "Meteor",
-        "file" : [
-          "Symphonium Audio Meteor Foam"
-        ],
-        "suffix" : [
-          "Foam"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "TinHiFi",
-    "phones" : [
-      {
-        "name" : "P1 Max",
-        "file" : [
-          "TinHiFi P1 Max Foam"
-        ],
-        "suffix" : [
-          "Foam"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "TRN",
-    "phones" : [
-      {
-        "file" : [
-          "TRN I3 Foam"
-        ],
-        "name" : "I3",
-        "suffix" : [
-          "Foam"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Unique Melody",
-    "phones" : [
-      {
-        "file" : [
-          "Unique Melody MEST MKII FA Type E",
-          "Unique Melody MEST MKII Foam"
-        ],
-        "name" : "MEST MKII",
-        "suffix" : [
-          "FA Type E",
-          "Foam"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "XENNS",
-    "phones" : [
-      {
-        "file" : [
-          "XENNS Tea Foam",
-          "XENNS Tea SF CP155"
-        ],
-        "name" : "Tea",
-        "suffix" : [
-          "Foam",
-          "SF CP155"
-        ]
-      },
-      {
-        "name" : "UP",
-        "file" : [
-          "XENNS UP SF W1"
-        ],
-        "suffix" : [
-          "SF W1"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Yanyin",
-    "phones" : [
-      {
-        "file" : [
-          "Yanyin X HBB Mahina Foam",
-          "Yanyin X HBB Mahina FA Type E"
-        ],
-        "name" : "X HBB Mahina",
-        "suffix" : [
-          "Foam",
-          "FA Type E"
-        ]
-      }
-    ]
-  },
-  {
-    "name" : "Penon",
-    "phones" : [
-      {
-        "name" : "Serial",
-        "file" : [
-          "Penon Serial Foam"
-        ],
-        "suffix" : [
-          "Foam"
-        ]
-      },
-      {
-        "name" : "Fan 2",
-        "file" : [
-          "Penon Fan 2 Foam"
-        ],
-        "suffix" : [
-          "Foam"
-        ]
-      }
-    ]
-  }
+	{
+		"name": "64 Audio",
+		"phones": [
+			{
+				"file": [
+					"64 Audio U4s mX Foam",
+					"64 Audio U4s m12 Foam",
+					"64 Audio U4s m15 Foam",
+					"64 Audio U4s m20 Foam"
+				],
+				"name": "U4s",
+				"suffix": [
+					"mX (Foam)",
+					"m12 (Foam)",
+					"m15 (Foam)",
+					"m20 (Foam)"
+				]
+			}
+		]
+	},
+	{
+		"name": "7Hz",
+		"phones": [
+			{
+				"file": [
+					"7Hz Legato Foam",
+					"7Hz Legato SF W1",
+					"7Hz Legato Stock Silicon"
+				],
+				"name": "Legato",
+				"suffix": [
+					"Foam",
+					"SF W1",
+					"Stock Silicon"
+				]
+			}
+		]
+	},
+	{
+		"name": "DUNU",
+		"phones": [
+			{
+				"file": [
+					"DUNU SA6 Ultra Bass Foam",
+					"DUNU SA6 Ultra Foam"
+				],
+				"name": "SA6 Ultra",
+				"suffix": [
+					"-switch: off- (Foam)",
+					"-switch: on- (Foam)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Elysian",
+		"phones": [
+			{
+				"file": [
+					"Elysian Diva - Blue - Foam",
+					"Elysian Diva - Red - Foam",
+					"Elysian Diva - Yellow - Foam",
+					"Elysian Diva - 250m - Blue Foam",
+					"Elysian Diva - 250m - Red Foam",
+					"Elysian Diva - 250m - Yellow Foam"
+				],
+				"name": "Diva",
+				"suffix": [
+					"- Blue - (Foam)",
+					"- Red - (Foam)",
+					"- Yellow - (Foam)",
+					"- 250m - Blue (Foam)",
+					"- 250m - Red (Foam)",
+					"- 250m - Yellow (Foam)"
+				]
+			}
+		]
+	},
+	{
+		"name": "ISN",
+		"phones": [
+			{
+				"file": [
+					"ISN EST50 Foam",
+					"ISN EST50 SF W1"
+				],
+				"name": "EST50",
+				"suffix": [
+					"Foam",
+					"SF W1"
+				]
+			}
+		]
+	},
+	{
+		"name": "Juzear",
+		"phones": [
+			{
+				"name": "41t",
+				"file": [
+					"Juzear 41t Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
+		"name": "KBear",
+		"phones": [
+			{
+				"file": [
+					"KBear Rosefinch - n.HDF - Silicon",
+					"KBear Rosefinch - n.HDF v.Dual - Silicon"
+				],
+				"name": "Rosefinch",
+				"suffix": [
+					"- n.HDF - (Silicon)",
+					"- n.HDF v.Dual - (Silicon)"
+				]
+			},
+			{
+				"file": [
+					"KBear Aurora - stock - Foam",
+					"KBear Aurora - v.Top Taped - Foam",
+					"KBear Aurora - v.Top Taped n.Olina - Foam"
+				],
+				"name": "Aurora",
+				"suffix": [
+					"- stock - (Foam)",
+					"- v.Top Taped - (Foam)",
+					"- v.Top Taped n.Olina - (Foam)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sennheiser",
+		"phones": [
+			{
+				"file": [
+					"Sennheiser IE600 - o-ring - Foam",
+					"Sennheiser IE600 - no o-ring - Foam"
+				],
+				"name": "IE600",
+				"suffix": [
+					"- o-ring - (Foam)",
+					"- no o-ring - (Foam)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Simgot",
+		"phones": [
+			{
+				"file": [
+					"Simgot EA500 - n.Red Stock - Foam",
+					"Simgot EA500 - n.Red Dual L-HDF - Foam",
+					"Simgot EA500 - n.Black m.Olina - Foam"
+				],
+				"name": "EA500",
+				"suffix": [
+					"- n.Red Stock - (Foam)",
+					"- n.Red Dual L-HDF - (Foam)",
+					"- n.Black m.Olina - (Foam)"
+				]
+			},
+			{
+				"file": [
+					"Simgot EN1000 - stock - Foam",
+					"Simgot EN1000 - n.Olina - Foam"
+				],
+				"name": "EN1000",
+				"suffix": [
+					"- stock - (Foam)",
+					"- n.Olina - (Foam)"
+				]
+			}
+		]
+	},
+	{
+		"name": "Softears",
+		"phones": [
+			{
+				"name": "RSV",
+				"file": [
+					"Softears RSV Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
+		"name": "Sound Rhyme",
+		"phones": [
+			{
+				"file": [
+					"Sound Rhyme DTE500 FA Type E",
+					"Sound Rhyme DTE500 Foam",
+					"Sound Rhyme DTE500 SF W1"
+				],
+				"name": "DTE500",
+				"suffix": [
+					"FA Type E",
+					"Foam",
+					"SF W1"
+				]
+			}
+		]
+	},
+	{
+		"name": "Symphonium Audio",
+		"phones": [
+			{
+				"name": "Meteor",
+				"file": [
+					"Symphonium Audio Meteor Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
+		"name": "TinHiFi",
+		"phones": [
+			{
+				"name": "P1 Max",
+				"file": [
+					"TinHiFi P1 Max Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
+		"name": "TRN",
+		"phones": [
+			{
+				"file": [
+					"TRN I3 Foam"
+				],
+				"name": "I3",
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
+		"name": "Unique Melody",
+		"phones": [
+			{
+				"file": [
+					"Unique Melody MEST MKII FA Type E",
+					"Unique Melody MEST MKII Foam"
+				],
+				"name": "MEST MKII",
+				"suffix": [
+					"FA Type E",
+					"Foam"
+				]
+			}
+		]
+	},
+	{
+		"name": "XENNS",
+		"phones": [
+			{
+				"file": [
+					"XENNS Tea Foam",
+					"XENNS Tea SF CP155"
+				],
+				"name": "Tea",
+				"suffix": [
+					"Foam",
+					"SF CP155"
+				]
+			},
+			{
+				"name": "UP",
+				"file": [
+					"XENNS UP SF W1"
+				],
+				"suffix": [
+					"SF W1"
+				]
+			}
+		]
+	},
+	{
+		"name": "Yanyin",
+		"phones": [
+			{
+				"file": [
+					"Yanyin X HBB Mahina Foam",
+					"Yanyin X HBB Mahina FA Type E"
+				],
+				"name": "X HBB Mahina",
+				"suffix": [
+					"Foam",
+					"FA Type E"
+				]
+			}
+		]
+	},
+	{
+		"name": "Penon",
+		"phones": [
+			{
+				"name": "Serial",
+				"file": [
+					"Penon Serial Foam"
+				],
+				"suffix": [
+					"- n.No Filter - Foam"
+				]
+			},
+			{
+				"name": "Fan 2",
+				"file": [
+					"Penon Fan 2 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	}
 ]
