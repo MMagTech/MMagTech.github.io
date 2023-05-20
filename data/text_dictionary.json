@@ -38,6 +38,20 @@
 		]
 	},
 	{
+		"name": "Blon",
+		"phones": [
+			{
+				"file": [
+					"Blon X HBB Z300 Foam"
+				],
+				"name": "X HBB Z300",
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "DUNU",
 		"phones": [
 			{
