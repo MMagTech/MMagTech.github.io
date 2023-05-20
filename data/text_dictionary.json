@@ -348,6 +348,21 @@
 					"Foam",
 					"FA Type E"
 				]
+			},
+			{
+				"name": "Canon",
+				"file": [
+					"Yanyin Canon 000 Foam",
+					"Yanyin Canon 100 Foam",
+					"Yanyin Canon 010 Foam",
+					"Yanyin Canon 001 Foam"
+				],
+				"suffix": [
+					"s.000 - (Foam)",
+					"s.100 - (Foam)",
+					"s.010 - (Foam)",
+					"s.001 - (Foam)"
+				]
 			}
 		]
 	}
