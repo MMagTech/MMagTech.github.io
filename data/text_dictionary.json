@@ -39,13 +39,13 @@
 	},
 	{
 		"name": "Blon",
-		"collab": "HBB",
 		"phones": [
 			{
 				"file": [
 					"Blon X HBB Z300 Foam"
 				],
 				"name": "X HBB Z300",
+				"collab": "HBB",
 				"suffix": [
 					"Foam"
 				]
@@ -336,7 +336,6 @@
 	},
 	{
 		"name": "Yanyin",
-		"collab": "HBB",
 		"phones": [
 			{
 				"file": [
@@ -344,6 +343,7 @@
 					"Yanyin X HBB Mahina FA Type E"
 				],
 				"name": "X HBB Mahina",
+				"collab": "HBB",
 				"suffix": [
 					"Foam",
 					"FA Type E"
