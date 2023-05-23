@@ -169,12 +169,12 @@
 		"name": "Penon",
 		"phones": [
 			{
-				"name": "Serial",
+				"name": "10th Anniversary",
 				"file": [
-					"Penon Serial - n.No Filter - Foam"
+					"Penon 10th Anniversary Foam"
 				],
 				"suffix": [
-					"- n.No Filter - (Foam)"
+					"Foam"
 				]
 			},
 			{
@@ -184,6 +184,15 @@
 				],
 				"suffix": [
 					"Foam"
+				]
+			},
+			{
+				"name": "Serial",
+				"file": [
+					"Penon Serial - n.No Filter - Foam"
+				],
+				"suffix": [
+					"- n.No Filter - (Foam)"
 				]
 			}
 		]
