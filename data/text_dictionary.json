@@ -317,10 +317,13 @@
 			{
 				"name": "P1",
 				"file": [
+					"TinHiFi P1 Deep Foam",
 					"TinHiFi P1 Shallow Foam"
+					
 				],
 				"suffix": [
-					"Shallow Foam"
+					"Deep Fit (Foam)",
+					"Shallow Fit (Foam)"
 				]
 			}
 		]
