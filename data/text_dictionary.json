@@ -306,6 +306,17 @@
 				]
 			},
 			{
+				"name": "P1",
+				"file": [
+					"TinHiFi P1 Deep Fit Foam",
+					"TinHiFi P1 Shallow Fit Foam"
+				],
+				"suffix": [
+					"Deep Fit Foam",
+					"Shallow Fit Foam"
+				]
+			},
+			{
 				"name": "P1 Max",
 				"file": [
 					"TinHiFi P1 Max Foam"
