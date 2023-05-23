@@ -297,15 +297,6 @@
 		"name": "TinHiFi",
 		"phones": [
 			{
-				"name": "P1 Max",
-				"file": [
-					"TinHiFi P1 Max Foam"
-				],
-				"suffix": [
-					"Foam"
-				]
-			},
-			{
 				"name": "C2",
 				"file": [
 					"TinHiFi C2 Foam"
@@ -324,6 +315,15 @@
 				"suffix": [
 					"Deep Fit (Foam)",
 					"Shallow Fit (Foam)"
+				]
+			},
+			{
+				"name": "P1 Max",
+				"file": [
+					"TinHiFi P1 Max Foam"
+				],
+				"suffix": [
+					"Foam"
 				]
 			}
 		]
