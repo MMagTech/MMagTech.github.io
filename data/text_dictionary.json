@@ -152,6 +152,20 @@
 		]
 	},
 	{
+		"name": "NF Audio",
+		"phones": [
+			{
+				"name": "NM2",
+				"file": [
+					"NF Audio NM2 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Penon",
 		"phones": [
 			{
@@ -258,20 +272,6 @@
 				"name": "Meteor",
 				"file": [
 					"Symphonium Audio Meteor Foam"
-				],
-				"suffix": [
-					"Foam"
-				]
-			}
-		]
-	},
-	{
-		"name": "TANGZU",
-		"phones": [
-			{
-				"name": "Wan’er",
-				"file": [
-					"TANGZU Wan’er Foam"
 				],
 				"suffix": [
 					"Foam"
@@ -394,6 +394,20 @@
 					"s.100 - (Foam)",
 					"s.010 - (Foam)",
 					"s.001 - (Foam)"
+				]
+			}
+		]
+	},
+	{
+		"name": "TANGZU",
+		"phones": [
+			{
+				"name": "Wan’er",
+				"file": [
+					"TANGZU Wan’er Foam"
+				],
+				"suffix": [
+					"Foam"
 				]
 			}
 		]
