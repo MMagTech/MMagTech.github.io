@@ -166,6 +166,20 @@
 		]
 	},
 	{
+		"name": "NS Audio",
+		"phones": [
+			{
+				"name": "NS-2 Composer",
+				"file": [
+					"NS Audio NS-2 Composer"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Penon",
 		"phones": [
 			{
