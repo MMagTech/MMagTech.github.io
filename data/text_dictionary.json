@@ -189,6 +189,20 @@
 		]
 	},
 	{
+		"name": "QKZ",
+		"phones": [
+			{
+				"file": [
+					"QKZ X HBB Foam"
+				],
+				"collab": "HBB",
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Sennheiser",
 		"phones": [
 			{
