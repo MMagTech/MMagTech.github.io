@@ -290,6 +290,15 @@
 		"phones": [
 			{
 				"file": [
+					"Sound Rhyme SR5 Foam"
+				],
+				"name": "SR5",
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
+				"file": [
 					"Sound Rhyme DTE500 FA Type E",
 					"Sound Rhyme DTE500 Foam",
 					"Sound Rhyme DTE500 SF W1"
