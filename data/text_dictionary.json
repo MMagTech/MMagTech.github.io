@@ -306,6 +306,17 @@
 		"name": "Symphonium Audio",
 		"phones": [
 			{
+				"name": "Helios SE",
+				"collab": "Elysian"
+				
+				"file": [
+					"Symphonium Audio Helios SE Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
 				"name": "Meteor",
 				"file": [
 					"Symphonium Audio Meteor Foam"
