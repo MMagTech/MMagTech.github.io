@@ -218,6 +218,7 @@
 				"file": [
 					"QKZ X HBB Foam"
 				],
+				"name": "",
 				"collab": "HBB",
 				"suffix": [
 					"Foam"
@@ -303,11 +304,11 @@
 		]
 	},
 	{
-		"name": "Symphonium Audio",
+		"name": "Symphonium",
 		"phones": [
 			{
 				"name": "Helios SE",
-				"collab": "Elysian",
+				"collab": "Elise Audio",
 				"file": [
 					"Symphonium Audio Helios SE Foam"
 				],
