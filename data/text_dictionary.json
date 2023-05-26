@@ -152,6 +152,20 @@
 		]
 	},
 	{
+		"name": "Moondrop",
+		"phones": [
+			{
+				"name": "LAN",
+				"file": [
+					"Moondrop LAN Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "NF Audio",
 		"phones": [
 			{
