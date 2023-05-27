@@ -93,6 +93,29 @@
 		]
 	},
 	{
+		"name": "GS Audio",
+		"phones": [
+			{
+				"name": "ST8B",
+				"file": [
+					"GS Audio ST8B Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
+				"name": "GT12X",
+				"file": [
+					"GS Audio GT12X Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "ISN",
 		"phones": [
 			{
