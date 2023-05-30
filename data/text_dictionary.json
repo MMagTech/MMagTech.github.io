@@ -333,6 +333,22 @@
 		]
 	},
 	{
+		"name": "Sony",
+		"phones": [
+			{
+				"file": [
+					"Sony MDR-EX800ST Stock Foam",
+					"Sony MDR-EX800ST TV Foam"
+				],
+				"name": "MDR-EX800ST",
+				"suffix": [
+					"v.Stock (Foam)",
+					"v.Taped (Foam)"
+				]
+			}
+		]
+	},
+	{
 		"name": "Sound Rhyme",
 		"phones": [
 			{
