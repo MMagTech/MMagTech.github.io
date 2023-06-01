@@ -434,6 +434,21 @@
 		]
 	},
 	{
+		"name": "Tripowin",
+		"phones": [
+			{
+				"file": [
+					"Tripowin Olina SE Foam"
+				],
+				"name": "Olina SE",
+				"collab": "HBB",
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "TRN",
 		"phones": [
 			{
