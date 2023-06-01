@@ -290,6 +290,20 @@
 		]
 	},
 	{
+		"name": "SGOR",
+		"phones": [
+			{
+				"file": [
+					"SGOR Venus Foam"
+				],
+				"name": "Venus",
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Simgot",
 		"phones": [
 			{
