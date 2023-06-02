@@ -175,6 +175,20 @@
 		]
 	},
 	{
+		"name": "Kinera",
+		"phones": [
+			{
+				"name": "Celest Gumiho",
+				"file": [
+					"Kinera Celest Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Moondrop",
 		"phones": [
 			{
