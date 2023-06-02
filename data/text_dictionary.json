@@ -467,6 +467,15 @@
 				"suffix": [
 					"Foam"
 				]
+			},
+			{
+				"name": "T2 Plus",
+				"file": [
+					"TinHiFi T2 Plus Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
 			}
 		]
 	},
