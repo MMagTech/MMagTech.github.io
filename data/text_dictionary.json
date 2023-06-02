@@ -359,7 +359,16 @@
 					"v.Stock (Foam)",
 					"v.Taped (Foam)"
 				]
-			}
+			},
+			{
+				"file": [
+					"Sony XBA-N3 Foam"
+				],
+				"name": "XBA-N3",
+				"suffix": [
+					"Foam"
+				]
+			},
 		]
 	},
 	{
