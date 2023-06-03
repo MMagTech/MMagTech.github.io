@@ -248,12 +248,10 @@
 					"Penon Fan 2 S1 Foam",
 					"Penon Fan 2 S2 Foam"
 				],
-				"prefix": [
-					"Fan 2",
-				],				
+				]			
 				"suffix": [
-					"Foam",
-					"Foam"
+					"Foam(S1)",
+					"Foam (S2)"
 				]
 			},
 			{
