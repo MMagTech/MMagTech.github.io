@@ -321,6 +321,20 @@
 		]
 	},
 	{
+		"name": "Shortbus",
+		"phones": [
+			{
+				"file": [
+					"Shortbus Glamdring Foam"
+				],
+				"name": "Glamdring",
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Simgot",
 		"phones": [
 			{
