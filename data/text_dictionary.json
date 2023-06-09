@@ -564,6 +564,15 @@
 				]
 			},
 			{
+				"file": [
+					"XENNS Top Foam"
+				],
+				"name": "Top",
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
 				"name": "UP",
 				"file": [
 					"XENNS UP SF W1"
