@@ -38,6 +38,22 @@
 		]
 	},
 	{
+		"name": "Aur Audio",
+		"phones": [
+			{
+				"file": [
+					"Aur Audio Neon Pro Bass Foam",
+					"Aur Audio Neon Pro Foam"
+				],
+				"name": "Neon Pro",
+				"suffix": [
+					"Bass (Foam)",
+					"(Foam)"
+				]
+			}
+		]
+	},
+	{
 		"name": "Blon",
 		"phones": [
 			{
