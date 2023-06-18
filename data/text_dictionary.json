@@ -492,6 +492,20 @@
 		]
 	},
 	{
+		"name": "TANGZU",
+		"phones": [
+			{
+				"name": "Wan’er",
+				"file": [
+					"TANGZU Wan’er Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "ThieAudio",
 		"phones": [
 			{
@@ -600,6 +614,20 @@
 		]
 	},
 	{
+		"name": "Whizzer",
+		"phones": [
+			{
+				"name": "BS1",
+				"file": [
+					"Whizzer BS1 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "XENNS",
 		"phones": [
 			{
@@ -661,34 +689,6 @@
 					"s.100 - (Foam)",
 					"s.010 - (Foam)",
 					"s.001 - (Foam)"
-				]
-			}
-		]
-	},
-	{
-		"name": "TANGZU",
-		"phones": [
-			{
-				"name": "Wan’er",
-				"file": [
-					"TANGZU Wan’er Foam"
-				],
-				"suffix": [
-					"Foam"
-				]
-			}
-		]
-	},
-	{
-		"name": "Whizzer",
-		"phones": [
-			{
-				"name": "BS1",
-				"file": [
-					"Whizzer BS1 Foam"
-				],
-				"suffix": [
-					"Foam"
 				]
 			}
 		]
