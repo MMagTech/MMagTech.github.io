@@ -118,6 +118,20 @@
 		]
 	},
 	{
+		"name": "FiiO",
+		"phones": [
+			{
+				"name": "FD11",
+				"file": [
+					"FiiO FD11 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},	
+	{
 		"name": "GS Audio",
 		"phones": [
 			{
