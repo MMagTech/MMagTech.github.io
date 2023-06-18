@@ -678,5 +678,19 @@
 				]
 			}
 		]
+	},
+	{
+		"name": "Whizzer",
+		"phones": [
+			{
+				"name": "BS1",
+				"file": [
+					"Whizzer BS1 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
 	}
 ]
