@@ -478,6 +478,26 @@
 		]
 	},
 	{
+		"name": "ThieAudio",
+		"phones": [
+			{
+				"file": [
+					"ThieAudio Legacy 3 00 Foam",
+					"ThieAudio Legacy 3 01 Foam",
+					"ThieAudio Legacy 3 10 Foam",
+					"ThieAudio Legacy 3 11 Foam"
+				],
+				"name": "Legacy 3",
+				"suffix": [
+					"s.00 - (Foam)",
+					"s.01 - (Foam)",
+					"s.10 - (Foam)",
+					"s.11 - (Foam)"
+				]
+			}
+		]
+	},
+	{
 		"name": "TinHiFi",
 		"phones": [
 			{
