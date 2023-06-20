@@ -596,6 +596,23 @@
 				]
 			}
 		]
+	},	
+	{
+		"name": "TruthEar",
+		"phones": [
+			{
+				"file": [
+					"TruthEar ZERO RED 10 Ohm Foam",
+					"TruthEar ZERO RED Stock Foam"
+				],
+				"name": "ZERO RED",
+				"collab": "Crinacle",
+				"suffix": [
+					"10 Ohm (Foam)",
+					"Stock (Foam)"
+				]
+			}
+		]
 	},
 	{
 		"name": "Unique Melody",
