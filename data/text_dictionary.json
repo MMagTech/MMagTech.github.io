@@ -189,17 +189,6 @@
 		"phones": [
 			{
 				"file": [
-					"KBear Rosefinch - n.HDF - Silicon",
-					"KBear Rosefinch - n.HDF v.Dual - Silicon"
-				],
-				"name": "Rosefinch",
-				"suffix": [
-					"- n.HDF - (Silicon)",
-					"- n.HDF v.Dual - (Silicon)"
-				]
-			},
-			{
-				"file": [
 					"KBear Aurora - stock - Foam",
 					"KBear Aurora - v.Top Taped - Foam",
 					"KBear Aurora - v.Top Taped n.Olina - Foam"
@@ -209,6 +198,26 @@
 					"- stock - (Foam)",
 					"- v.Top Taped - (Foam)",
 					"- v.Top Taped n.Olina - (Foam)"
+				]
+			},
+			{
+				"name": "Ormosia",
+				"file": [
+					"KBear Ormosia Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
+				"file": [
+					"KBear Rosefinch - n.HDF - Silicon",
+					"KBear Rosefinch - n.HDF v.Dual - Silicon"
+				],
+				"name": "Rosefinch",
+				"suffix": [
+					"- n.HDF - (Silicon)",
+					"- n.HDF v.Dual - (Silicon)"
 				]
 			}
 		]
