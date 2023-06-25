@@ -673,7 +673,16 @@
 				"suffix": [
 					"Foam"
 				]
-			}
+			},
+			{
+				"name": "HE10",
+				"file": [
+					"Whizzer HE10 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}		
 		]
 	},
 	{
