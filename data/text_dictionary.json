@@ -78,6 +78,20 @@
 		]
 	},
 	{
+		"name": "CCA",
+		"phones": [
+			{
+				"name": "CRA",
+				"file": [
+					"CCA CRA Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "DUNU",
 		"phones": [
 			{
