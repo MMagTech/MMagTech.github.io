@@ -50,6 +50,15 @@
 					"Bass (Foam)",
 					"(Foam)"
 				]
+			},
+			{
+				"file": [
+					"Aur Audio Aurora Foam"
+				],
+				"name": "Aurora",
+				"suffix": [
+					"Foam"
+				]
 			}
 		]
 	},
