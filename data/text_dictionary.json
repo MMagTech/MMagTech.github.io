@@ -402,6 +402,15 @@
 	{
 		"name": "Shortbus",
 		"phones": [
+			{,
+				"file": [
+					"Shortbus Eru Foam"
+				],
+				"name": "Eru",
+				"suffix": [
+					"Foam"
+				]
+			},
 			{
 				"file": [
 					"Shortbus Glamdring Foam"
