@@ -127,6 +127,15 @@
 					"-switch: off- (Foam)",
 					"-switch: on- (Foam)"
 				]
+			},
+{
+				"file": [
+					"DUNU Kima Foam"
+				],
+				"name": "Kima",
+				"suffix": [
+					"Foam"
+				]
 			}
 		]
 	},
