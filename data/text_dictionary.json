@@ -38,6 +38,20 @@
 		]
 	},
 	{
+		"name": "7th Acoustics",
+		"phones": [
+			{
+				"file": [
+					"7th Acoustics Stargazer Foam"
+				],
+				"name": "Stargazer",
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Aur Audio",
 		"phones": [
 			{
