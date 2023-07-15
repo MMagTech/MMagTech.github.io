@@ -368,7 +368,16 @@
 				"suffix": [
 					"Foam"
 				]
+			},			{
+				"name": "Blessing 3",
+				"file": [
+					"Moondrop Blessing 3"
+				],
+				"suffix": [
+					"Foam"
+				]
 			}
+
 		]
 	},
 	{
