@@ -61,6 +61,20 @@
 		]
 	},
 	{
+		"name": "AFUL",
+		"phones": [
+			{
+				"name": "Performer5",
+				"file": [
+					"AFUL Performer5 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Aur Audio",
 		"phones": [
 			{
