@@ -239,6 +239,25 @@
 					"f.Purple Foam",
 					"f.Red Foam"
 				]
+			},
+			{
+				"name": "Ozar n.Purple",
+				"file": [
+					"IMR Ozar n.Purple f.Black Foam",
+					"IMR Ozar n.Purple f.Blue Foam",
+					"IMR Ozar n.Purple f.Green Foam",
+					"IMR Ozar n.Purple f.Orange Foam",
+					"IMR Ozar n.Purple f.Purple Foam",
+					"IMR Ozar n.Purple Red Foam"
+				],
+				"suffix": [
+					"f.Black Foam",
+					"f.Blue Foam",
+					"f.Green Foam",
+					"f.Orange Foam",
+					"f.Purple Foam",
+					"f.Red Foam"
+				]
 			}
 		]
 	},
