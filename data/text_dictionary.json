@@ -222,7 +222,7 @@
 		"name": "IMR",
 		"phones": [
 			{
-				"name": "Ozar",
+				"name": "Ozar n.Black",
 				"file": [
 					"IMR Ozar n.Black f.Black Foam",
 					"IMR Ozar n.Black f.Blue Foam",
@@ -232,12 +232,12 @@
 					"IMR Ozar n.Black f.Red Foam"
 				],
 				"suffix": [
-					"n.Black f.Black Foam",
-					"n.Black f.Blue Foam",
-					"n.Black f.Green Foam",
-					"n.Black f.Orange Foam",
-					"n.Black f.Pink Foam",
-					"n.Black f.Red Foam"
+					"f.Black Foam",
+					"f.Blue Foam",
+					"f.Green Foam",
+					"f.Orange Foam",
+					"f.Pink Foam",
+					"f.Red Foam"
 				]
 			}
 		]
