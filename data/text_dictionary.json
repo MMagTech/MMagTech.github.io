@@ -358,6 +358,20 @@
 		]
 	},
 	{
+		"name": "Letshuoer",
+		"phones": [
+			{
+				"name": "EJ07M",
+				"file": [
+					"Letshuoer EJ07M Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Moondrop",
 		"phones": [
 			{
