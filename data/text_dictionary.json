@@ -358,6 +358,35 @@
 		]
 	},
 	{
+		"name": "Kiwi Ears",
+		"phones": [
+			{
+				"name": "Dolce",
+				"file": [
+					"Kiwi Ears Dolce Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
+				"name": "Quartet",
+				"file": [
+					"Kiwi Ears Quartet s.00 Foam",
+					"Kiwi Ears Quartet s.01 Foam",
+					"Kiwi Ears Quartet s.10 Foam",
+					"Kiwi Ears Quartet s.11 Foam"
+				],
+				"suffix": [
+					"s.00 (Foam)",
+					"s.01 (Foam)",
+					"s.10 (Foam)",
+					"s.11 (Foam)"
+				]
+			}
+		]
+	},
+	{
 		"name": "Letshuoer",
 		"phones": [
 			{
