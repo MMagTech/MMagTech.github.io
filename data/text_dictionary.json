@@ -760,6 +760,26 @@
 		]
 	},
 	{
+		"name": "TRN",
+		"phones": [
+			{
+				"name": "Starsea",
+				"file": [
+					"TRI Starsea s.00 Foam",
+					"TRI Starsea s.01 Foam",
+					"TRI Starsea s.10 Foam",
+					"TRI Starsea s.11 Foam"
+				],
+				"suffix": [
+					"s.00 (Foam)",
+					"s.01 (Foam)",
+					"s.10 (Foam)",
+					"s.11 (Foam)"
+				]
+			}
+		]
+	},
+	{
 		"name": "Tripowin",
 		"phones": [
 			{
