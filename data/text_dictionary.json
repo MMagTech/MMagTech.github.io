@@ -233,6 +233,24 @@
 		]
 	},
 	{
+		"name": "Hidizs",
+		"phones": [
+			{
+				"name": "MS3",
+				"file": [
+					"Hidizs MS3 f.Gold Foam",
+					"Hidizs MS3 f.Red Foam",
+					"Hidizs MS3 f.Silver Foam"
+				],
+				"suffix": [
+					"f.Gold (Foam)",
+					"f.Red (Foam)",
+					"f.Silver (Foam)"
+				]
+			}
+		]
+	},
+	{
 		"name": "IMR",
 		"phones": [
 			{
