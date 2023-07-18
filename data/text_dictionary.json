@@ -414,6 +414,21 @@
 		]
 	},
 	{
+		"name": "KZ",
+		"phones": [
+			{
+				"name": "PR2",
+				"collab": "HBB",
+				"file": [
+					"KZ HBB PR2 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Letshuoer",
 		"phones": [
 			{
@@ -516,11 +531,11 @@
 		"name": "QKZ",
 		"phones": [
 			{
+				"name": "",
+				"collab": "HBB",
 				"file": [
 					"QKZ X HBB Foam"
 				],
-				"name": "",
-				"collab": "HBB",
 				"suffix": [
 					"Foam"
 				]
@@ -848,6 +863,16 @@
 	{
 		"name": "TRI",
 		"phones": [
+			{
+				"name": "Kai",
+				"collab": "HBB",
+				"file": [
+					"TRI HBB Kai Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
 			{
 				"name": "Starsea",
 				"file": [
