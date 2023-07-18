@@ -417,7 +417,7 @@
 		"name": "Letshuoer",
 		"phones": [
 			{
-				"name": "EJ07M",
+				"name": "EJ07M Resin",
 				"file": [
 					"Letshuoer EJ07M Foam"
 				],
@@ -543,16 +543,16 @@
 			{
 				"name": "Bridge f.Black",
 				"file": [
-					"Raptgo Bridge s.00 f.B Stock White R",
-					"Raptgo Bridge s.01 f.B Stock White R",
-					"Raptgo Bridge s.10 f.B Stock White R",
-					"Raptgo Bridge s.11 f.B Stock White R"
+					"Raptgo Bridge s.00 f.B Stock White",
+					"Raptgo Bridge s.01 f.B Stock White",
+					"Raptgo Bridge s.10 f.B Stock White",
+					"Raptgo Bridge s.11 f.B Stock White"
 				],
 				"suffix": [
-					"s.00 (Foam)",
-					"s.01 (Foam)",
-					"s.10 (Foam)",
-					"s.11 (Foam)"
+					"s.00 (White Silicon)",
+					"s.01 (White Silicon)",
+					"s.10 (White Silicon)",
+					"s.11 (Whatie Silicon)"
 				]
 			},
 			{
@@ -564,10 +564,10 @@
 					"Raptgo Bridge s.11 f.G Stock White"
 				],
 				"suffix": [
-					"s.00 (Foam)",
-					"s.01 (Foam)",
-					"s.10 (Foam)",
-					"s.11 (Foam)"
+					"s.00 (White Silicon)",
+					"s.01 (White Silicon)",
+					"s.10 (White Silicon)",
+					"s.11 (White Silicon)"
 				]
 			},
 			{
@@ -579,10 +579,10 @@
 					"Raptgo Bridge s.11 f.S Stock White"
 				],
 				"suffix": [
-					"s.00 (Foam)",
-					"s.01 (Foam)",
-					"s.10 (Foam)",
-					"s.11 (Foam)"
+					"s.00 (White Silicon)",
+					"s.01 (White Silicon)",
+					"s.10 (White Silicon)",
+					"s.11 (White Silicon)"
 				]
 			}
 		]
