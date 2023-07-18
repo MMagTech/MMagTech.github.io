@@ -379,6 +379,15 @@
 		"name": "Kiwi Ears",
 		"phones": [
 			{
+				"name": "Cadenza",
+				"file": [
+					"Kiwi Ears Cadenza Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
 				"name": "Dolce",
 				"file": [
 					"Kiwi Ears Dolce Foam"
@@ -528,6 +537,56 @@
 			}
 		]
 	},
+	{
+		"name": "Raptgo",
+		"phones": [
+			{
+				"name": "Bridge f.Black",
+				"file": [
+					"Raptgo Bridge s.00 f.B Stock White R",
+					"Raptgo Bridge s.01 f.B Stock White R",
+					"Raptgo Bridge s.10 f.B Stock White R",
+					"Raptgo Bridge s.11 f.B Stock White R"
+				],
+				"suffix": [
+					"s.00 (Foam)",
+					"s.01 (Foam)",
+					"s.10 (Foam)",
+					"s.11 (Foam)"
+				]
+			},
+			{
+				"name": "Bridge f.Gold",
+				"file": [
+					"Raptgo Bridge s.00 f.G Stock White",
+					"Raptgo Bridge s.01 f.G Stock White",
+					"Raptgo Bridge s.10 f.G Stock White",
+					"Raptgo Bridge s.11 f.G Stock White"
+				],
+				"suffix": [
+					"s.00 (Foam)",
+					"s.01 (Foam)",
+					"s.10 (Foam)",
+					"s.11 (Foam)"
+				]
+			},
+			{
+				"name": "Bridge f.Silver",
+				"file": [
+					"Raptgo Bridge s.00 f.S Stock White",
+					"Raptgo Bridge s.01 f.S Stock White",
+					"Raptgo Bridge s.10 f.S Stock White",
+					"Raptgo Bridge s.11 f.S Stock White"
+				],
+				"suffix": [
+					"s.00 (Foam)",
+					"s.01 (Foam)",
+					"s.10 (Foam)",
+					"s.11 (Foam)"
+				]
+			}
+		]
+	},		
 	{
 		"name": "Sennheiser",
 		"phones": [
