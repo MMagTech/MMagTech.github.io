@@ -349,6 +349,15 @@
 				]
 			},
 			{
+				"name": "Pecker",
+				"file": [
+					"KBear Pecker Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
 				"name": "Rosefinch",
 				"file": [
 					"KBear Rosefinch - n.HDF - Silicon",
@@ -421,6 +430,15 @@
 				"collab": "HBB",
 				"file": [
 					"KZ HBB PR2 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
+				"name": "EDXS",
+				"file": [
+					"KZ EDXS Foam"
 				],
 				"suffix": [
 					"Foam"
@@ -659,27 +677,36 @@
 		"name": "Simgot",
 		"phones": [
 			{
+				"name": "EA500",
 				"file": [
 					"Simgot EA500 - n.Red Stock - Foam",
 					"Simgot EA500 - n.Red Dual L-HDF - Foam",
 					"Simgot EA500 - n.Black m.Olina - Foam"
 				],
-				"name": "EA500",
 				"suffix": [
 					"- n.Red Stock - (Foam)",
 					"- n.Red Dual L-HDF - (Foam)",
 					"- n.Black m.Olina - (Foam)"
 				]
 			},
-			{
+			
+				"name": "EN1000",
 				"file": [
 					"Simgot EN1000 - stock - Foam",
 					"Simgot EN1000 - n.Olina - Foam"
 				],
-				"name": "EN1000",
 				"suffix": [
 					"- stock - (Foam)",
 					"- n.Olina - (Foam)"
+				]
+			},
+			{
+				"name": "EW100P",
+				"file": [
+					"Simgot EW100P Foam"
+				],
+				"suffix": [
+					"Foam"
 				]
 			}
 		]
@@ -894,15 +921,24 @@
 		"name": "Tripowin",
 		"phones": [
 			{
+				"name": "Olina SE",
+				"collab": "HBB",
 				"file": [
 					"Tripowin Olina SE Foam"
 				],
-				"name": "Olina SE",
-				"collab": "HBB",
 				"suffix": [
 					"Foam"
 				]
-			}
+			},
+			{
+				"name": "Piccolo",
+				"file": [
+					"Tripowin Piccolo Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}		
 		]
 	},
 	{
