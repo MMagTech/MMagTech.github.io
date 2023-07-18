@@ -3,13 +3,13 @@
 		"name": "64 Audio",
 		"phones": [
 			{
+				"name": "U4s",
 				"file": [
 					"64 Audio U4s mX Foam",
 					"64 Audio U4s m12 Foam",
 					"64 Audio U4s m15 Foam",
 					"64 Audio U4s m20 Foam"
 				],
-				"name": "U4s",
 				"suffix": [
 					"mX (Foam)",
 					"m12 (Foam)",
@@ -23,12 +23,12 @@
 		"name": "7Hz",
 		"phones": [
 			{
+				"name": "Legato",
 				"file": [
 					"7Hz Legato Foam",
 					"7Hz Legato SF W1",
 					"7Hz Legato Stock Silicon"
 				],
-				"name": "Legato",
 				"suffix": [
 					"Foam",
 					"SF W1",
@@ -41,19 +41,19 @@
 		"name": "7th Acoustics",
 		"phones": [
 			{
+				"name": "Stargazer",
 				"file": [
 					"7th Acoustics Stargazer Foam"
 				],
-				"name": "Stargazer",
 				"suffix": [
 					"Foam"
 				]
 			},
 			{
+				"name": "Supernova",
 				"file": [
 					"7th Acoustics Supernova Stock"
 				],
-				"name": "Supernova",
 				"suffix": [
 					"Stock"
 				]
@@ -78,21 +78,21 @@
 		"name": "Aur Audio",
 		"phones": [
 			{
+				"name": "Neon Pro",
 				"file": [
 					"Aur Audio Neon Pro Bass Foam",
 					"Aur Audio Neon Pro Foam"
 				],
-				"name": "Neon Pro",
 				"suffix": [
 					"Bass (Foam)",
 					"(Foam)"
 				]
 			},
 			{
+				"name": "Aurora",
 				"file": [
 					"Aur Audio Aurora Foam"
 				],
-				"name": "Aurora",
 				"suffix": [
 					"Foam"
 				]
@@ -103,20 +103,20 @@
 		"name": "Blon",
 		"phones": [
 			{
+				"name": "Z300",
+				"collab": "HBB",
 				"file": [
 					"Blon X HBB Z300 Foam"
 				],
-				"name": "Z300",
-				"collab": "HBB",
 				"suffix": [
 					"Foam"
 				]
 			},
 			{
 				"file": [
+					"name": "BL03",
 					"Blon BL03 Foam"
 				],
-				"name": "BL03",
 				"suffix": [
 					"Foam"
 				]
@@ -141,21 +141,21 @@
 		"name": "DUNU",
 		"phones": [
 			{
+				"name": "SA6 Ultra",
 				"file": [
 					"DUNU SA6 Ultra Bass Foam",
 					"DUNU SA6 Ultra Foam"
 				],
-				"name": "SA6 Ultra",
 				"suffix": [
 					"-switch: off- (Foam)",
 					"-switch: on- (Foam)"
 				]
 			},
-{
+			{
+				"name": "Kima",
 				"file": [
 					"DUNU Kima Foam"
 				],
-				"name": "Kima",
 				"suffix": [
 					"Foam"
 				]
@@ -166,6 +166,7 @@
 		"name": "Elysian",
 		"phones": [
 			{
+				"name": "Diva",
 				"file": [
 					"Elysian Diva - Blue - Foam",
 					"Elysian Diva - Red - Foam",
@@ -174,7 +175,6 @@
 					"Elysian Diva - 250m - Red Foam",
 					"Elysian Diva - 250m - Yellow Foam"
 				],
-				"name": "Diva",
 				"suffix": [
 					"- Blue - (Foam)",
 					"- Red - (Foam)",
@@ -297,11 +297,11 @@
 		"name": "ISN",
 		"phones": [
 			{
+				"name": "EST50",
 				"file": [
 					"ISN EST50 Foam",
 					"ISN EST50 SF W1"
 				],
-				"name": "EST50",
 				"suffix": [
 					"Foam",
 					"SF W1"
@@ -327,12 +327,12 @@
 		"name": "KBear",
 		"phones": [
 			{
+				"name": "Aurora",
 				"file": [
 					"KBear Aurora - stock - Foam",
 					"KBear Aurora - v.Top Taped - Foam",
 					"KBear Aurora - v.Top Taped n.Olina - Foam"
 				],
-				"name": "Aurora",
 				"suffix": [
 					"- stock - (Foam)",
 					"- v.Top Taped - (Foam)",
@@ -349,11 +349,11 @@
 				]
 			},
 			{
+				"name": "Rosefinch",
 				"file": [
 					"KBear Rosefinch - n.HDF - Silicon",
 					"KBear Rosefinch - n.HDF v.Dual - Silicon"
 				],
-				"name": "Rosefinch",
 				"suffix": [
 					"- n.HDF - (Silicon)",
 					"- n.HDF v.Dual - (Silicon)"
@@ -687,21 +687,30 @@
 		"name": "Sony",
 		"phones": [
 			{
+				"name": "MDR-EX800ST",
 				"file": [
 					"Sony MDR-EX800ST Stock Foam",
 					"Sony MDR-EX800ST TV Foam"
 				],
-				"name": "MDR-EX800ST",
 				"suffix": [
 					"v.Stock (Foam)",
 					"v.Taped (Foam)"
 				]
 			},
 			{
+				"name": "MH755",
+				"file": [
+					"Sony MH755 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},			
+			{
+				"name": "XBA-N3",
 				"file": [
 					"Sony XBA-N3 Foam"
 				],
-				"name": "XBA-N3",
 				"suffix": [
 					"Foam"
 				]
@@ -712,12 +721,12 @@
 		"name": "Sound Rhyme",
 		"phones": [
 			{
+				"name": "DTE500",
 				"file": [
 					"Sound Rhyme DTE500 FA Type E",
 					"Sound Rhyme DTE500 Foam",
 					"Sound Rhyme DTE500 SF W1"
 				],
-				"name": "DTE500",
 				"suffix": [
 					"FA Type E",
 					"Foam",
@@ -725,10 +734,10 @@
 				]
 			},
 			{
+				"name": "SR5",
 				"file": [
 					"Sound Rhyme SR5 Foam"
 				],
-				"name": "SR5",
 				"suffix": [
 					"Foam"
 				]
@@ -777,13 +786,13 @@
 		"name": "ThieAudio",
 		"phones": [
 			{
+				"name": "Legacy 3",
 				"file": [
 					"ThieAudio Legacy 3 00 Foam",
 					"ThieAudio Legacy 3 01 Foam",
 					"ThieAudio Legacy 3 10 Foam",
 					"ThieAudio Legacy 3 11 Foam"
 				],
-				"name": "Legacy 3",
 				"suffix": [
 					"s.00 - (Foam)",
 					"s.01 - (Foam)",
@@ -875,10 +884,10 @@
 		"name": "TRN",
 		"phones": [
 			{
+				"name": "I3",
 				"file": [
 					"TRN I3 Foam"
 				],
-				"name": "I3",
 				"suffix": [
 					"Foam"
 				]
@@ -889,12 +898,12 @@
 		"name": "TruthEar",
 		"phones": [
 			{
+				"name": "ZERO RED",
+				"collab": "Crinacle",
 				"file": [
 					"TruthEar ZERO RED 10 Ohm Foam",
 					"TruthEar ZERO RED Stock Foam"
 				],
-				"name": "ZERO RED",
-				"collab": "Crinacle",
 				"suffix": [
 					"10 Ohm (Foam)",
 					"Stock (Foam)"
@@ -906,11 +915,11 @@
 		"name": "Unique Melody",
 		"phones": [
 			{
+				"name": "MEST MKII",
 				"file": [
 					"Unique Melody MEST MKII FA Type E",
 					"Unique Melody MEST MKII Foam"
 				],
-				"name": "MEST MKII",
 				"suffix": [
 					"FA Type E",
 					"Foam"
@@ -945,21 +954,21 @@
 		"name": "XENNS",
 		"phones": [
 			{
+				"name": "Tea",
 				"file": [
 					"XENNS Tea Foam",
 					"XENNS Tea SF CP155"
 				],
-				"name": "Tea",
 				"suffix": [
 					"Foam",
 					"SF CP155"
 				]
 			},
 			{
+				"name": "Top",
 				"file": [
 					"XENNS Top Foam"
 				],
-				"name": "Top",
 				"suffix": [
 					"Foam"
 				]
@@ -979,12 +988,12 @@
 		"name": "Yanyin",
 		"phones": [
 			{
+				"name": "Mahina",
+				"collab": "HBB",
 				"file": [
 					"Yanyin X HBB Mahina Foam",
 					"Yanyin X HBB Mahina FA Type E"
 				],
-				"name": "Mahina",
-				"collab": "HBB",
 				"suffix": [
 					"Foam",
 					"FA Type E"
