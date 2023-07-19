@@ -672,19 +672,19 @@
 		"name": "Shortbus",
 		"phones": [
 			{
+				"name": "Eru",
 				"file": [
 					"Shortbus Eru Foam"
 				],
-				"name": "Eru",
 				"suffix": [
 					"Foam"
 				]
 			},
 			{
+				"name": "Glamdring",
 				"file": [
 					"Shortbus Glamdring Foam"
 				],
-				"name": "Glamdring",
 				"suffix": [
 					"Foam"
 				]
@@ -707,14 +707,15 @@
 					"- n.Black m.Olina - (Foam)"
 				]
 			},
+			{
 				"name": "EN1000",
 				"file": [
 					"Simgot EN1000 - stock - Foam",
 					"Simgot EN1000 - n.Olina - Foam"
 				],
 				"suffix": [
-					"- stock - (Foam)",
-					"- n.Olina - (Foam)"
+					"Foam",
+					"n. Olina (Foam)"
 				]
 			},
 			{
