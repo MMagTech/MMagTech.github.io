@@ -34,6 +34,15 @@
 					"SF W1",
 					"Stock Silicon"
 				]
+			},
+			{
+				"name": "Salnotes Zero",
+				"file": [
+					"7Hz Salnotes Zero Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
 			}
 		]
 	},
@@ -113,8 +122,8 @@
 				]
 			},
 			{
+				"name": "BL03",
 				"file": [
-					"name": "BL03",
 					"Blon BL03 Foam"
 				],
 				"suffix": [
@@ -367,6 +376,15 @@
 					"- n.HDF - (Silicon)",
 					"- n.HDF v.Dual - (Silicon)"
 				]
+			},
+			{
+				"name": "Storm",
+				"file": [
+					"KBear Storm Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
 			}
 		]
 	},
@@ -585,7 +603,7 @@
 					"s.00 (White Silicon)",
 					"s.01 (White Silicon)",
 					"s.10 (White Silicon)",
-					"s.11 (Whatie Silicon)"
+					"s.11 (White Silicon)"
 				]
 			},
 			{
@@ -689,7 +707,6 @@
 					"- n.Black m.Olina - (Foam)"
 				]
 			},
-			
 				"name": "EN1000",
 				"file": [
 					"Simgot EN1000 - stock - Foam",
