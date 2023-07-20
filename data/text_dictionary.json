@@ -735,6 +735,15 @@
 		"name": "Softears",
 		"phones": [
 			{
+				"name": "Twilight",
+				"file": [
+					"Softears Twilight Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
 				"name": "RSV",
 				"file": [
 					"Softears RSV Foam"
