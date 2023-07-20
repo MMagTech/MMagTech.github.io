@@ -370,11 +370,13 @@
 				"name": "Rosefinch",
 				"file": [
 					"KBear Rosefinch Silicon",
-					"KBear Rosefinch v.Micro Tape Silicon"
+					"KBear Rosefinch v.Micro Tape Silicon",
+					"KBear Rosefinch v.Tape n.250 Silicon"
 				],
 				"suffix": [
 					"Stock - (Silicon",
-					"v.MicroTape - (Silicon)"
+					"v.MicroTape - (Silicon)",
+					"v.MicroTape n.250 Mesh (Silicon)"
 				]
 			},
 			{
@@ -938,6 +940,16 @@
 	{
 		"name": "Tripowin",
 		"phones": [
+			{
+				"name": "Kailua",
+				"collab": "HBB",
+				"file": [
+					"Tripowin Kailua Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
 			{
 				"name": "Olina SE",
 				"collab": "HBB",
