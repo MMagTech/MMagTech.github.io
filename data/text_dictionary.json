@@ -282,6 +282,82 @@
 				]
 			},
 			{
+				"name": "Ozar n.Blue",
+				"file": [
+					"IMR Ozar n.Blue f.Black Foam",
+					"IMR Ozar n.Blue f.Blue Foam",
+					"IMR Ozar n.blue f.Gold Foam",
+					"IMR Ozar n.blue f.Green Foam",
+					"IMR Ozar n.Blue f.Purple Foam",
+					"IMR Ozar n.Blue Red Foam"
+				],
+				"suffix": [
+					"f.Black Foam",
+					"f.Blue Foam",
+					"f.Gold Foam",
+					"f.Green Foam",
+					"f.Purple Foam",
+					"f.Red Foam"
+				]
+			},
+			{
+				"name": "Ozar n.Gold",
+				"file": [
+					"IMR Ozar n.Gold f.Black Foam",
+					"IMR Ozar n.Gold f.Blue Foam",
+					"IMR Ozar n.Gold f.Gold Foam",
+					"IMR Ozar n.Gold f.Green Foam",
+					"IMR Ozar n.Gold f.Purple Foam",
+					"IMR Ozar n.Gold Red Foam"
+				],
+				"suffix": [
+					"f.Black Foam",
+					"f.Blue Foam",
+					"f.Gold Foam",
+					"f.Green Foam",
+					"f.Purple Foam",
+					"f.Red Foam"
+				]
+			},
+			{
+				"name": "Ozar n.Gray",
+				"file": [
+					"IMR Ozar n.Gray f.Black Foam",
+					"IMR Ozar n.Gray f.Blue Foam",
+					"IMR Ozar n.Gray f.Gold Foam",
+					"IMR Ozar n.Gray f.Green Foam",
+					"IMR Ozar n.Gray f.Purple Foam",
+					"IMR Ozar n.Gray Red Foam"
+				],
+				"suffix": [
+					"f.Black Foam",
+					"f.Blue Foam",
+					"f.Gold Foam",
+					"f.Green Foam",
+					"f.Purple Foam",
+					"f.Red Foam"
+				]
+			},
+			{
+				"name": "Ozar n.Green",
+				"file": [
+					"IMR Ozar n.Green f.Black Foam",
+					"IMR Ozar n.Green f.Blue Foam",
+					"IMR Ozar n.Green f.Gold Foam",
+					"IMR Ozar n.Green f.Green Foam",
+					"IMR Ozar n.Green f.Purple Foam",
+					"IMR Ozar n.Green Red Foam"
+				],
+				"suffix": [
+					"f.Black Foam",
+					"f.Blue Foam",
+					"f.Gold Foam",
+					"f.Green Foam",
+					"f.Purple Foam",
+					"f.Red Foam"
+				]
+			},
+			{
 				"name": "Ozar n.Purple",
 				"file": [
 					"IMR Ozar n.Purple f.Black Foam",
@@ -290,6 +366,44 @@
 					"IMR Ozar n.Purple f.Green Foam",
 					"IMR Ozar n.Purple f.Purple Foam",
 					"IMR Ozar n.Purple Red Foam"
+				],
+				"suffix": [
+					"f.Black Foam",
+					"f.Blue Foam",
+					"f.Gold Foam",
+					"f.Green Foam",
+					"f.Purple Foam",
+					"f.Red Foam"
+				]
+			},
+			{
+				"name": "Ozar n.Red",
+				"file": [
+					"IMR Ozar n.Red f.Black Foam",
+					"IMR Ozar n.Red f.Blue Foam",
+					"IMR Ozar n.Red f.Gold Foam",
+					"IMR Ozar n.Red f.Green Foam",
+					"IMR Ozar n.Red f.Purple Foam",
+					"IMR Ozar n.Red Red Foam"
+				],
+				"suffix": [
+					"f.Black Foam",
+					"f.Blue Foam",
+					"f.Gold Foam",
+					"f.Green Foam",
+					"f.Purple Foam",
+					"f.Red Foam"
+				]
+			},
+			{
+				"name": "Ozar n.Silver",
+				"file": [
+					"IMR Ozar n.Silver f.Black Foam",
+					"IMR Ozar n.Silver f.Blue Foam",
+					"IMR Ozar n.Silver f.Gold Foam",
+					"IMR Ozar n.Silver f.Green Foam",
+					"IMR Ozar n.Silver f.Purple Foam",
+					"IMR Ozar n.Silver Red Foam"
 				],
 				"suffix": [
 					"f.Black Foam",
