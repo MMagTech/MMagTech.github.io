@@ -595,6 +595,20 @@
 		]
 	},
 	{
+		"name": "Meaoes",
+		"phones": [
+			{
+				"name": "Eagle",
+				"file": [
+					"Meaoes Eagle Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Moondrop",
 		"phones": [
 			{
