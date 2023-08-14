@@ -260,6 +260,20 @@
 		]
 	},
 	{
+		"name": "HiFri",
+		"phones": [
+			{
+				"name": "Aphex",
+				"file": [
+					"HiFri Aphex Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},	
+	{
 		"name": "IMR",
 		"phones": [
 			{
