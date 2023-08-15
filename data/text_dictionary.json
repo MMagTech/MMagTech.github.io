@@ -70,12 +70,41 @@
 		]
 	},
 	{
+		"name": "AKG",
+		"phones": [
+			{
+				"name": "N5005",
+				"file": [
+					"AKG N5005 f. Bass Foam",
+					"AKG N5005 f. High Foam",
+					"AKG N5005 f. Mid High Foam",
+					"AKG N5005 f. Reference Foam"
+				],
+				"suffix": [
+					"f.Bass (Foam)",
+					"f.High (Foam)",
+					"Mid High (Foam)",
+					"Reference (Foam)"
+				]
+			}
+		]
+	},
+	{
 		"name": "AFUL",
 		"phones": [
 			{
 				"name": "Performer5",
 				"file": [
 					"AFUL Performer5 Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			},
+			{
+				"name": "Performer",
+				"file": [
+					"AFUL Performer8 Foam"
 				],
 				"suffix": [
 					"Foam"
@@ -149,6 +178,17 @@
 	{
 		"name": "DUNU",
 		"phones": [
+			{
+				"name": "SA6",
+				"file": [
+					"DUNU SA6 s.Off Foam",
+					"DUNU SA6 s.On Foam"
+				],
+				"suffix": [
+					"-switch: off- (Foam)",
+					"-switch: on- (Foam)"
+				]
+			},
 			{
 				"name": "SA6 Ultra",
 				"file": [
