@@ -102,7 +102,7 @@
 				]
 			},
 			{
-				"name": "Performer",
+				"name": "Performer8",
 				"file": [
 					"AFUL Performer8 Foam"
 				],
@@ -1204,6 +1204,20 @@
 				],
 				"suffix": [
 					"FA Type E",
+					"Foam"
+				]
+			}
+		]
+	},
+	{
+		"name": "Venture Electronics",
+		"phones": [
+			{
+				"name": "Bonus IE",
+				"file": [
+					"Venture Electronics Bonus IE Foam"
+				],
+				"suffix": [
 					"Foam"
 				]
 			}
