@@ -686,6 +686,26 @@
 		]
 	},
 	{
+		"name": "Night Oblivion",
+		"phones": [	
+			{
+				"name": "Butastur",
+				"file": [
+					"Night Oblivion Butastur s.DD Foam",
+					"Night Oblivion Butastur s.DU Foam",
+					"Night Oblivion Butastur s.UD Foam",
+					"Night Oblivion Butastur s.UU Foam"
+				],
+				"suffix": [
+					"s.DD (Foam)",
+					"s.DU (Foam)",
+					"s.UD (Foam)",
+					"s.uu (Foam)"
+				]
+			}
+		]
+	},
+	{
 		"name": "NF Audio",
 		"phones": [
 			{
