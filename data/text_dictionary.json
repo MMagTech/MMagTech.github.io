@@ -539,11 +539,14 @@
 				"file": [
 					"KBear Rosefinch Silicon",
 					"KBear Rosefinch v.Micro Tape Silicon",
-					"KBear Rosefinch v.Tape n.250 Silicon"
+					"KBear Rosefinch v.Micro Tape n.250 Silicon",
+					"KBear Rosefinch v.Micro Tape n.450 Silicon"
+					
 				],
 				"suffix": [
 					"Stock - (Silicon",
 					"v.MicroTape - (Silicon)",
+					"v.MicroTape n.250 Mesh (Silicon)",
 					"v.MicroTape n.250 Mesh (Silicon)"
 				]
 			},
