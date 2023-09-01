@@ -649,6 +649,20 @@
 		]
 	},
 	{
+		"name": "Light Harmonic",
+		"phones": [
+			{
+				"name": "Mera",
+				"file": [
+					"Light Harmonic Mera Foam"
+				],
+				"suffix": [
+					"Foam"
+				]
+			}
+		]
+	},
+	{
 		"name": "Meaoes",
 		"phones": [
 			{
