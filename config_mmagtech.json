@@ -90,11 +90,7 @@
         "targets": [
             {
                 "type": "Preference",
-<<<<<<< HEAD
                 "files": ["Bad Guy","MMagTech","nymz","PaulWasabi","Precogvision","RikudouGoku","Rtings","Sonarworks","Super Review 21","Super Review 22"]
-=======
-                "files": ["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","Precogvision","Rtings","Sonarworks","Super Review 21","Super Review 22"]
->>>>>>> parent of 11163db (Added Targets)
             },
             {
                 "type": "Reference",
