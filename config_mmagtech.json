@@ -90,7 +90,7 @@
         "targets": [
             {
                 "type": "Preference",
-                "files": ["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","Precogvision","Rtings","Sonarworks","Super Review 21","Super Review 22"]
+                "files": ["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","Precogvision","RikudouGoku","Rtings","Sonarworks","Super Review 21","Super Review 22"]
             },
             {
                 "type": "Reference",
@@ -99,3 +99,4 @@
     ]
     }
 }
+",
