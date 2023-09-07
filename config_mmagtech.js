@@ -1,7 +1,7 @@
 
 
 // Configuration options
-var init_phones = ["MMagTech -WIP-"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+var init_phones = ["MMagTech"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       DBDIR = "data/audio_db/",
       TARGETDIR = "data/targets/",
@@ -161,6 +161,8 @@ let tutorialDefinitions = [
 
 // Specify which targets to display
 let targets = [
+	// { type:"Δ", 
+	//     files": ["Δ 10dB","IEF Comp"] 
     // { type:"Preference",   
 	//     files:["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","Precogvision","Rtings","Sonarworks","Super Review 21","Super Review 22"] },
     // { type:"Reference", 
