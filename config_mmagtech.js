@@ -162,7 +162,7 @@ let tutorialDefinitions = [
 // Specify which targets to display
 let targets = [
 	// { type:"Δ", 
-	//     files": ["Δ 10dB","IEF Comp"] 
+	//     files":["Δ 10dB","IEF Comp"] },
     // { type:"Preference",   
 	//     files:["Bad Guy","MMagTech -WIP-","nymz","PaulWasabi","Precogvision","Rtings","Sonarworks","Super Review 21","Super Review 22"] },
     // { type:"Reference", 
