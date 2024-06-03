@@ -61,3 +61,53 @@ body.dark-mode {
     --logo-filter: none;
     --svg-filter: none;
 }
+
+/* Add this block towards the end of your style-alt-theme.css */
+
+form#searchForm {
+    margin-top: 20px;
+    font-family: var(--font-primary);
+}
+
+form#searchForm label {
+    display: block;
+    margin-bottom: 5px;
+    color: var(--font-color-primary);
+}
+
+form#searchForm input {
+    margin-bottom: 10px;
+    padding: 5px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid var(--background-color-contrast-more);
+    background-color: var(--background-color-inputs);
+    color: var(--font-color-inputs);
+    font-family: var(--font-primary);
+}
+
+form#searchForm button {
+    padding: 10px 20px;
+    background-color: var(--header-color);
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-family: var(--font-primary);
+}
+
+form#searchForm button:hover {
+    background-color: #2a8c61;
+}
+
+div#result {
+    margin-top: 20px;
+    font-family: var(--font-primary);
+}
+
+div#result div {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid var(--background-color-contrast-more);
+    background-color: var(--background-color-contrast);
+    color: var(--font-color-primary);
+}
