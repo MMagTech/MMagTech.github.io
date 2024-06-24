@@ -1,5 +1,5 @@
 {
-    "init_phones": ["MMagTech"],
+    "init_phones": ["MMagTech Target"],
     "default_channels": ["L","R"],
     "default_normalization": "Hz",
     "default_norm_db": 70,
