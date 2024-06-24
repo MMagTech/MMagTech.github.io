@@ -69,6 +69,7 @@ td.remove       { width:1.4em; font-size:120%; padding-left:0.08em; }
 .calibrate      { width:2.5em; }
 .baselineButton { width:2.5em; }
 .hideButton     { width:2em; }
+.button-download { display: none; }
 .lastColumn     { width:2.2em; }
 
 .addPhone { height:1.8em; }
@@ -85,6 +86,7 @@ td.remove       { width:1.4em; font-size:120%; padding-left:0.08em; }
 .addLock:hover,.addPhone.locked .addLock { color:#160; }
 .addPhone.locked:after { border-color:#371; }
 
+/* For headphone as opposed to brand in current headphone table */
 .phonename { font-weight:bold; display:inline; position:relative; }
 .phonename div, .phonename span {
     position:absolute; top:0; white-space:nowrap;
@@ -420,6 +422,8 @@ div.phone-item > span.remove {
     display: none;
 }
 
+
+
 /*****
 Hiding elements from alt layout *****/
 
@@ -431,53 +435,4 @@ td.curve-color,
 div.expand-collapse,
 button#theme {
     display: none;
-}
-
-/* Form and Result Styles */
-form#searchForm {
-    margin-top: 20px;
-    font-family: var(--font-primary);
-    color: var(--font-color-primary);
-}
-
-form#searchForm label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-form#searchForm input {
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 100%;
-    max-width: 300px;
-    border: 1px solid var(--background-color-contrast-more);
-    background-color: var(--background-color-inputs);
-    color: var(--font-color-inputs);
-    font-family: var(--font-primary);
-}
-
-form#searchForm button {
-    padding: 10px 20px;
-    background-color: var(--header-color);
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-family: var(--font-primary);
-}
-
-form#searchForm button:hover {
-    background-color: #2a8c61;
-}
-
-div#result {
-    margin-top: 20px;
-    font-family: var(--font-primary);
-}
-
-div#result div {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid var(--background-color-contrast-more);
-    background-color: var(--background-color-contrast);
-    color: var(--font-color-primary);
 }

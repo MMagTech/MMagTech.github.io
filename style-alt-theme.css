@@ -1,11 +1,7 @@
 
-/* If user has system preference for dark mode, this theme overrides the theme above. Optional */
-@media ( prefers-color-scheme: dark ) {
-}
-
-/* Color theme: Peas */
+/* Primary color theme */
 :root {
-    --accent-color:  #72bda3;
+    --accent-color: #72bda3;
     --accent-color-contrast: hsl(0, 0%, 55%);
 
     --background-color: hsl(0, 0%, 96%);
@@ -15,21 +11,21 @@
     
     --background-color-inputs: hsl(0, 0%, 100%);
     
-    --font-color-primary: #3b322c;
+    --font-color-primary: #72bda3;
     --font-color-secondary: #5e8c61;
-    --font-color-inputs: hsl(0, 0%, 50%);
+    --font-color-inputs: hsl(0, 0%, 0%);
     
     --font-primary: 'Open Sans', sans-serif;
     --font-secondary: monospace;
     
     --scrollbar-color: 255,255,255;
     --scrollbar-accent: 0,0,0;
-
+    
     --header-color: #36b37e;
     --header-links-color: #3b322c;
-    --header-menu-icon-color: #fff;
-
-    --logo-filter: none;
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: invert(1.0);
     --svg-filter: none;
 }
 
@@ -54,60 +50,10 @@ body.dark-mode {
     --scrollbar-color: 0,0,0;
     --scrollbar-accent: 255,255,255;
 
-    --header-color: #098551;
-    --header-links-color: #fff;
-    --header-menu-icon-color: #fff;
-
-    --logo-filter: none;
-    --svg-filter: none;
-}
-
-/* Add this block towards the end of your style-alt-theme.css */
-
-form#searchForm {
-    margin-top: 20px;
-    font-family: var(--font-primary);
-}
-
-form#searchForm label {
-    display: block;
-    margin-bottom: 5px;
-    color: var(--font-color-primary);
-}
-
-form#searchForm input {
-    margin-bottom: 10px;
-    padding: 5px;
-    width: 100%;
-    max-width: 300px;
-    border: 1px solid var(--background-color-contrast-more);
-    background-color: var(--background-color-inputs);
-    color: var(--font-color-inputs);
-    font-family: var(--font-primary);
-}
-
-form#searchForm button {
-    padding: 10px 20px;
-    background-color: var(--header-color);
-    color: white;
-    border: none;
-    cursor: pointer;
-    font-family: var(--font-primary);
-}
-
-form#searchForm button:hover {
-    background-color: #2a8c61;
-}
-
-div#result {
-    margin-top: 20px;
-    font-family: var(--font-primary);
-}
-
-div#result div {
-    margin-bottom: 10px;
-    padding: 10px;
-    border: 1px solid var(--background-color-contrast-more);
-    background-color: var(--background-color-contrast);
-    color: var(--font-color-primary);
+    --header-color: hsl(0, 0%, 0%);
+    --header-links-color: hsl(0, 0%, 100%);
+    --header-menu-icon-color: hsl(0, 0%, 100%);
+    
+    --logo-filter: invert(1.0);
+    --svg-filter: invert(1);
 }
