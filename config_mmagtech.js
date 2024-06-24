@@ -221,6 +221,9 @@ d3.json('config_mmagtech.json').then(function(mycfg){
     headerLogoImgUrl = mycfg.headerLogoImgUrl;
     // alert(watermark_text);
 
+    // load graphs
+    loadGraph();    
+	
     // Apply stylesheet based layout options above
     function setLayout() {
         function applyStylesheet(styleSheet) {
