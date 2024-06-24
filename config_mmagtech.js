@@ -1,7 +1,7 @@
 
 
 // Configuration options
-var init_phones = ["MMagTech -WIP-"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
+var init_phones = ["MMagTech"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
       DIR = "data/",                                // Directory where graph files are stored
       DBDIR = "data/audio_db/",
       TARGETDIR = "data/targets/",
