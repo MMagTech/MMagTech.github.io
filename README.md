@@ -1,193 +1,107 @@
-# WebGraph on Your Own Site
+# The In-Ear Graphing Library
 
-This guide explains the steps required to make webgraph display your
-own FR graphs, for example if by some remarkable circumstance you have
-managed to measure IEMs not yet on crinacle.com. If you have any trouble
-with setting webgraph, or any questions about the tool, just ask me!
-Use Github or the email in my profile.
+If you're not weirdly obsessed with headphones you can leave at any time.
 
-There are two other steps to show people FR graphs that I may not be
-able to help with:
+Crinacle is a reviewer famous around the world (at least, I'm on the
+opposite side of it as he is) for his extensive reviews and measurements
+of in-ear monitors (IEMs). CrinGraph is the tool which allows readers to
+compare measurements against each other, and save easily readable images
+to share around the internet. Although it was designed for
+[Crin's site](https://crinacle.com/graphs/graphtool/),
+the code here can be used freely by anyone, with no restrictions.
+There are now many instances, including
+[Banbeucmas](https://banbeu.com/graph/tool/),
+[HypetheSonics](https://www.hypethesonics.com/iemdbc/), and
+[Super\* Review](https://squig.link/), which has links to even more of
+them. If you're interested in using it for your own graphs, see
+[Configuring.md](Configuring.md) and ask me about any questions that
+come up.
 
-* Creating frequency response graphs in the first place. I have never
-  done this and don't know all the details. You might try reading
-  [this thread](https://www.head-fi.org/threads/general-iem-measurements-discussions.903455/)
-  for some information to get you started.
+### What are the squiggles?
 
-## Checklist
+If you want the whole story, there's no choice but to get it from
+[the man himself](https://crinacle.com/2020/04/08/graphs-101-how-to-read-headphone-measurements/).
+5,000 words and you'll still be disappointed when it's over.
 
-These are the things you definitely need to change to make sure your
-page works and isn't claiming it's crinacle.com.
+The most informative headphone measurement, and the only one handled by
+this tool, is the frequency response (FR) graph. An FR graph shows how
+loud the headphone will render sounds at different pitches. The higher
+the left portion of the graph, the more your brain will rattle; the
+higher the right portion of the graph, the more your ears will bleed.
+The current industry standard is a "V-shaped" response which applies
+both conditions at once. Using an FR graph you may easily see which
+headphones conform to this standard and which are insufficiently "fun".
 
-* Set `DIR` in `config-alumi.js` and place your graphs and `text_dictionary.json`
-  there.
-* Remove or change the watermark.
-* Remove the `targets`, replace them with your own, or get permission
-  from Crinacle to use the ones in the webgraph repository.
-* If you are using a free/premium model, change `premium_html` in
-  `config_free.js` to point to your own site(s).
+### Sample graphs
 
-## Configuring WebGraph
+This repository includes some sample data so that the tool can be shown
+through Github pages. Sometimes I use this to show people features
+before they're adopted on Crin's site.
 
-The main page used to display graphs is [graph.html](graph.html), which
-defines the basic structure of a page and then includes a bunch of
-Javascript files that do the real work (at the end of the file).
-[graph_free.html](graph_free.html) is identical but uses a different 
-configuration file to remove some functionality. You will only need to
-use it if you intend to have both a free and a paid graph tool.
+[View some sample graphs.](https://mlochbaum.github.io/CrinGraph/graph.html)
 
-Ideally all configuration can be done simply by changing
-[config.js](config.js). However, there are currently not very many
-configuration options. Ask if there's something you want to change but
-can't!
+Because Crinacle's frequency response measurements are not public, the
+sample response curves shown are synthesized. They are not real
+headphones and you can't listen to them. To reduce potential
+disappointment, steps have been taken to ensure that the curves are as
+uninviting as possible. Any resemblance to the exports of a large East
+Asian county is purely coincidental.
 
-Here are the current configuration parameters:
+## Features
 
-* `DIR` is the location of your FR graphs and the index for them
-  (see the next section). If you are displaying a cloned repository
-  using Github Pages, using a directory other than `data/` will make
-  merging changes from the main webgraph repository easier.
-* `tsvParse` is a function which takes the text of an FR file and
-  converts it to the format used internally by webgraph. See the next
-  section.
-* `watermark` is a function that is applied once to the graph window on
-  startup. The argument `svg` is a [d3](https://d3js.org/) selection
-  and you can use any d3 functionality to draw things in it. This part
-  must be changed, or you will end up impersonating crinacle.com! To
-  use no watermark, just delete the whole function body. You can also
-  delete, move, or change the image and text separately.
-* `max_channel_imbalance` controls how sensitive the channel imbalance
-  detector (that red exclamation mark that can show up in a headphone's
-  key) is. You probably don't need to change this.
-* `targets` lists the available target frequency responses. If you don't
-  want to display any targets set it to `false`. If you do use targets,
-  each one should be a file named `... Target.txt` in the `DIR`
-  directory you specified. The targets which are already there were
-  provided by Crinacle so make sure you have his permission before using
-  them.
-* `scale_smoothing` (default 1) adjusts the level of smoothing applied
-  at a given "Smooth:" setting. The setting will always start at 5, but
-  its value is multiplied by `scale_smoothing` to get the actual level
-  of smoothing.
+If you want one that's not here, just ask so I can explain why it's a
+bad idea.
 
-The following parameters can be set to configure a restricted version
-of the graph tool. They are only present in
-[config_free.js](config_free.js). If you don't set them the tool will
-be unrestricted.
+### Layout
 
-* `max_compare` is the maximum number of graphs allowed at a time.
-* `disallow_target` prevents target FRs from ever being loaded.
-* `allow_targets` is a list of target names, and overrides
-  `disallow_target` for those targets, so they can be loaded. If
-  `disallow_target` isn't set, it has no effect.
-* `premium_html` is the message shown when a user tries to do something
-  which isn't allowed according to the previous two settings. Given that
-  it points to Crinacle's patreon and not yours, you probably want to
-  change it.
+The graph tool displays:
+* A **graph window** at the top
+* The **toolbar** just below it
+* The **selector** at the bottom left, or below the toolbar for narrow windows
+* A **target selector**
+* The **manager** for active curves
 
-The following parameters are used to allow multiple samples per channel
-and different channel configurations than L/R. For example,
-`config_hp.js` is intended for headphones and shows only the right
-channel with five samples per channel.
+### Graph window
 
-* `default_channels` is a list of channels in each measurement: it
-  defaults to `["L","R"]`. It's called "default" because I may add a
-  mechanism to change it for a single sample from `phone_book.json`,
-  but no such mechanism exists right now.
-* `num_samples`, if set, is the number of samples in each channel.
-  Samples are always numbered 1 to `num_samples`.
+* Standard logarithmic frequency (Hz) and sound pressure level (dB) [axes](Documentation.md#axes)
+* [Colors](Documentation.md#colors) are persistent and algorithmically generated to ensure contrast
+* Use the slider at the left to rescale and adjust the y axis
+* [Hover](Documentation.md#highlight-on-mouseover) over or click a curve to see its name and highlight it in the manager
 
-The following parameters are for setting the initial samples to display,
-and enabling URL sharing. If enabled, URL sharing updates the page URL
-to reflect which samples are on the graph. Copying and opening that URL
-will open the page with those samples shown. For these parameters a
-headphone or target is identified by its filename.
+### Toolbar
 
-* `init_phones` is a list of filenames to open by default.
-* `share_url` enables URL sharing.
-* `page_title` sets the page title display if URL sharing is enabled.
+* Zoom into bass, mid, or treble frequencies
+* [Normalize](Documentation.md#normalization) with a target loudness or a normalization frequency
+* [Smooth](Documentation.md#smoothing) graphs with a configurable parameter
+* Toggle inspect mode to see the numeric response values when you mouse over the graph
+* [Label](Documentation.md#labelling) curves inside the graph window
+* Save a png [screenshot](Documentation.md#screenshot) of the graph (with labels)
+* Recolor the active curves in case there is a color conflict
+* Toolbar collapses and expands, along with the target selector, when the screen is small
 
-## Storing your FR files
+### Headphone and target selectors
 
-All FR data is stored in its own file in the directory `DIR` you specify
-in `config.js`. To use this data, webgraph needs two things: an index
-which lists the available models, grouped by brand, and the FR curves
-themselves.
+* Headphones are grouped by brand: select brands to narrow them down
+* Click to select one headphone or brand and unselect others; middle or ctrl-click for non-exclusive select
+* [Search](Documentation.md#searching) all brands or headphones by name
+* Targets are selected the same way but are independent from headphones
 
-### FR index: `text_dictionary.json`
+### Headphone manager
 
-The index is a [JSON](https://en.wikipedia.org/wiki/JSON) file called
-[text_dictionary.json](data/text_dictionary.json). By default it is located in the
-headphone directory `DIR`, but the setting `PHONE_BOOK` allows you to
-specify a different filepath. The file's contents are a list of brands,
-where each brand is a list of models. A simple example of a brand:
+* Curve names and colors are displayed here
+* Choose and compare variant measurements of the same model with a dropdown
+* Use the wishbone-shaped selector to see left and/or right channels or [average](Documentation.md#averaging) them together
+* A red exclamation mark indicates that channels are [imbalanced](Documentation.md#channel-imbalance-marker)
+* Change the offset to move graphs up and down (after [normalization](Documentation.md#normalization))
+* Select [BASELINE](Documentation.md#baseline) to adjust all curves so the chosen one is flat
+* Temporarily hide or unhide a graph
+* PIN a headphone to avoid losing it while adding others
+* Click the little dots at the bottom left to change a single headphone's [color](Documentation.md#colors)
 
-```json
-  {
-    "name":   "Elysian",
-    "suffix": "Acoustic Labs",
-    "phones": [ "Artemis"
-              , "Eros"
-              , "Minerva"
-              , "Terminator" ]
-  }
-```
+## Contact
 
-The only required attributes for a brand are its name ("name") and a
-list of headphone models ("phones"). You can also add another part of
-the name using "suffix". The suffix is included in the brand name when
-it's used alone, but not as part of a model name: here the brand is
-"Elysian Acoustic Labs", but the first headphone is the "Elysian Artemis".
-
-Each item in the "phones" array corresponds to a single headphone model.
-While an item might just be the model name as shown above, there are
-other possibilities as well. Two examples should cover most use cases:
-
-* To use a different display name ("name") and filename ("file"): `{"name":"Carbo Tenore ZH-DX200-CT","file":"Tenore"}`
-* To use show multiple variants of a single model: `{"name":"Gemini","file":["Gemini","Gemini Bass"]}`
-
-The full list of options is as follows:
-
-* "name" is the displayed model name.
-* "collab" gives the name of a collaborator. If that collaborator is on
-  the list of brands, the headphone will be categorized under both the
-  main vendor and the collaborator.
-* "file" gives either a single filename or a list. If a list is given,
-  then "name" is used only to for the headphone's name in the selection
-  menu. The key will use filenames for display unless one of the following
-  options is specified.
-* "suffix" is a list with the same length as the list of files. The
-  display name is the model name plus the variant's suffix. So              , {"name":"R3","file":["R3","R3 C"],"suffix":["","Custom"]} ]
-  `{"name":"R3","file":["R3","R3 C"],"suffix":["","Custom"]}` uses files
-  based on the names `R3` and `R3 C` but shows the names "R3" and
-  "R3 Custom".
-* "prefix" is some string that should appear at the start of each
-  filename. The display name is then the filename, except that if the
-  prefix appears at the start of the filename it is replaced with the
-  display name. So
-  `{"name":"IER-Z1R","file":["Z1R S2","Z1R S3","Z1R S4","Z1R S5","Z1R S6","Z1R","Z1R Filterless"],"prefix":"Z1R"}`
-  displays with the names `IER-Z1R S2`, `IER-Z1R S3`, and so on.
-  You may not need this one because you probably won't measure as many
-  IER-Z1Rs as Crinacle.
-
-### FR curves
-
-Each frequency response curve (each channel of a headphone, and each
-target response) is stored in its own file. For targets this file must
-be named using the target name from `config-afumi.js` followed by " Target.txt",
-for instance "Diffuse Field Target.txt". For headphones the file's name
-is obtained from `text_dictionary.json` as described in the previous section.
-When a user selects a headphone, webgraph figures out its filename—for
-concreteness let's say "New Primacy"—and looks for two files, one for
-each channel. Here it would try to read "New Primacy L.txt" and
-"New Primacy R.txt". If one channel is not found it will ignore it and
-display the headphone with only one channel. If neither one is found it
-pops up an alert to say "Headphone not found!" and doesn't display
-anything.
-
-The headphone is converted from a text file to a Javascript array
-using the setting `tsvParse`. The default setting assumes that the file
-is a tab-separated value file, with two header lines which are discarded
-followed by 480 measurements (1/48 octave spacing). Each measurement is
-a frequency and an SPL value. Of course, you can use any format, as long
-as you can write the code to parse it!
+File a Github issue here for topics related to the project. You can also
+reach me by the email in my Github profile and the [LICENSE](LICENSE).
+I can sometimes be found on
+[Crin's Discord server](https://discord.gg/CtTqcCb) where I am
+creatively named Marshall.
