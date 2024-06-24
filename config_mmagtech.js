@@ -2,7 +2,6 @@
 
 // Configuration options
 var init_phones = ["MMagTech"],                             // Optional. Which graphs to display on initial load. Note: Share URLs will override this set
-      DIR = "data/",                                // Directory where graph files are stored
       DBDIR = "data/audio_db/",
       TARGETDIR = "data/targets/",
       default_channels = ["L","R"],                     // Which channels to display. Avoid javascript errors if loading just one channel per phone
