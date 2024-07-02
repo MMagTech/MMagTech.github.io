@@ -574,37 +574,41 @@ function loadGraph() {
     
     labelButton.on("click", () => (labelsShown?clearLabels:drawLabels)());
     
-    function saveGraph(ext) {
-        let fn = {png:saveSvgAsPng, svg:saveSvg}[ext];
-        let showControls = s => dB.all.attr("visibility",s?null:"hidden");
-        gpath.selectAll("path").classed("highlight",false);
-        drawLabels();
-        showControls(false);
-        fn(gr.node(), "graph."+ext, {scale:3})
-            .then(()=>showControls(true));
-        
-        // Analytics event
-        if (analyticsEnabled) { pushEventTag("clicked_download", targetWindow); }
+	function saveGraph(ext) {
+		let fn = saveSvgAsPng; // Reference the correct function for PNG saving
+		let showControls = s => dB.all.attr("visibility", s ? null : "hidden");
+		gpath.selectAll("path").classed("highlight", false);
+		drawLabels();
+		showControls(false);
+		if (ext === "png") {
+			fn(gr.node(), { scale: 3 });
+		} else if (ext === "svg") {
+			saveSvg(gr.node(), "graph.svg", { scale: 3 });
     }
-    doc.select("#download")
-        .on("click", () => saveGraph("png"))
-        .on("contextmenu", function () {
-            d3.event.returnValue=false;
-            let b = d3.select(this);
-            let choice = b.selectAll("div")
-                .data(["png","svg"]).join("div")
-                .styles({position:"absolute", left:0, top:(_,i)=>i*1.3+"em",
-                         background:"inherit", padding:"0.1em 1em"})
-                .text(d => "As ."+d)
-                .on("click", function (d) {
-                    saveGraph(d);
-                    choice.remove();
-                    d3.event.stopPropagation();
-                });
-            b.on("blur", ()=>choice.remove());
-        });
+    showControls(true);
     
-    
+    // Analytics event
+    if (analyticsEnabled) { pushEventTag("clicked_download", targetWindow); }
+	}
+
+	doc.select("#download")
+		.on("click", () => saveGraph("png"))
+		.on("contextmenu", function () {
+			d3.event.returnValue = false;
+			let b = d3.select(this);
+			let choice = b.selectAll("div")
+				.data(["png", "svg"]).join("div")
+				.styles({ position: "absolute", left: 0, top: (_, i) => i * 1.3 + "em",
+						background: "inherit", padding: "0.1em 1em" })
+				.text(d => "As ." + d)
+				.on("click", function (d) {
+					saveGraph(d);
+					choice.remove();
+					d3.event.stopPropagation();
+				});
+			b.on("blur", () => choice.remove());
+		});
+   
     // Graph smoothing
     let pair = (arr,fn) => arr.slice(1).map((v,i)=>fn(v,arr[i]));
     
