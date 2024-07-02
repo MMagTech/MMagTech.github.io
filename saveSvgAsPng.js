@@ -1,27 +1,3 @@
-// Adapted from https://github.com/exupero/saveSvgAsPng
-/*
-The MIT License (MIT)
-
-Copyright (c) 2014 Eric Shull
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-*/
 (function() {
   const out$ = typeof exports != 'undefined' && exports || typeof define != 'undefined' && {} || this || window;
   if (typeof define !== 'undefined') define('save-svg-as-png', [], () => out$);
@@ -50,7 +26,7 @@ THE SOFTWARE.
     new Promise((resolve, reject) => {
       if (isElement(el)) resolve(el)
       else reject(new Error(`an HTMLElement or SVGElement is required; got ${el}`));
-    })
+    });
   const isExternal = url => url && url.lastIndexOf('http',0) === 0 && url.lastIndexOf(window.location.host) === -1;
 
   const getFontMimeTypeFromUrl = fontUrl => {
@@ -67,7 +43,7 @@ THE SOFTWARE.
     const bytes = new Uint8Array(buffer);
     for (let i = 0; i < bytes.byteLength; i++) binary += String.fromCharCode(bytes[i]);
     return window.btoa(binary);
-  }
+  };
 
   const getDimension = (el, clone, dim) => {
     const v =
@@ -104,13 +80,13 @@ THE SOFTWARE.
 
   const uriToBlob = uri => {
     const byteString = window.atob(uri.split(',')[1]);
-    const mimeString = uri.split(',')[0].split(':')[1].split(';')[0]
+    const mimeString = uri.split(',')[0].split(':')[1].split(';')[0];
     const buffer = new ArrayBuffer(byteString.length);
     const intArray = new Uint8Array(buffer);
     for (let i = 0; i < byteString.length; i++) {
       intArray[i] = byteString.charCodeAt(i);
     }
-    return new Blob([buffer], {type: mimeString});
+    return new Blob([buffer], { type: mimeString });
   };
 
   const query = (el, selector) => {
@@ -123,10 +99,6 @@ THE SOFTWARE.
   };
 
   const detectCssFont = (rule, href) => {
-    // Match CSS font-face rules to external links.
-    // @font-face {
-    //   src: local('Abel'), url(https://fonts.gstatic.com/s/abel/v6/UzN-iejR1VoXU2Oc-7LsbvesZW2xOQ-xsNqO47m55DA.woff2);
-    // }
     const match = rule.cssText.match(urlRegex);
     const url = (match && match[1]) || '';
     if (!url || url.match(/^data:/) || url === 'about:blank') return;
@@ -144,7 +116,6 @@ THE SOFTWARE.
   const inlineImages = el => Promise.all(
     Array.from(el.querySelectorAll('image')).map(image => {
       let href = image.getAttributeNS('http://www.w3.org/1999/xlink', 'href') || image.getAttribute('href');
-      // Removed external handling in CrinGraph since it will fail cross-origin stuff anyway
       if (!href || isExternal(href)) return Promise.resolve(null);
       return new Promise((resolve, reject) => {
         const canvas = document.createElement('canvas');
@@ -171,10 +142,8 @@ THE SOFTWARE.
 
         const req = new XMLHttpRequest();
         req.addEventListener('load', () => {
-          // TODO: it may also be worth it to wait until fonts are fully loaded before
-          // attempting to rasterize them. (e.g. use https://developer.mozilla.org/en-US/docs/Web/API/FontFaceSet)
           const fontInBase64 = arrayBufferToBase64(req.response);
-          const fontUri = font.text.replace(urlRegex, `url("data:${font.format};base64,${fontInBase64}")`)+'\n';
+          const fontUri = font.text.replace(urlRegex, `url("data:${font.format};base64,${fontInBase64}")`) + '\n';
           cachedFonts[font.url] = fontUri;
           resolve(fontUri);
         });
@@ -199,7 +168,7 @@ THE SOFTWARE.
     if (cachedRules) return cachedRules;
     return cachedRules = Array.from(document.styleSheets).map(sheet => {
       try {
-        return {rules: sheet.cssRules, href: sheet.href};
+        return { rules: sheet.cssRules, href: sheet.href };
       } catch (e) {
         console.warn(`Stylesheet could not be loaded: ${sheet.href}`, e);
         return {};
@@ -222,7 +191,7 @@ THE SOFTWARE.
     const css = [];
     const detectFonts = typeof fonts === 'undefined';
     const fontList = fonts || [];
-    styleSheetRules().forEach(({rules, href}) => {
+    styleSheetRules().forEach(({ rules, href }) => {
       if (!rules) return;
       Array.from(rules).forEach(rule => {
         if (typeof rule.style != 'undefined') {
@@ -238,10 +207,35 @@ THE SOFTWARE.
     return inlineFonts(fontList).then(fontCss => css.join('\n') + fontCss);
   };
 
-  const downloadOptions = () => {
-    if (!navigator.msSaveOrOpenBlob && !('download' in document.createElement('a'))) {
-      return {popup: window.open()};
-    }
+  const saveToPhotos = (uri) => {
+    const image = new Image();
+    image.src = uri;
+
+    image.onload = function() {
+      const canvas = document.createElement('canvas');
+      canvas.width = image.width;
+      canvas.height = image.height;
+      const context = canvas.getContext('2d');
+      context.drawImage(image, 0, 0);
+
+      canvas.toBlob(blob => {
+        const newImg = document.createElement('img');
+        const url = URL.createObjectURL(blob);
+        newImg.src = url;
+
+        if (window.navigator && window.navigator.msSaveOrOpenBlob) {
+          window.navigator.msSaveOrOpenBlob(blob, 'image.png');
+        } else {
+          const a = document.createElement('a');
+          document.body.appendChild(a);
+          a.style = 'display: none';
+          a.href = url;
+          a.download = 'image.png';
+          a.click();
+          window.URL.revokeObjectURL(url);
+        }
+      }, 'image/png');
+    };
   };
 
   out$.prepareSvg = (el, options, done) => {
@@ -258,14 +252,14 @@ THE SOFTWARE.
     return inlineImages(el).then(() => {
       let clone = el.cloneNode(true);
       clone.style.backgroundColor = (options || {}).backgroundColor || el.style.backgroundColor;
-      const {width, height} = getDimensions(el, clone, w, h);
+      const { width, height } = getDimensions(el, clone, w, h);
 
       if (el.tagName !== 'svg') {
         if (el.getBBox) {
           if (clone.getAttribute('transform') != null) {
             clone.setAttribute('transform', clone.getAttribute('transform').replace(/translate\(.*?\)/, ''));
           }
-          const svg = document.createElementNS('http://www.w3.org/2000/svg','svg');
+          const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
           svg.appendChild(clone);
           clone = svg;
         } else {
@@ -306,7 +300,7 @@ THE SOFTWARE.
         const src = outer.innerHTML.replace(/NS\d+:href/gi, 'xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href');
 
         if (typeof done === 'function') done(src, width, height);
-        else return {src, width, height};
+        else return { src, width, height };
       });
     });
   };
@@ -314,12 +308,12 @@ THE SOFTWARE.
   out$.svgAsDataUri = (el, options, done) => {
     requireDomNode(el);
     return out$.prepareSvg(el, options)
-      .then(({src, width, height}) => {
-          const svgXml = `data:image/svg+xml;base64,${window.btoa(reEncode(doctype+src))}`;
-          if (typeof done === 'function') {
-              done(svgXml, width, height);
-          }
-          return svgXml;
+      .then(({ src, width, height }) => {
+        const svgXml = `data:image/svg+xml;base64,${window.btoa(reEncode(doctype + src))}`;
+        if (typeof done === 'function') {
+          done(svgXml, width, height);
+        }
+        return svgXml;
       });
   };
 
@@ -331,7 +325,7 @@ THE SOFTWARE.
       canvg
     } = options || {};
 
-    const convertToPng = ({src, width, height}) => {
+    const convertToPng = ({ src, width, height }) => {
       const canvas = document.createElement('canvas');
       const context = canvas.getContext('2d');
 
@@ -354,7 +348,7 @@ THE SOFTWARE.
       }
       if (typeof done === 'function') done(png, canvas.width, canvas.height);
       return Promise.resolve(png);
-    }
+    };
 
     if (canvg) return out$.prepareSvg(el, options).then(convertToPng);
     else return out$.svgAsDataUri(el, options).then(uri => {
@@ -367,50 +361,17 @@ THE SOFTWARE.
         }));
         image.onerror = () => {
           reject(`There was an error loading the data URI as an image on the following SVG\n${window.atob(uri.slice(26))}Open the following link to see browser's diagnosis\n${uri}`);
-        }
+        };
         image.src = uri;
-      })
+      });
     });
   };
 
-  out$.download = (name, uri, options) => {
-    if (navigator.msSaveOrOpenBlob) navigator.msSaveOrOpenBlob(uriToBlob(uri), name);
-    else {
-      const saveLink = document.createElement('a');
-      if ('download' in saveLink) {
-        saveLink.download = name;
-        saveLink.style.display = 'none';
-        document.body.appendChild(saveLink);
-        try {
-          const blob = uriToBlob(uri);
-          const url = URL.createObjectURL(blob);
-          saveLink.href = url;
-          saveLink.onclick = () => requestAnimationFrame(() => URL.revokeObjectURL(url));
-        } catch (e) {
-          console.error(e);
-          console.warn('Error while getting object URL. Falling back to string URL.');
-          saveLink.href = uri;
-        }
-        saveLink.click();
-        document.body.removeChild(saveLink);
-      } else if (options && options.popup) {
-        options.popup.document.title = name;
-        options.popup.location.replace(uri);
-      }
-    }
-  };
-
-  out$.saveSvg = (el, name, options) => {
-    const downloadOpts = downloadOptions(); // don't inline, can't be async
-    return requireDomNodePromise(el)
-      .then(el => out$.svgAsDataUri(el, options || {}))
-      .then(uri => out$.download(name, uri, downloadOpts));
-  };
-
   out$.saveSvgAsPng = (el, name, options) => {
-    const downloadOpts = downloadOptions(); // don't inline, can't be async
     return requireDomNodePromise(el)
       .then(el => out$.svgAsPngUri(el, options || {}))
-      .then(uri => out$.download(name, uri, downloadOpts));
+      .then(uri => {
+        saveToPhotos(uri);
+      });
   };
 })();
