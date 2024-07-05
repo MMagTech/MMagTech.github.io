@@ -50,11 +50,11 @@ var init_phones = ["MMagTech"],                             // Optional. Which g
 function watermark(svg) {
     let wm = svg.append("g")
         .attr("transform", "translate("+(pad.l+W/2)+","+(pad.t+H/2-20)+")")
-        .attr("opacity",0.4);
+        .attr("opacity",0.8);
     
     if ( watermark_image_url ) {
         wm.append("image")
-            .attrs({x:-64, y:-110, width:128, height:128, "xlink:href":watermark_image_url});
+            .attrs({x:-64, y:-110, width:160, height:160, "xlink:href":watermark_image_url});
     }
     
     if ( watermark_text ) {
