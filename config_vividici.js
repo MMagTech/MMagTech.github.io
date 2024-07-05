@@ -80,7 +80,7 @@ headerLinks = [
 // },
 // {
 //     name: "HifiGuides",
-//     url: "https://forum.hifiguides.com/u/mmag05/summary"
+//     url: "https://forum.hifiguides.com/u/vividici_111/summary"
 // },
 // {
 //     name: "Youtube",
