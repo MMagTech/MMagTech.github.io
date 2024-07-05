@@ -19,7 +19,7 @@ var init_phones = ["MMagTech"],                             // Optional. Which g
       share_url = false,                             // If true, enables shareable URLs
       watermark_text = "Jays Audio",                 // Optional. Watermark appears behind graphs
       watermark_text2 = "vividici.github.io",
-      watermark_image_url = "img/mmagtech.png",   // Optional. If image file is in same directory as config, can be just the filename
+      watermark_image_url = "img/vividici.png",   // Optional. If image file is in same directory as config, can be just the filename
       page_title = "frDB",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
@@ -68,7 +68,7 @@ function watermark(svg) {
 }
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "MMagTech",
+let headerLogoText = "Jays Audio",
 headerLinks = [
 // {
 //     name: "GitHub",
@@ -83,8 +83,8 @@ headerLinks = [
 //     url: "https://forum.hifiguides.com/u/mmag05/summary"
 // },
 // {
-//     name: "Spotify",
-//     url: "https://open.spotify.com/user/121233992"
+//     name: "Youtube",
+//     url: "https://www.youtube.com/@jayyaudio"
 // }
 ];
 
@@ -95,7 +95,7 @@ let linkSets = [
     //     links: [
 	//         {
     //             name: "Bad Guy",
-    //             url: "https://hbb.squig.link/"
+    //             url: "https://hbbdatabase.github.io/"
     //         },
     //         {
     //             name: "nymz",
@@ -177,7 +177,7 @@ function tsvParse(fr) {
 }
     
      
-d3.json('config_mmagtech.json').then(function(mycfg){
+d3.json('config_vividici.json').then(function(mycfg){
     init_phones = mycfg.init_phones;
     default_channels = mycfg.default_channels; 
     default_normalization = mycfg.default_normalization; 
@@ -288,11 +288,11 @@ d3.json('config_mmagtech.json').then(function(mycfg){
         widgets = `
             <div class="accessories-widgets">
                 <div class="widget">
-                    <img width="200" src="/img/mmagtech-logo.svg"/>
+                    <img width="200" src="/img/vividici-logo.svg"/>
                 </div>
 
                 <div class="widget">
-                    <img width="200" src="/img/mmagtech-logo.svg"/>
+                    <img width="200" src="/img/vividici-logo.svg"/>
                 </div>
 
                 <div class="widget">

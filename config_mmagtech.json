@@ -14,7 +14,7 @@
     "share_url": false,
     "watermark_text": "Jays Audio",   
     "watermark_text2": "vividici.github.io",	
-    "watermark_image_url": "img/mmagtech.png", 
+    "watermark_image_url": "img/vividici.png", 
     "page_title": "frDB",   
     "page_description": "View and compare frequency response graphs for IEMs",
     "accessories": false,  
@@ -35,7 +35,7 @@
     "extraEQBands": 10,                 
     "extraEQBandsMax": 20,                
     "extraToneGeneratorEnabled": true,   
-    "headerLogoText": "MMagTech",
+    "headerLogoText": "Jays Audio",
     "headerLogoImgUrl": null,   
     "advanced": {
         "headerLinks": [
@@ -53,7 +53,7 @@
             },
 			{
 				"name": "Spotify",
-                "url": "https://open.spotify.com/user/121233992"
+                "url": "https://www.youtube.com/@jayyaudio"
 			}	
         ],
         "footerLinks": [
@@ -62,7 +62,7 @@
                 "links": [
 		            {
                         "name": "Bad Guy",
-				        "url": "https://hbb.squig.link/"
+				        "url": "https://hbbdatabase.github.io/"
                     },
                     {
                         "name": "nymz",
