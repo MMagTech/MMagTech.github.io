@@ -12,9 +12,9 @@
     "alt_tutorial": true,  
     "site_url": "index.html",
     "share_url": false,
-    "watermark_text": "Jays Audio",   
-    "watermark_text2": "JaysAudio.github.io",	
-    "watermark_image_url": "img/vividici.png", 
+    "watermark_text": "frDB",   
+    "watermark_text2": "fr.mmagtech.com",	
+    "watermark_image_url": "img/mmagtech.png", 
     "page_title": "frDB",   
     "page_description": "View and compare frequency response graphs for IEMs",
     "accessories": false,  
@@ -35,13 +35,13 @@
     "extraEQBands": 10,                 
     "extraEQBandsMax": 20,                
     "extraToneGeneratorEnabled": true,   
-    "headerLogoText": "Jays Audio",
+    "headerLogoText": "MMagTech",
     "headerLogoImgUrl": null,   
     "advanced": {
         "headerLinks": [
             {
                 "name": "GitHub",
-                 "url": "https://github.com/JaysAudio/JaysAudio.github.io"
+                 "url": "https://github.com/MMagTech/MMagTech.github.io"
             },
             {
                 "name": "Head-Fi",
@@ -49,11 +49,11 @@
             },	
             {
                 "name": "HiFiGuides",
-                "url": "https://forum.hifiguides.com/u/vividici_111/summary"
+                "url": "https://forum.hifiguides.com/u/mmag05/"
             },
 			{
-				"name": "YouTube",
-                "url": "https://www.youtube.com/@jayyaudio"
+				"name": "Spotify",
+                "url": "https://open.spotify.com/user/121233992"
 			}	
         ],
         "footerLinks": [
@@ -62,7 +62,7 @@
                 "links": [
 		            {
                         "name": "Bad Guy",
-				        "url": "https://hbbdatabase.github.io/"
+				        "url": "https://hbb.squig.link/"
                     },
                     {
                         "name": "nymz",

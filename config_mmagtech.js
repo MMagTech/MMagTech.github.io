@@ -17,10 +17,10 @@ var init_phones = ["MMagTech"],                             // Optional. Which g
       alt_tutorial = true,                         // Display a configurable frequency response guide below the graph
       site_url = 'index.html',                              // URL of your graph "homepage"
       share_url = false,                             // If true, enables shareable URLs
-      watermark_text = "Jays Audio",                 // Optional. Watermark appears behind graphs
-      watermark_text2 = "JaysAudio.github.io",
-      watermark_image_url = "img/vividici.png",   // Optional. If image file is in same directory as config, can be just the filename
-      page_title = "Jays Audio",                     // Optional. Appended to the page title if share URLs are enabled
+      watermark_text = "frDB",                 // Optional. Watermark appears behind graphs
+      watermark_text2 = "fr.mmagtech.com",
+      watermark_image_url = "img/mmagtech.png",   // Optional. If image file is in same directory as config, can be just the filename
+      page_title = "frDB",                     // Optional. Appended to the page title if share URLs are enabled
       page_description = "View and compare frequency response graphs for IEMs",
       accessories = false,                          // If true, displays specified HTML at the bottom of the page. Configure further below
       externalLinksBar = true,                      // If true, displays row of pill-shaped links at the bottom of the page. Configure further below
@@ -50,11 +50,11 @@ var init_phones = ["MMagTech"],                             // Optional. Which g
 function watermark(svg) {
     let wm = svg.append("g")
         .attr("transform", "translate("+(pad.l+W/2)+","+(pad.t+H/2-20)+")")
-        .attr("opacity",1.0);
+        .attr("opacity",0.4);
     
     if ( watermark_image_url ) {
         wm.append("image")
-            .attrs({x:-64, y:-110, width:300, height:300, "xlink:href":watermark_image_url});
+            .attrs({x:-64, y:-110, width:128, height:128, "xlink:href":watermark_image_url});
     }
     
     if ( watermark_text ) {
@@ -68,11 +68,11 @@ function watermark(svg) {
 }
 
 // If alt_header is enabled, these are the items added to the header
-let headerLogoText = "Jays Audio",
+let headerLogoText = "MMagTech",
 headerLinks = [
 // {
 //     name: "GitHub",
-//     url: "https://github.com/JaysAudio/JaysAudio.github.io"
+//     url: "https://github.com/MMagTech/MMagTech.github.io"
 // },
 // {
 //     name: "Head-Fi",
@@ -80,11 +80,11 @@ headerLinks = [
 // },
 // {
 //     name: "HifiGuides",
-//     url: "https://forum.hifiguides.com/u/vividici_111/summary"
+//     url: "https://forum.hifiguides.com/u/mmag05/summary"
 // },
 // {
-//     name: "Youtube",
-//     url: "https://www.youtube.com/@jayyaudio"
+//     name: "Spotify",
+//     url: "https://open.spotify.com/user/121233992"
 // }
 ];
 
@@ -95,7 +95,7 @@ let linkSets = [
     //     links: [
 	//         {
     //             name: "Bad Guy",
-    //             url: "https://hbbdatabase.github.io/"
+    //             url: "https://hbb.squig.link/"
     //         },
     //         {
     //             name: "nymz",
@@ -177,7 +177,7 @@ function tsvParse(fr) {
 }
     
      
-d3.json('config_vividici.json').then(function(mycfg){
+d3.json('config_mmagtech.json').then(function(mycfg){
     init_phones = mycfg.init_phones;
     default_channels = mycfg.default_channels; 
     default_normalization = mycfg.default_normalization; 
@@ -288,11 +288,11 @@ d3.json('config_vividici.json').then(function(mycfg){
         widgets = `
             <div class="accessories-widgets">
                 <div class="widget">
-                    <img width="200" src="/img/vividici-logo.svg"/>
+                    <img width="200" src="/img/mmagtech-logo.svg"/>
                 </div>
 
                 <div class="widget">
-                    <img width="200" src="/img/vividici-logo.svg"/>
+                    <img width="200" src="/img/mmagtech-logo.svg"/>
                 </div>
 
                 <div class="widget">
